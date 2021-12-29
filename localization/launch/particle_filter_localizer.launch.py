@@ -19,11 +19,15 @@
 # THE SOFTWARE.
 
 from launch import LaunchDescription
+from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
-
+from ament_index_python.packages import get_package_share_directory
+import os
 
 def generate_launch_description():
     # BEGIN STUDENT CODE
+    parameters_file_path = os.path.join(get_package_share_directory(
+        'localization'), 'config', 'localizer_params.yaml')
     # END STUDENT CODE
 
     return LaunchDescription([
@@ -32,6 +36,10 @@ def generate_launch_description():
             executable='localization_node',
             output='screen',
             # BEGIN STUDENT CODE
+            parameters=[
+                parameters_file_path,
+                {'use_sim_time': LaunchConfiguration('use_sim_time', default='false')}
+            ],
             # END STUDENT CODE
             remappings=[
                 ('/tags', '/coordinate_transformer/tags_transformed')
