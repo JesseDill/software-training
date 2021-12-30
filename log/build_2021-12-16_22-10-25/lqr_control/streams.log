@@ -1,0 +1,84 @@
+[0.123s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/lqr_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/lqr_control -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/install/lqr_control
+[0.789s] -- The C compiler identification is GNU 9.3.0
+[1.495s] -- The CXX compiler identification is GNU 9.3.0
+[1.524s] -- Check for working C compiler: /usr/bin/cc
+[1.746s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.746s] -- Detecting C compiler ABI info
+[1.869s] -- Detecting C compiler ABI info - done
+[1.881s] -- Detecting C compile features
+[1.884s] -- Detecting C compile features - done
+[1.887s] -- Check for working CXX compiler: /usr/bin/c++
+[2.099s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.100s] -- Detecting CXX compiler ABI info
+[2.240s] -- Detecting CXX compiler ABI info - done
+[2.270s] -- Detecting CXX compile features
+[2.271s] -- Detecting CXX compile features - done
+[2.273s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.309s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.310s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.863s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.079s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.305s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.344s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.632s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.645s] -- Looking for pthread.h
+[3.856s] -- Looking for pthread.h - found
+[3.857s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.957s] -- Looking for pthread_create in pthreads
+[4.100s] -- Looking for pthread_create in pthreads - not found
+[4.100s] -- Looking for pthread_create in pthread
+[4.214s] -- Looking for pthread_create in pthread - found
+[4.216s] -- Found Threads: TRUE  
+[4.507s] -- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[4.677s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[4.765s] -- Found nav2_core: 0.4.7 (/opt/ros/foxy/share/nav2_core/cmake)
+[6.254s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[11.273s] -- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[13.124s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[14.236s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.270s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.284s] -- Configured cppcheck include dirs: 
+[14.284s] -- Configured cppcheck exclude dirs and/or files: 
+[14.284s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.284s] -- Configured cpplint exclude dirs and/or files: 
+[14.284s] -- Added test 'lint_cmake' to check CMake code style
+[14.290s] -- Added test 'uncrustify' to check C / C++ code style
+[14.290s] -- Configured uncrustify additional arguments: 
+[14.292s] -- Added test 'xmllint' to check XML markup files
+[14.307s] -- Configuring done
+[17.655s] -- Generating done
+[17.704s] -- Build files have been written to: /home/robojackets/training_ws/src/software-training/build/lqr_control
+[17.780s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/lqr_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/lqr_control -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/install/lqr_control
+[17.781s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/lqr_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/lqr_control -- -j6 -l6
+[18.996s] [35m[1mScanning dependencies of target lqr_control[0m
+[21.088s] [ 33%] [32mBuilding CXX object CMakeFiles/lqr_control.dir/src/lqr_controller.cpp.o[0m
+[21.106s] [ 66%] [32mBuilding CXX object CMakeFiles/lqr_control.dir/src/test_path_generator.cpp.o[0m
+[65.671s] [100%] [32m[1mLinking CXX shared library liblqr_control.so[0m
+[66.202s] [100%] Built target lqr_control
+[66.238s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/lqr_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/lqr_control -- -j6 -l6
+[66.320s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/lqr_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/lqr_control
+[66.338s] -- Install configuration: ""
+[66.338s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/lib/liblqr_control.so
+[66.348s] -- Set runtime path of "/home/robojackets/training_ws/src/software-training/install/lqr_control/lib/liblqr_control.so" to ""
+[66.348s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/plugin_descriptions.xml
+[66.349s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/ament_index/resource_index/package_run_dependencies/lqr_control
+[66.350s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/ament_index/resource_index/parent_prefix_path/lqr_control
+[66.350s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.sh
+[66.351s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.dsv
+[66.351s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/environment/path.sh
+[66.353s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/environment/path.dsv
+[66.354s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/local_setup.bash
+[66.355s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/local_setup.sh
+[66.356s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/local_setup.zsh
+[66.356s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/local_setup.dsv
+[66.356s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/package.dsv
+[66.356s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/ament_index/resource_index/packages/lqr_control
+[66.357s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/ament_index/resource_index/nav2_core__pluginlib__plugin/lqr_control
+[66.360s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig.cmake
+[66.364s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig-version.cmake
+[66.364s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/package.xml
+[66.367s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/lqr_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/lqr_control

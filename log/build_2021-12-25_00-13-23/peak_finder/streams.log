@@ -1,0 +1,17 @@
+[0.134s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/peak_finder -- -j6 -l6
+[0.226s] [35m[1mScanning dependencies of target peak_finder_components[0m
+[0.260s] [ 40%] Built target peak_finder_node
+[0.329s] [ 60%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o[0m
+[2.711s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:[m[K In member function ‘[01m[KEigen::Vector2d peak_finder::PeakFinderComponent::PickNextGoalPosition(const Vector2d&, const double&)[m[K’:
+[2.711s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:215:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kelevation[m[K’ was not declared in this scope; did you mean ‘[01m[Kelevations[m[K’?
+[2.711s]   215 |       [01;31m[Kelevation[m[K.push_back(SampleElevation(position));
+[2.712s]       |       [01;31m[K^~~~~~~~~[m[K
+[2.712s]       |       [32m[Kelevations[m[K
+[2.717s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:220:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_elevations[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_elevation[m[K’?
+[2.717s]   220 |     if(*max_elevation_iter <= [01;31m[Kcurrent_elevations[m[K){
+[2.717s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.717s]       |                               [32m[Kcurrent_elevation[m[K
+[4.941s] make[2]: *** [CMakeFiles/peak_finder_components.dir/build.make:63: CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o] Error 1
+[4.944s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/peak_finder_components.dir/all] Error 2
+[4.945s] make: *** [Makefile:141: all] Error 2
+[4.946s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/peak_finder' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/peak_finder -- -j6 -l6

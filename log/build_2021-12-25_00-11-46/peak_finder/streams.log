@@ -1,0 +1,56 @@
+[0.176s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/peak_finder -- -j6 -l6
+[0.307s] [35m[1mScanning dependencies of target peak_finder_components[0m
+[0.338s] [ 40%] Built target peak_finder_node
+[0.515s] [ 60%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o[0m
+[2.925s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:[m[K In member function ‘[01m[KEigen::Vector2d peak_finder::PeakFinderComponent::PickNextGoalPosition(const Vector2d&, const double&)[m[K’:
+[2.925s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:211:24:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::Vector2d[m[K’ {aka ‘[01m[Kclass Eigen::Matrix<double, 2, 1>[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+[2.925s]   211 |       sample_positions.[01;31m[Kpush_back[m[K(pose);
+[2.925s]       |                        [01;31m[K^~~~~~~~~[m[K
+[2.926s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:214:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+[2.926s]   214 |     for(const auto & position : [01;31m[Ksample_positions[m[K){
+[2.927s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.927s]       |                                 [32m[Kstd::begin[m[K
+[2.927s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[2.927s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[2.927s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[2.927s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[2.927s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[2.927s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.927s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.927s]                  from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:21[m[K:
+[2.928s] [01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+[2.928s]   105 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&);
+[2.928s]       |                                     [01;36m[K^~~~~[m[K
+[2.928s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:214:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+[2.929s]   214 |     for(const auto & position : [01;31m[Ksample_positions[m[K){
+[2.929s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.929s]       |                                 [32m[Kstd::end[m[K
+[2.929s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[2.929s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[2.929s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[2.929s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[2.929s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[2.929s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.929s]                  from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:21[m[K:
+[2.929s] [01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+[2.929s]   107 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&);
+[2.930s]       |                                     [01;36m[K^~~[m[K
+[2.930s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:215:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kelevation[m[K’ was not declared in this scope; did you mean ‘[01m[Kelevations[m[K’?
+[2.930s]   215 |       [01;31m[Kelevation[m[K.push_back(SampleElevation(position));
+[2.930s]       |       [01;31m[K^~~~~~~~~[m[K
+[2.930s]       |       [32m[Kelevations[m[K
+[2.934s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:220:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_elevations[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_elevation[m[K’?
+[2.935s]   220 |     if(*max_elevation_iter <= [01;31m[Kcurrent_elevations[m[K){
+[2.935s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.935s]       |                               [32m[Kcurrent_elevation[m[K
+[2.935s] [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:223:82:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((Eigen::DenseCoeffsBase<Eigen::Matrix<double, 2, 1>, 1>*)((Eigen::DenseBase<Eigen::Matrix<double, 2, 1> >*)(& sample_positions)))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, 2, 1>, 1>::operator[](std::distance<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > > >(elevations.std::vector<double, std::allocator<double> >::begin(), max_elevation_iter))[m[K’ from ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 2, 1>, 1>::Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[KEigen::Vector2d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 2, 1>[m[K’}
+[2.935s]   223 | sitions[std::distance(elevations.begin(), max_elevation_iter)[01;31m[K][m[K;
+[2.935s]       |                                                              [01;31m[K^[m[K
+[2.935s]       |                                                              [01;31m[K|[m[K
+[2.935s]       |                                                              [01;31m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 2, 1>, 1>::Scalar {aka double}[m[K
+[2.935s] 
+[5.402s] make[2]: *** [CMakeFiles/peak_finder_components.dir/build.make:63: CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o] Error 1
+[5.427s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/peak_finder_components.dir/all] Error 2
+[5.428s] make: *** [Makefile:141: all] Error 2
+[5.446s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/peak_finder' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/peak_finder -- -j6 -l6

@@ -1,0 +1,27 @@
+[0.095s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/mapping -- -j6 -l6
+[0.221s] [ 50%] Built target mapping
+[0.231s] [100%] Built target mapping_node
+[0.262s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/mapping -- -j6 -l6
+[0.376s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/mapping
+[0.428s] -- Install configuration: ""
+[0.429s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/lib/mapping/mapping_node
+[0.433s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/lib/libmapping.so
+[0.434s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/launch
+[0.435s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/launch/mapping.launch.xml
+[0.435s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+[0.435s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+[0.435s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/environment/ament_prefix_path.sh
+[0.437s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+[0.442s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/environment/path.sh
+[0.457s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/environment/path.dsv
+[0.457s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/local_setup.bash
+[0.457s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/local_setup.sh
+[0.457s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/local_setup.zsh
+[0.457s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/local_setup.dsv
+[0.457s] -- Installing: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/package.dsv
+[0.458s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/ament_index/resource_index/packages/mapping
+[0.458s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/ament_index/resource_index/rclcpp_components/mapping
+[0.459s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/cmake/mappingConfig.cmake
+[0.459s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+[0.460s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mapping/share/mapping/package.xml
+[0.535s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/mapping

@@ -1,0 +1,76 @@
+[0.919s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.919s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8f4f825100>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8f4f825100>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8f4f825550>)
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.033s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robojackets/training_ws/src/software-training/localization'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.058s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'localization'
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_args' from command line to 'None'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target' from command line to 'None'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_cache' from command line to 'False'
+[1.104s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_first' from command line to 'False'
+[1.104s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_force_configure' from command line to 'False'
+[1.104s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'ament_cmake_args' from command line to 'None'
+[1.104s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_cmake_args' from command line to 'None'
+[1.104s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.104s] DEBUG:colcon.colcon_core.verb:Building package 'localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robojackets/training_ws/src/software-training/localization/build/localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robojackets/training_ws/src/software-training/localization/install/localization', 'merge_install': False, 'path': '/home/robojackets/training_ws/src/software-training/localization', 'symlink_install': False, 'test_result_base': None}
+[1.104s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.107s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robojackets/training_ws/src/software-training/localization' with build type 'ament_cmake'
+[1.107s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robojackets/training_ws/src/software-training/localization'
+[1.185s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.194s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robojackets/training_ws/src/software-training/localization/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/localization -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/localization/install/localization
+[12.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robojackets/training_ws/src/software-training/localization/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/localization -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/localization/install/localization
+[12.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robojackets/training_ws/src/software-training/localization/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/localization/build/localization -- -j6 -l6
+[47.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robojackets/training_ws/src/software-training/localization/build/localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/localization/build/localization -- -j6 -l6
+[47.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[47.562s] Level 1:colcon.colcon_core.environment:checking '/home/robojackets/training_ws/src/software-training/localization/install/localization' for CMake module files
+[47.562s] Level 1:colcon.colcon_core.environment:checking '/home/robojackets/training_ws/src/software-training/localization/install/localization' for CMake config files
+[47.563s] Level 1:colcon.colcon_core.environment:checking '/home/robojackets/training_ws/src/software-training/localization/install/localization/bin'
+[47.563s] Level 1:colcon.colcon_core.environment:checking '/home/robojackets/training_ws/src/software-training/localization/install/localization/lib/pkgconfig/localization.pc'
+[47.563s] Level 1:colcon.colcon_core.environment:checking '/home/robojackets/training_ws/src/software-training/localization/install/localization/lib/python3.8/site-packages'
+[47.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/robojackets/training_ws/src/software-training/localization/install/localization/share/localization/package.ps1'
+[47.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robojackets/training_ws/src/software-training/localization/install/localization/share/localization/package.dsv'
+[47.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/robojackets/training_ws/src/software-training/localization/install/localization/share/localization/package.sh'
+[47.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/robojackets/training_ws/src/software-training/localization/install/localization/share/localization/package.bash'
+[47.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/robojackets/training_ws/src/software-training/localization/install/localization/share/localization/package.zsh'
+[47.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robojackets/training_ws/src/software-training/localization/install/localization/share/colcon-core/packages/localization)
+[47.595s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[47.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[47.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[47.596s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[47.615s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[47.615s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[47.615s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[47.672s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[47.674s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robojackets/training_ws/src/software-training/localization/install/local_setup.ps1'
+[47.691s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robojackets/training_ws/src/software-training/localization/install/_local_setup_util_ps1.py'
+[47.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robojackets/training_ws/src/software-training/localization/install/setup.ps1'
+[47.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robojackets/training_ws/src/software-training/localization/install/local_setup.sh'
+[47.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robojackets/training_ws/src/software-training/localization/install/_local_setup_util_sh.py'
+[47.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robojackets/training_ws/src/software-training/localization/install/setup.sh'
+[47.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robojackets/training_ws/src/software-training/localization/install/local_setup.bash'
+[47.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robojackets/training_ws/src/software-training/localization/install/setup.bash'
+[47.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robojackets/training_ws/src/software-training/localization/install/local_setup.zsh'
+[47.775s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robojackets/training_ws/src/software-training/localization/install/setup.zsh'

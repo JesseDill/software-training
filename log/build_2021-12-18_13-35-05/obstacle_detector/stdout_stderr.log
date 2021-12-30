@@ -1,0 +1,48 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robojackets/training_ws/src/software-training/build/obstacle_detector
+[35m[1mScanning dependencies of target obstacle_detector[0m
+[ 40%] Built target obstacle_detector_node
+[ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o[0m
+[01m[K/home/robojackets/training_ws/src/software-training/obstacle_detector/src/student_functions.cpp:[m[K In function ‘[01m[Kcv::Mat FindColors(cv::Mat, cv::Scalar, cv::Scalar)[m[K’:
+[01m[K/home/robojackets/training_ws/src/software-training/obstacle_detector/src/student_functions.cpp:6:40:[m[K [01;31m[Kerror: [m[K‘[01m[KColor_BGR2HSV[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KCOLOR_BGR2HSV[m[K’?
+    6 |     cv::cvtColor(input, input_hsv, cv::[01;31m[KColor_BGR2HSV[m[K);
+      |                                        [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                        [32m[KCOLOR_BGR2HSV[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/obstacle_detector/src/student_functions.cpp:[m[K In function ‘[01m[Kcv::Mat ReprojectToGroundPlane(cv::Mat, cv::Mat, cv::Size)[m[K’:
+[01m[K/home/robojackets/training_ws/src/software-training/obstacle_detector/src/student_functions.cpp:36:43:[m[K [01;31m[Kerror: [m[K‘[01m[Khomagraphy[m[K’ was not declared in this scope; did you mean ‘[01m[Khomography[m[K’?
+   36 |             cv::Vec3d src_vec = cv::Mat1d([01;31m[Khomagraphy[m[K.inv() * dest_vec);
+      |                                           [01;31m[K^~~~~~~~~~[m[K
+      |                                           [32m[Khomography[m[K
+make[2]: *** [CMakeFiles/obstacle_detector.dir/build.make:76: CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/obstacle_detector.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

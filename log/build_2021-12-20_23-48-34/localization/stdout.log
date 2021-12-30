@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target localization_component[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o[0m
+[ 50%] Built target localization_node

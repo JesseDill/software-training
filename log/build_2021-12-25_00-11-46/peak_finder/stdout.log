@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target peak_finder_components[0m
+[ 40%] Built target peak_finder_node
+[ 60%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o[0m

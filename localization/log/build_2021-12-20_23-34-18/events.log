@@ -1,0 +1,557 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.005693] (localization) JobStarted: {'identifier': 'localization'}
+[0.102019] (-) TimerEvent: {}
+[0.102968] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.109552] (localization) Command: {'cmd': ['/usr/bin/cmake', '/home/robojackets/training_ws/src/software-training/localization', '-DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/localization/install/localization'], 'cwd': '/home/robojackets/training_ws/src/software-training/localization/build/localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robojackets'), ('SSH_AGENT_PID', '1231'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robojackets/training_ws/install/peak_finder/lib:/home/robojackets/training_ws/install/obstacle_detector/lib:/home/robojackets/training_ws/install/mineral_deposit_tracking/lib:/home/robojackets/training_ws/install/mapping/lib:/home/robojackets/training_ws/install/lqr_control/lib:/home/robojackets/training_ws/install/localization/lib:/home/robojackets/training_ws/install/coordinate_transform/lib:/home/robojackets/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robojackets'), ('OLDPWD', '/home/robojackets/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1006'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robojackets/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robojackets'), ('JOURNAL_STREAM', '8:29026'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robojackets'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robojackets-VirtualBox:@/tmp/.ICE-unix/1322,unix/robojackets-VirtualBox:/tmp/.ICE-unix/1322'), ('INVOCATION_ID', '48a0f54f765a4e8c92f5ff9227426246'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f9bed45e_49b7_42ff_8305_16664ad20a63'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robojackets/training_ws/src/software-training/localization/build/localization'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[0.203117] (-) TimerEvent: {}
+[0.313312] (-) TimerEvent: {}
+[0.430473] (-) TimerEvent: {}
+[0.545687] (-) TimerEvent: {}
+[0.657162] (-) TimerEvent: {}
+[0.784402] (-) TimerEvent: {}
+[0.890243] (-) TimerEvent: {}
+[1.000435] (-) TimerEvent: {}
+[1.105132] (-) TimerEvent: {}
+[1.231516] (-) TimerEvent: {}
+[1.374297] (-) TimerEvent: {}
+[1.487599] (-) TimerEvent: {}
+[1.604450] (-) TimerEvent: {}
+[1.718755] (-) TimerEvent: {}
+[1.844916] (-) TimerEvent: {}
+[1.968528] (-) TimerEvent: {}
+[2.074132] (-) TimerEvent: {}
+[2.123936] (localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[2.178644] (-) TimerEvent: {}
+[2.280194] (-) TimerEvent: {}
+[2.381503] (-) TimerEvent: {}
+[2.483839] (-) TimerEvent: {}
+[2.593330] (-) TimerEvent: {}
+[2.702640] (-) TimerEvent: {}
+[2.751533] (localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[2.804428] (-) TimerEvent: {}
+[2.888300] (localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.905058] (-) TimerEvent: {}
+[3.010832] (-) TimerEvent: {}
+[3.113007] (-) TimerEvent: {}
+[3.213831] (-) TimerEvent: {}
+[3.277968] (localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.296651] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.314448] (-) TimerEvent: {}
+[3.414842] (-) TimerEvent: {}
+[3.511680] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.515000] (-) TimerEvent: {}
+[3.526815] (localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.528147] (localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.536136] (localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.615127] (-) TimerEvent: {}
+[3.716597] (-) TimerEvent: {}
+[3.829045] (-) TimerEvent: {}
+[3.930168] (-) TimerEvent: {}
+[3.932694] (localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.934079] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.046202] (-) TimerEvent: {}
+[4.157174] (-) TimerEvent: {}
+[4.260774] (-) TimerEvent: {}
+[4.367980] (-) TimerEvent: {}
+[4.376868] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.397932] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.399226] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.463587] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.476472] (-) TimerEvent: {}
+[4.540762] (localization) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.540920] (localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.576560] (-) TimerEvent: {}
+[4.677290] (-) TimerEvent: {}
+[4.779559] (-) TimerEvent: {}
+[4.888533] (-) TimerEvent: {}
+[4.990174] (-) TimerEvent: {}
+[5.096179] (-) TimerEvent: {}
+[5.195856] (localization) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.196420] (-) TimerEvent: {}
+[5.300629] (-) TimerEvent: {}
+[5.418484] (-) TimerEvent: {}
+[5.536579] (-) TimerEvent: {}
+[5.645598] (-) TimerEvent: {}
+[5.759526] (-) TimerEvent: {}
+[5.772501] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.809541] (localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.860180] (-) TimerEvent: {}
+[5.961180] (-) TimerEvent: {}
+[6.067145] (-) TimerEvent: {}
+[6.173285] (-) TimerEvent: {}
+[6.262422] (localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.274478] (-) TimerEvent: {}
+[6.332307] (localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.374750] (-) TimerEvent: {}
+[6.475384] (-) TimerEvent: {}
+[6.578878] (-) TimerEvent: {}
+[6.624215] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.680558] (-) TimerEvent: {}
+[6.790566] (-) TimerEvent: {}
+[6.892073] (-) TimerEvent: {}
+[6.996159] (-) TimerEvent: {}
+[7.112613] (-) TimerEvent: {}
+[7.120596] (localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.149247] (localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.158129] (localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.220456] (-) TimerEvent: {}
+[7.322654] (-) TimerEvent: {}
+[7.435669] (-) TimerEvent: {}
+[7.536447] (-) TimerEvent: {}
+[7.541400] (localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.542317] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.637477] (-) TimerEvent: {}
+[7.725310] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[7.725502] (localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[7.738338] (-) TimerEvent: {}
+[7.843346] (-) TimerEvent: {}
+[7.947176] (-) TimerEvent: {}
+[7.970810] (localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.971361] (localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[8.051794] (-) TimerEvent: {}
+[8.152612] (-) TimerEvent: {}
+[8.197132] (localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.204141] (localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.254329] (-) TimerEvent: {}
+[8.355115] (-) TimerEvent: {}
+[8.457860] (-) TimerEvent: {}
+[8.558514] (-) TimerEvent: {}
+[8.662620] (-) TimerEvent: {}
+[8.765808] (-) TimerEvent: {}
+[8.830382] (localization) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[8.866118] (-) TimerEvent: {}
+[8.967753] (-) TimerEvent: {}
+[9.059881] (localization) StdoutLine: {'line': b'-- Found stsl_interfaces: 0.0.4 (/opt/ros/foxy/share/stsl_interfaces/cmake)\n'}
+[9.068419] (-) TimerEvent: {}
+[9.171463] (-) TimerEvent: {}
+[9.272784] (-) TimerEvent: {}
+[9.373623] (-) TimerEvent: {}
+[9.475020] (-) TimerEvent: {}
+[9.576024] (-) TimerEvent: {}
+[9.589581] (localization) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[9.676674] (-) TimerEvent: {}
+[9.764564] (localization) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[9.779278] (-) TimerEvent: {}
+[9.883757] (-) TimerEvent: {}
+[9.965244] (localization) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[9.985062] (-) TimerEvent: {}
+[10.087778] (-) TimerEvent: {}
+[10.114081] (localization) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[10.188041] (-) TimerEvent: {}
+[10.288917] (-) TimerEvent: {}
+[10.390289] (-) TimerEvent: {}
+[10.492102] (-) TimerEvent: {}
+[10.562536] (localization) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[10.592243] (-) TimerEvent: {}
+[10.600716] (localization) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[10.612715] (localization) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[10.663814] (localization) StdoutLine: {'line': b'-- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)\n'}
+[10.693776] (localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.694293] (-) TimerEvent: {}
+[10.794897] (-) TimerEvent: {}
+[10.895683] (-) TimerEvent: {}
+[10.928747] (localization) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.935275] (localization) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.936761] (localization) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.936865] (localization) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.943077] (localization) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.943213] (localization) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.973045] (localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.973575] (localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.978689] (localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[10.997488] (localization) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.997648] (-) TimerEvent: {}
+[11.001880] (localization) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.005518] (localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.040610] (localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.064820] (localization) StdoutLine: {'line': b'-- Generating done\n'}
+[11.068194] (localization) StdoutLine: {'line': b'-- Build files have been written to: /home/robojackets/training_ws/src/software-training/localization/build/localization\n'}
+[11.089857] (localization) CommandEnded: {'returncode': 0}
+[11.090512] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[11.117674] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robojackets/training_ws/src/software-training/localization/build/localization', '--', '-j6', '-l6'], 'cwd': '/home/robojackets/training_ws/src/software-training/localization/build/localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robojackets'), ('SSH_AGENT_PID', '1231'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robojackets/training_ws/install/peak_finder/lib:/home/robojackets/training_ws/install/obstacle_detector/lib:/home/robojackets/training_ws/install/mineral_deposit_tracking/lib:/home/robojackets/training_ws/install/mapping/lib:/home/robojackets/training_ws/install/lqr_control/lib:/home/robojackets/training_ws/install/localization/lib:/home/robojackets/training_ws/install/coordinate_transform/lib:/home/robojackets/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robojackets'), ('OLDPWD', '/home/robojackets/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1006'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robojackets/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robojackets'), ('JOURNAL_STREAM', '8:29026'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robojackets'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robojackets-VirtualBox:@/tmp/.ICE-unix/1322,unix/robojackets-VirtualBox:/tmp/.ICE-unix/1322'), ('INVOCATION_ID', '48a0f54f765a4e8c92f5ff9227426246'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f9bed45e_49b7_42ff_8305_16664ad20a63'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robojackets/training_ws/src/software-training/localization/build/localization'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[11.124563] (-) TimerEvent: {}
+[11.216419] (localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target localization_component\x1b[0m\n'}
+[11.225647] (-) TimerEvent: {}
+[11.235976] (localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target localization_node\x1b[0m\n'}
+[11.328324] (-) TimerEvent: {}
+[11.435315] (-) TimerEvent: {}
+[11.537596] (-) TimerEvent: {}
+[11.649067] (-) TimerEvent: {}
+[11.757913] (-) TimerEvent: {}
+[11.865896] (-) TimerEvent: {}
+[11.971899] (-) TimerEvent: {}
+[12.106762] (-) TimerEvent: {}
+[12.218474] (-) TimerEvent: {}
+[12.328384] (-) TimerEvent: {}
+[12.433977] (-) TimerEvent: {}
+[12.540116] (-) TimerEvent: {}
+[12.659461] (-) TimerEvent: {}
+[12.762223] (-) TimerEvent: {}
+[12.892636] (-) TimerEvent: {}
+[13.000021] (-) TimerEvent: {}
+[13.104875] (-) TimerEvent: {}
+[13.199712] (localization) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/rclcpp_components/node_main_localization_node.cpp.o\x1b[0m\n'}
+[13.208174] (-) TimerEvent: {}
+[13.331829] (-) TimerEvent: {}
+[13.439409] (-) TimerEvent: {}
+[13.542884] (-) TimerEvent: {}
+[13.667748] (-) TimerEvent: {}
+[13.776065] (-) TimerEvent: {}
+[13.874184] (localization) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/motion_model.cpp.o\x1b[0m\n'}
+[13.879920] (-) TimerEvent: {}
+[13.980930] (-) TimerEvent: {}
+[14.018705] (localization) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/aruco_sensor_model.cpp.o\x1b[0m\n'}
+[14.083322] (-) TimerEvent: {}
+[14.148711] (localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o\x1b[0m\n'}
+[14.187330] (-) TimerEvent: {}
+[14.261544] (localization) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/random_helpers.cpp.o\x1b[0m\n'}
+[14.473029] (localization) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o\x1b[0m\n'}
+[14.473229] (-) TimerEvent: {}
+[14.659830] (-) TimerEvent: {}
+[14.766383] (-) TimerEvent: {}
+[14.869301] (-) TimerEvent: {}
+[14.981215] (-) TimerEvent: {}
+[15.083432] (-) TimerEvent: {}
+[15.207337] (-) TimerEvent: {}
+[15.314952] (-) TimerEvent: {}
+[15.425214] (-) TimerEvent: {}
+[15.528181] (-) TimerEvent: {}
+[15.633068] (-) TimerEvent: {}
+[15.748465] (-) TimerEvent: {}
+[15.851245] (-) TimerEvent: {}
+[15.953628] (-) TimerEvent: {}
+[16.060369] (-) TimerEvent: {}
+[16.212097] (-) TimerEvent: {}
+[16.318092] (-) TimerEvent: {}
+[16.442876] (-) TimerEvent: {}
+[16.560842] (-) TimerEvent: {}
+[16.673333] (-) TimerEvent: {}
+[16.841775] (-) TimerEvent: {}
+[16.950509] (-) TimerEvent: {}
+[17.057418] (-) TimerEvent: {}
+[17.159588] (-) TimerEvent: {}
+[17.262049] (-) TimerEvent: {}
+[17.364141] (-) TimerEvent: {}
+[17.468451] (-) TimerEvent: {}
+[17.615667] (-) TimerEvent: {}
+[17.720647] (-) TimerEvent: {}
+[17.823703] (-) TimerEvent: {}
+[17.996572] (-) TimerEvent: {}
+[18.109586] (-) TimerEvent: {}
+[18.289840] (-) TimerEvent: {}
+[18.391786] (-) TimerEvent: {}
+[18.504238] (-) TimerEvent: {}
+[18.670053] (-) TimerEvent: {}
+[18.782400] (-) TimerEvent: {}
+[19.001234] (-) TimerEvent: {}
+[19.135959] (-) TimerEvent: {}
+[19.260870] (-) TimerEvent: {}
+[19.381347] (-) TimerEvent: {}
+[19.515587] (-) TimerEvent: {}
+[19.748969] (-) TimerEvent: {}
+[19.857879] (-) TimerEvent: {}
+[19.961185] (-) TimerEvent: {}
+[20.076590] (-) TimerEvent: {}
+[20.184805] (-) TimerEvent: {}
+[20.300521] (-) TimerEvent: {}
+[20.402862] (-) TimerEvent: {}
+[20.530669] (-) TimerEvent: {}
+[20.646094] (-) TimerEvent: {}
+[20.749458] (-) TimerEvent: {}
+[20.854560] (-) TimerEvent: {}
+[20.964639] (-) TimerEvent: {}
+[21.068300] (-) TimerEvent: {}
+[21.173894] (-) TimerEvent: {}
+[21.276631] (-) TimerEvent: {}
+[21.378167] (-) TimerEvent: {}
+[21.490377] (-) TimerEvent: {}
+[21.597417] (-) TimerEvent: {}
+[21.738022] (-) TimerEvent: {}
+[21.876821] (-) TimerEvent: {}
+[21.985602] (-) TimerEvent: {}
+[22.154925] (-) TimerEvent: {}
+[22.257153] (-) TimerEvent: {}
+[22.361759] (-) TimerEvent: {}
+[22.475460] (-) TimerEvent: {}
+[22.623421] (-) TimerEvent: {}
+[22.749977] (-) TimerEvent: {}
+[22.857277] (-) TimerEvent: {}
+[22.971137] (-) TimerEvent: {}
+[23.146117] (-) TimerEvent: {}
+[23.319837] (-) TimerEvent: {}
+[23.536128] (-) TimerEvent: {}
+[23.639609] (-) TimerEvent: {}
+[23.765067] (-) TimerEvent: {}
+[23.904564] (-) TimerEvent: {}
+[24.058699] (-) TimerEvent: {}
+[24.162396] (-) TimerEvent: {}
+[24.328780] (-) TimerEvent: {}
+[24.466538] (-) TimerEvent: {}
+[24.572973] (-) TimerEvent: {}
+[24.704289] (-) TimerEvent: {}
+[24.849887] (-) TimerEvent: {}
+[24.952033] (-) TimerEvent: {}
+[25.060157] (-) TimerEvent: {}
+[25.166036] (-) TimerEvent: {}
+[25.345137] (-) TimerEvent: {}
+[25.536854] (-) TimerEvent: {}
+[25.740533] (-) TimerEvent: {}
+[25.844232] (-) TimerEvent: {}
+[25.952979] (-) TimerEvent: {}
+[26.080482] (-) TimerEvent: {}
+[26.227162] (-) TimerEvent: {}
+[26.410046] (-) TimerEvent: {}
+[26.579484] (-) TimerEvent: {}
+[26.684075] (-) TimerEvent: {}
+[26.786664] (-) TimerEvent: {}
+[26.966652] (-) TimerEvent: {}
+[27.073059] (-) TimerEvent: {}
+[27.184370] (-) TimerEvent: {}
+[27.411623] (-) TimerEvent: {}
+[27.525145] (-) TimerEvent: {}
+[27.645147] (-) TimerEvent: {}
+[27.812048] (-) TimerEvent: {}
+[27.921208] (-) TimerEvent: {}
+[28.131286] (-) TimerEvent: {}
+[28.292228] (-) TimerEvent: {}
+[28.395019] (-) TimerEvent: {}
+[28.500582] (-) TimerEvent: {}
+[28.703863] (-) TimerEvent: {}
+[28.865217] (-) TimerEvent: {}
+[28.978016] (-) TimerEvent: {}
+[29.093202] (-) TimerEvent: {}
+[29.221846] (-) TimerEvent: {}
+[29.343597] (-) TimerEvent: {}
+[29.449982] (-) TimerEvent: {}
+[29.575500] (-) TimerEvent: {}
+[29.679229] (-) TimerEvent: {}
+[29.784855] (-) TimerEvent: {}
+[29.889452] (-) TimerEvent: {}
+[30.008273] (-) TimerEvent: {}
+[30.113968] (-) TimerEvent: {}
+[30.229743] (-) TimerEvent: {}
+[30.337044] (-) TimerEvent: {}
+[30.446266] (-) TimerEvent: {}
+[30.592708] (-) TimerEvent: {}
+[30.765143] (-) TimerEvent: {}
+[30.878456] (-) TimerEvent: {}
+[31.017627] (-) TimerEvent: {}
+[31.132365] (-) TimerEvent: {}
+[31.276363] (-) TimerEvent: {}
+[31.405412] (-) TimerEvent: {}
+[31.515841] (-) TimerEvent: {}
+[31.643783] (-) TimerEvent: {}
+[31.753987] (-) TimerEvent: {}
+[31.867827] (-) TimerEvent: {}
+[31.974100] (-) TimerEvent: {}
+[32.118519] (-) TimerEvent: {}
+[32.230192] (-) TimerEvent: {}
+[32.352860] (-) TimerEvent: {}
+[32.507276] (-) TimerEvent: {}
+[32.620250] (-) TimerEvent: {}
+[32.803354] (-) TimerEvent: {}
+[32.916217] (-) TimerEvent: {}
+[33.027172] (-) TimerEvent: {}
+[33.181135] (-) TimerEvent: {}
+[33.290436] (-) TimerEvent: {}
+[33.495050] (-) TimerEvent: {}
+[33.688242] (-) TimerEvent: {}
+[33.842632] (-) TimerEvent: {}
+[33.956126] (-) TimerEvent: {}
+[34.078356] (-) TimerEvent: {}
+[34.193025] (-) TimerEvent: {}
+[34.299225] (-) TimerEvent: {}
+[34.401152] (-) TimerEvent: {}
+[34.513705] (-) TimerEvent: {}
+[34.632322] (-) TimerEvent: {}
+[34.734218] (-) TimerEvent: {}
+[34.843303] (-) TimerEvent: {}
+[34.945325] (-) TimerEvent: {}
+[35.048866] (-) TimerEvent: {}
+[35.151279] (-) TimerEvent: {}
+[35.253145] (-) TimerEvent: {}
+[35.366616] (-) TimerEvent: {}
+[35.471259] (-) TimerEvent: {}
+[35.626131] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Klocalization::OdometrySensorModel::OdometrySensorModel(rclcpp::Node&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.626554] (-) TimerEvent: {}
+[35.626825] (localization) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KOdometrySensorModel\x1b[m\x1b[K::OdometrySensorModel(rclcpp::Node & node){\n'}
+[35.626950] (localization) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.627031] (localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:1\x1b[m\x1b[K:\n'}
+[35.627106] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:10:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Klocalization::OdometrySensorModel::OdometrySensorModel(localization::OdometrySensorModel&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.627185] (localization) StderrLine: {'line': b'   10 |     class \x1b[01;36m\x1b[KOdometrySensorModel\x1b[m\x1b[K: public SensorModel{\n'}
+[35.627251] (localization) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.627313] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:10:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Klocalization::OdometrySensorModel::OdometrySensorModel(const localization::OdometrySensorModel&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.627378] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Klocalization::OdometrySensorModel::OdometrySensorModel(rclcpp::Node)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.627460] (localization) StderrLine: {'line': b'   15 |             \x1b[01;36m\x1b[KOdometrySensorModel\x1b[m\x1b[K(rclcpp::Node node);\n'}
+[35.627526] (localization) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.627590] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:10:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass localization::OdometrySensorModel\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[35.627657] (localization) StderrLine: {'line': b'   10 |     class \x1b[01;36m\x1b[KOdometrySensorModel\x1b[m\x1b[K: public SensorModel{\n'}
+[35.627721] (localization) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.630231] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool localization::OdometrySensorModel::IsMeasurementAvailable(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.630608] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:27:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Duration\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[35.630770] (localization) StderrLine: {'line': b'   27 |         return \x1b[32m\x1b[Ktime_since_last_msg\x1b[m\x1b[K \x1b[01;31m\x1b[K<\x1b[m\x1b[K \x1b[34m\x1b[Ktimeout_\x1b[m\x1b[K;\n'}
+[35.630858] (localization) StderrLine: {'line': b'      |                \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[35.630934] (localization) StderrLine: {'line': b'      |                \x1b[32m\x1b[K|\x1b[m\x1b[K                     \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[35.631006] (localization) StderrLine: {'line': b'      |                \x1b[32m\x1b[K|\x1b[m\x1b[K                     \x1b[34m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[35.631077] (localization) StderrLine: {'line': b'      |                \x1b[32m\x1b[Kconst rclcpp::Duration\x1b[m\x1b[K\n'}
+[35.631147] (localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[35.631217] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[35.631286] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[35.631353] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[35.631421] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[35.631490] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[35.631558] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[35.631626] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[35.632111] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[35.632467] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[35.632771] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[35.632847] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[35.632912] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:4\x1b[m\x1b[K,\n'}
+[35.632990] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:1\x1b[m\x1b[K:\n'}
+[35.633060] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/duration.hpp:84:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Duration::operator<(const rclcpp::Duration&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.633125] (localization) StderrLine: {'line': b'   84 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const rclcpp::Duration & rhs) const;\n'}
+[35.633186] (localization) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[35.633247] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/duration.hpp:84:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Duration&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.633316] (localization) StderrLine: {'line': b'   84 |   operator<(\x1b[01;36m\x1b[Kconst rclcpp::Duration & rhs\x1b[m\x1b[K) const;\n'}
+[35.633377] (localization) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[35.633438] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble localization::ComputeLogProb(const localization::Particle&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.633502] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:32:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_msg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[35.633564] (localization) StderrLine: {'line': b'   32 |         log_prob += pow(\x1b[01;31m\x1b[Klast_msg_\x1b[m\x1b[K.twist.twist.linear.x - particle.x_vel, 2) / covariance_[0];\n'}
+[35.633659] (localization) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[35.648815] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:32:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcovariance_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[35.649010] (localization) StderrLine: {'line': b'   32 |         log_prob += pow(last_msg_.twist.twist.linear.x - particle.x_vel, 2) / \x1b[01;31m\x1b[Kcovariance_\x1b[m\x1b[K[0];\n'}
+[35.649104] (localization) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.649185] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble localization::ComputeLogNormalizer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.649334] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:37:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcovariance_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[35.649421] (localization) StderrLine: {'line': b'   37 |         return log(sqrt(pow(2 * M_PI, 2))) + log(sqrt(\x1b[01;31m\x1b[Kcovariance_\x1b[m\x1b[K[0])) + log(sqrt(covariance_[1]));\n'}
+[35.649496] (localization) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.765721] (-) TimerEvent: {}
+[35.868260] (-) TimerEvent: {}
+[35.971606] (-) TimerEvent: {}
+[36.078907] (-) TimerEvent: {}
+[36.186841] (-) TimerEvent: {}
+[36.287577] (-) TimerEvent: {}
+[36.402413] (-) TimerEvent: {}
+[36.505211] (-) TimerEvent: {}
+[36.609455] (-) TimerEvent: {}
+[36.795773] (-) TimerEvent: {}
+[36.904815] (-) TimerEvent: {}
+[37.014403] (-) TimerEvent: {}
+[37.119712] (-) TimerEvent: {}
+[37.223677] (-) TimerEvent: {}
+[37.330885] (-) TimerEvent: {}
+[37.507361] (-) TimerEvent: {}
+[37.610319] (-) TimerEvent: {}
+[37.712196] (-) TimerEvent: {}
+[37.824778] (-) TimerEvent: {}
+[37.928108] (-) TimerEvent: {}
+[38.041633] (-) TimerEvent: {}
+[38.142806] (-) TimerEvent: {}
+[38.261015] (-) TimerEvent: {}
+[38.364620] (-) TimerEvent: {}
+[38.469998] (-) TimerEvent: {}
+[38.580041] (-) TimerEvent: {}
+[38.708890] (-) TimerEvent: {}
+[38.836947] (-) TimerEvent: {}
+[38.975331] (-) TimerEvent: {}
+[39.096760] (-) TimerEvent: {}
+[39.230917] (-) TimerEvent: {}
+[39.337610] (-) TimerEvent: {}
+[39.450191] (-) TimerEvent: {}
+[39.596586] (-) TimerEvent: {}
+[39.702640] (-) TimerEvent: {}
+[39.815771] (-) TimerEvent: {}
+[39.919341] (-) TimerEvent: {}
+[40.020067] (-) TimerEvent: {}
+[40.121033] (-) TimerEvent: {}
+[40.169605] (localization) StderrLine: {'line': b'make[2]: *** [CMakeFiles/localization_component.dir/build.make:115: CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o] Error 1\n'}
+[40.169806] (localization) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[40.250406] (-) TimerEvent: {}
+[40.354056] (-) TimerEvent: {}
+[40.462069] (-) TimerEvent: {}
+[40.503022] (localization) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable localization_node\x1b[0m\n'}
+[40.564188] (-) TimerEvent: {}
+[40.665842] (-) TimerEvent: {}
+[40.767562] (-) TimerEvent: {}
+[40.869547] (-) TimerEvent: {}
+[41.068986] (localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[41.071236] (-) TimerEvent: {}
+[41.097129] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:35\x1b[m\x1b[K,\n'}
+[41.097799] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.hpp:24\x1b[m\x1b[K,\n'}
+[41.098150] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.cpp:21\x1b[m\x1b[K:\n'}
+[41.098238] (localization) StderrLine: {'line': b'/usr/include/c++/9/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = localization::OdometrySensorModel; _Args = {localization::ParticleFilterLocalizer&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<localization::OdometrySensorModel, std::default_delete<localization::OdometrySensorModel> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.098321] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.cpp:71:71:\x1b[m\x1b[K   required from here\n'}
+[41.098396] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:857:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.098469] (localization) StderrLine: {'line': b'  857 |     { return unique_ptr<_Tp>(\x1b[01;31m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[41.098541] (localization) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.098617] (localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/context.hpp:33\x1b[m\x1b[K,\n'}
+[41.098700] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18\x1b[m\x1b[K,\n'}
+[41.104578] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:32\x1b[m\x1b[K,\n'}
+[41.104783] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[41.104894] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[41.105128] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[41.105269] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:39\x1b[m\x1b[K,\n'}
+[41.105378] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.hpp:24\x1b[m\x1b[K,\n'}
+[41.105484] (localization) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.cpp:21\x1b[m\x1b[K:\n'}
+[41.105598] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1198:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[41.105743] (localization) StderrLine: {'line': b' 1198 |   \x1b[01;36m\x1b[KRCLCPP_DISABLE_COPY\x1b[m\x1b[K(Node)\n'}
+[41.105850] (localization) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.105951] (localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.cpp:30\x1b[m\x1b[K:\n'}
+[41.106054] (localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:15:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Klocalization::OdometrySensorModel::OdometrySensorModel(rclcpp::Node)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.106165] (localization) StderrLine: {'line': b'   15 |             OdometrySensorModel(\x1b[01;36m\x1b[Krclcpp::Node node\x1b[m\x1b[K);\n'}
+[41.106342] (localization) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.143485] (localization) StdoutLine: {'line': b'[ 87%] Built target localization_node\n'}
+[41.286187] (-) TimerEvent: {}
+[41.444767] (-) TimerEvent: {}
+[41.563299] (-) TimerEvent: {}
+[41.682809] (-) TimerEvent: {}
+[41.786999] (-) TimerEvent: {}
+[41.903020] (-) TimerEvent: {}
+[42.208709] (-) TimerEvent: {}
+[42.311602] (-) TimerEvent: {}
+[42.425740] (-) TimerEvent: {}
+[42.530447] (-) TimerEvent: {}
+[42.630958] (-) TimerEvent: {}
+[42.733314] (-) TimerEvent: {}
+[42.860064] (-) TimerEvent: {}
+[42.965758] (-) TimerEvent: {}
+[43.066755] (-) TimerEvent: {}
+[43.170759] (-) TimerEvent: {}
+[43.272590] (-) TimerEvent: {}
+[43.373451] (-) TimerEvent: {}
+[43.490581] (-) TimerEvent: {}
+[43.592223] (-) TimerEvent: {}
+[43.695765] (-) TimerEvent: {}
+[43.796585] (-) TimerEvent: {}
+[43.897324] (-) TimerEvent: {}
+[43.998229] (-) TimerEvent: {}
+[44.098894] (-) TimerEvent: {}
+[44.200069] (-) TimerEvent: {}
+[44.300873] (-) TimerEvent: {}
+[44.406461] (-) TimerEvent: {}
+[44.507467] (-) TimerEvent: {}
+[44.609125] (-) TimerEvent: {}
+[44.710150] (-) TimerEvent: {}
+[44.817952] (-) TimerEvent: {}
+[44.857156] (localization) StderrLine: {'line': b'make[2]: *** [CMakeFiles/localization_component.dir/build.make:102: CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o] Error 1\n'}
+[44.920744] (-) TimerEvent: {}
+[45.028368] (-) TimerEvent: {}
+[45.129764] (-) TimerEvent: {}
+[45.230456] (-) TimerEvent: {}
+[45.331362] (-) TimerEvent: {}
+[45.432722] (-) TimerEvent: {}
+[45.534777] (-) TimerEvent: {}
+[45.673437] (-) TimerEvent: {}
+[45.781109] (-) TimerEvent: {}
+[45.882113] (-) TimerEvent: {}
+[45.985973] (-) TimerEvent: {}
+[46.096644] (-) TimerEvent: {}
+[46.197755] (-) TimerEvent: {}
+[46.205805] (localization) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/localization_component.dir/all] Error 2\n'}
+[46.205965] (localization) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[46.211150] (localization) CommandEnded: {'returncode': 2}
+[46.304795] (-) TimerEvent: {}
+[46.411595] (-) TimerEvent: {}
+[46.478876] (localization) JobEnded: {'identifier': 'localization', 'rc': 2}
+[46.490167] (-) EventReactorShutdown: {}

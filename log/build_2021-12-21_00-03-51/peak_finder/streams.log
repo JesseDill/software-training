@@ -1,0 +1,25 @@
+[0.182s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/peak_finder -- -j6 -l6
+[0.355s] [ 40%] Built target peak_finder_node
+[0.396s] [100%] Built target peak_finder_components
+[0.483s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/peak_finder -- -j6 -l6
+[0.541s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/peak_finder
+[0.576s] -- Install configuration: ""
+[0.596s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/lib/peak_finder/peak_finder_node
+[0.597s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/lib/libpeak_finder_components.so
+[0.597s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder
+[0.600s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder
+[0.600s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh
+[0.601s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv
+[0.601s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/path.sh
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/path.dsv
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.bash
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.sh
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.zsh
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.dsv
+[0.602s] -- Installing: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/package.dsv
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/packages/peak_finder
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake
+[0.602s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/package.xml
+[0.652s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/peak_finder

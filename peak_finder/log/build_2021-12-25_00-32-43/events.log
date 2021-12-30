@@ -1,0 +1,247 @@
+[0.000000] (-) TimerEvent: {}
+[0.000258] (peak_finder) JobQueued: {'identifier': 'peak_finder', 'dependencies': OrderedDict()}
+[0.000770] (peak_finder) JobStarted: {'identifier': 'peak_finder'}
+[0.026712] (peak_finder) JobProgress: {'identifier': 'peak_finder', 'progress': 'cmake'}
+[0.026933] (peak_finder) Command: {'cmd': ['/usr/bin/cmake', '/home/robojackets/training_ws/src/software-training/peak_finder', '-DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder'], 'cwd': '/home/robojackets/training_ws/src/software-training/peak_finder/build/peak_finder', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robojackets'), ('SSH_AGENT_PID', '1224'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robojackets/training_ws/install/peak_finder/lib:/home/robojackets/training_ws/install/obstacle_detector/lib:/home/robojackets/training_ws/install/mineral_deposit_tracking/lib:/home/robojackets/training_ws/install/mapping/lib:/home/robojackets/training_ws/install/lqr_control/lib:/home/robojackets/training_ws/install/localization/lib:/home/robojackets/training_ws/install/coordinate_transform/lib:/home/robojackets/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robojackets'), ('OLDPWD', '/home/robojackets/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robojackets/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robojackets'), ('JOURNAL_STREAM', '8:32412'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robojackets'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robojackets-VirtualBox:@/tmp/.ICE-unix/1313,unix/robojackets-VirtualBox:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '92a40696b09e4d1aaa3aab1fcde3e64d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/436c1aa4_5022_42da_9eed_05daa4b3aea9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robojackets/training_ws/src/software-training/peak_finder/build/peak_finder'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[0.098485] (-) TimerEvent: {}
+[0.203881] (-) TimerEvent: {}
+[0.279144] (peak_finder) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.304797] (-) TimerEvent: {}
+[0.384801] (peak_finder) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.406212] (-) TimerEvent: {}
+[0.409091] (peak_finder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.506305] (-) TimerEvent: {}
+[0.521969] (peak_finder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.525008] (peak_finder) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.606509] (-) TimerEvent: {}
+[0.630050] (peak_finder) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.644771] (peak_finder) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.646359] (peak_finder) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.656257] (peak_finder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.706942] (-) TimerEvent: {}
+[0.801182] (peak_finder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.802558] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.808406] (-) TimerEvent: {}
+[0.909685] (-) TimerEvent: {}
+[0.972212] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.986414] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.986911] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.002475] (peak_finder) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.010385] (-) TimerEvent: {}
+[1.051239] (peak_finder) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.051417] (peak_finder) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.110540] (-) TimerEvent: {}
+[1.213936] (-) TimerEvent: {}
+[1.314573] (-) TimerEvent: {}
+[1.368953] (peak_finder) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.414679] (-) TimerEvent: {}
+[1.515573] (peak_finder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.515759] (-) TimerEvent: {}
+[1.537406] (peak_finder) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.616913] (-) TimerEvent: {}
+[1.691228] (peak_finder) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.722098] (-) TimerEvent: {}
+[1.740163] (peak_finder) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.822980] (-) TimerEvent: {}
+[1.890060] (peak_finder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.923703] (-) TimerEvent: {}
+[2.024322] (-) TimerEvent: {}
+[2.028253] (peak_finder) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.035007] (peak_finder) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.040215] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.124691] (-) TimerEvent: {}
+[2.244118] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.244880] (-) TimerEvent: {}
+[2.245671] (peak_finder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.345857] (peak_finder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.346110] (-) TimerEvent: {}
+[2.346600] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.443729] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.443966] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.446211] (-) TimerEvent: {}
+[2.546705] (-) TimerEvent: {}
+[2.548012] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.549181] (peak_finder) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.647416] (-) TimerEvent: {}
+[2.748038] (-) TimerEvent: {}
+[2.844235] (peak_finder) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[2.849067] (-) TimerEvent: {}
+[2.950155] (-) TimerEvent: {}
+[2.987826] (peak_finder) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[3.052682] (-) TimerEvent: {}
+[3.153320] (-) TimerEvent: {}
+[3.163332] (peak_finder) StdoutLine: {'line': b'-- Found stsl_interfaces: 0.0.4 (/opt/ros/foxy/share/stsl_interfaces/cmake)\n'}
+[3.262249] (-) TimerEvent: {}
+[3.418102] (-) TimerEvent: {}
+[3.442441] (peak_finder) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[3.530462] (-) TimerEvent: {}
+[3.664471] (-) TimerEvent: {}
+[3.738732] (peak_finder) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[3.762051] (peak_finder) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[3.764609] (-) TimerEvent: {}
+[3.880445] (-) TimerEvent: {}
+[3.982603] (-) TimerEvent: {}
+[4.093090] (-) TimerEvent: {}
+[4.196046] (-) TimerEvent: {}
+[4.205206] (peak_finder) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.297060] (-) TimerEvent: {}
+[4.334116] (peak_finder) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.339426] (peak_finder) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.339586] (peak_finder) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.339871] (peak_finder) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.344940] (peak_finder) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.345250] (peak_finder) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.349242] (peak_finder) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.358526] (peak_finder) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.358676] (peak_finder) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.360685] (peak_finder) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.366952] (peak_finder) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.388186] (peak_finder) StdoutLine: {'line': b'-- Generating done\n'}
+[4.391777] (peak_finder) StdoutLine: {'line': b'-- Build files have been written to: /home/robojackets/training_ws/src/software-training/peak_finder/build/peak_finder\n'}
+[4.398424] (-) TimerEvent: {}
+[4.403833] (peak_finder) CommandEnded: {'returncode': 0}
+[4.405322] (peak_finder) JobProgress: {'identifier': 'peak_finder', 'progress': 'build'}
+[4.405598] (peak_finder) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robojackets/training_ws/src/software-training/peak_finder/build/peak_finder', '--', '-j6', '-l6'], 'cwd': '/home/robojackets/training_ws/src/software-training/peak_finder/build/peak_finder', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robojackets'), ('SSH_AGENT_PID', '1224'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robojackets/training_ws/install/peak_finder/lib:/home/robojackets/training_ws/install/obstacle_detector/lib:/home/robojackets/training_ws/install/mineral_deposit_tracking/lib:/home/robojackets/training_ws/install/mapping/lib:/home/robojackets/training_ws/install/lqr_control/lib:/home/robojackets/training_ws/install/localization/lib:/home/robojackets/training_ws/install/coordinate_transform/lib:/home/robojackets/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robojackets'), ('OLDPWD', '/home/robojackets/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robojackets/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robojackets'), ('JOURNAL_STREAM', '8:32412'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robojackets'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robojackets-VirtualBox:@/tmp/.ICE-unix/1313,unix/robojackets-VirtualBox:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '92a40696b09e4d1aaa3aab1fcde3e64d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/436c1aa4_5022_42da_9eed_05daa4b3aea9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robojackets/training_ws/src/software-training/peak_finder/build/peak_finder'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[4.471751] (peak_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target peak_finder_node\x1b[0m\n'}
+[4.498795] (-) TimerEvent: {}
+[4.516857] (peak_finder) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/peak_finder_node.dir/rclcpp_components/node_main_peak_finder_node.cpp.o\x1b[0m\n'}
+[4.599323] (-) TimerEvent: {}
+[4.700302] (-) TimerEvent: {}
+[4.817388] (-) TimerEvent: {}
+[4.933607] (-) TimerEvent: {}
+[5.036921] (-) TimerEvent: {}
+[5.139389] (-) TimerEvent: {}
+[5.240923] (-) TimerEvent: {}
+[5.342559] (-) TimerEvent: {}
+[5.443666] (-) TimerEvent: {}
+[5.544706] (-) TimerEvent: {}
+[5.646309] (-) TimerEvent: {}
+[5.749561] (-) TimerEvent: {}
+[5.850488] (-) TimerEvent: {}
+[5.959005] (-) TimerEvent: {}
+[6.063621] (-) TimerEvent: {}
+[6.184939] (-) TimerEvent: {}
+[6.287574] (-) TimerEvent: {}
+[6.430805] (-) TimerEvent: {}
+[6.503364] (peak_finder) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable peak_finder_node\x1b[0m\n'}
+[6.531142] (-) TimerEvent: {}
+[6.631793] (-) TimerEvent: {}
+[6.672483] (peak_finder) StdoutLine: {'line': b'[ 40%] Built target peak_finder_node\n'}
+[6.695080] (peak_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target peak_finder_components\x1b[0m\n'}
+[6.731972] (-) TimerEvent: {}
+[6.781437] (peak_finder) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o\x1b[0m\n'}
+[6.838978] (-) TimerEvent: {}
+[6.943469] (-) TimerEvent: {}
+[7.046483] (-) TimerEvent: {}
+[7.149053] (-) TimerEvent: {}
+[7.271080] (-) TimerEvent: {}
+[7.389217] (-) TimerEvent: {}
+[7.490046] (-) TimerEvent: {}
+[7.609244] (-) TimerEvent: {}
+[7.711698] (-) TimerEvent: {}
+[7.812723] (-) TimerEvent: {}
+[7.917274] (-) TimerEvent: {}
+[8.020215] (-) TimerEvent: {}
+[8.129842] (-) TimerEvent: {}
+[8.257149] (-) TimerEvent: {}
+[8.369595] (-) TimerEvent: {}
+[8.479064] (-) TimerEvent: {}
+[8.626416] (-) TimerEvent: {}
+[8.727967] (-) TimerEvent: {}
+[8.839398] (-) TimerEvent: {}
+[8.943137] (-) TimerEvent: {}
+[9.045519] (-) TimerEvent: {}
+[9.153674] (-) TimerEvent: {}
+[9.257438] (-) TimerEvent: {}
+[9.361643] (-) TimerEvent: {}
+[9.473845] (-) TimerEvent: {}
+[9.580189] (-) TimerEvent: {}
+[9.689101] (-) TimerEvent: {}
+[9.794084] (-) TimerEvent: {}
+[9.896381] (-) TimerEvent: {}
+[9.998115] (-) TimerEvent: {}
+[10.099760] (-) TimerEvent: {}
+[10.201949] (-) TimerEvent: {}
+[10.303820] (-) TimerEvent: {}
+[10.409335] (-) TimerEvent: {}
+[10.510886] (-) TimerEvent: {}
+[10.619516] (-) TimerEvent: {}
+[10.720672] (-) TimerEvent: {}
+[10.821954] (-) TimerEvent: {}
+[10.924477] (-) TimerEvent: {}
+[11.029071] (-) TimerEvent: {}
+[11.131439] (-) TimerEvent: {}
+[11.270228] (-) TimerEvent: {}
+[11.371272] (-) TimerEvent: {}
+[11.514858] (-) TimerEvent: {}
+[11.616884] (-) TimerEvent: {}
+[11.738822] (-) TimerEvent: {}
+[11.841336] (-) TimerEvent: {}
+[11.942727] (-) TimerEvent: {}
+[12.045114] (-) TimerEvent: {}
+[12.152749] (-) TimerEvent: {}
+[12.254515] (-) TimerEvent: {}
+[12.355150] (-) TimerEvent: {}
+[12.457667] (-) TimerEvent: {}
+[12.558436] (-) TimerEvent: {}
+[12.660737] (-) TimerEvent: {}
+[12.662413] (peak_finder) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/navigator.cpp.o\x1b[0m\n'}
+[13.047052] (-) TimerEvent: {}
+[13.149136] (-) TimerEvent: {}
+[13.252775] (-) TimerEvent: {}
+[13.357434] (-) TimerEvent: {}
+[13.458788] (-) TimerEvent: {}
+[13.563313] (-) TimerEvent: {}
+[13.680175] (-) TimerEvent: {}
+[13.837067] (-) TimerEvent: {}
+[13.944187] (-) TimerEvent: {}
+[14.047547] (-) TimerEvent: {}
+[14.149830] (-) TimerEvent: {}
+[14.254501] (-) TimerEvent: {}
+[14.355888] (-) TimerEvent: {}
+[14.457297] (-) TimerEvent: {}
+[14.559078] (-) TimerEvent: {}
+[14.703147] (-) TimerEvent: {}
+[14.805392] (-) TimerEvent: {}
+[14.910261] (-) TimerEvent: {}
+[15.012022] (-) TimerEvent: {}
+[15.127773] (-) TimerEvent: {}
+[15.232252] (-) TimerEvent: {}
+[15.372878] (-) TimerEvent: {}
+[15.478248] (-) TimerEvent: {}
+[15.583283] (-) TimerEvent: {}
+[15.722126] (-) TimerEvent: {}
+[15.747877] (peak_finder) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpeak_finder_components.so\x1b[0m\n'}
+[15.822883] (-) TimerEvent: {}
+[16.022009] (-) TimerEvent: {}
+[16.108130] (peak_finder) StdoutLine: {'line': b'[100%] Built target peak_finder_components\n'}
+[16.130554] (-) TimerEvent: {}
+[16.136794] (peak_finder) CommandEnded: {'returncode': 0}
+[16.201720] (peak_finder) JobProgress: {'identifier': 'peak_finder', 'progress': 'install'}
+[16.217138] (peak_finder) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robojackets/training_ws/src/software-training/peak_finder/build/peak_finder'], 'cwd': '/home/robojackets/training_ws/src/software-training/peak_finder/build/peak_finder', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robojackets'), ('SSH_AGENT_PID', '1224'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robojackets/training_ws/install/peak_finder/lib:/home/robojackets/training_ws/install/obstacle_detector/lib:/home/robojackets/training_ws/install/mineral_deposit_tracking/lib:/home/robojackets/training_ws/install/mapping/lib:/home/robojackets/training_ws/install/lqr_control/lib:/home/robojackets/training_ws/install/localization/lib:/home/robojackets/training_ws/install/coordinate_transform/lib:/home/robojackets/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robojackets'), ('OLDPWD', '/home/robojackets/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robojackets/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robojackets'), ('JOURNAL_STREAM', '8:32412'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robojackets'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robojackets-VirtualBox:@/tmp/.ICE-unix/1313,unix/robojackets-VirtualBox:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '92a40696b09e4d1aaa3aab1fcde3e64d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/436c1aa4_5022_42da_9eed_05daa4b3aea9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robojackets/training_ws/src/software-training/peak_finder/build/peak_finder'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robojackets/training_ws/install/rj_training_bringup:/home/robojackets/training_ws/install/peak_finder:/home/robojackets/training_ws/install/obstacle_detector:/home/robojackets/training_ws/install/mineral_deposit_tracking:/home/robojackets/training_ws/install/mapping:/home/robojackets/training_ws/install/lqr_control:/home/robojackets/training_ws/install/localization:/home/robojackets/training_ws/install/coordinate_transform:/home/robojackets/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[16.227998] (peak_finder) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.228522] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/lib/peak_finder/peak_finder_node\n'}
+[16.229002] (peak_finder) StdoutLine: {'line': b'-- Set runtime path of "/home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/lib/peak_finder/peak_finder_node" to ""\n'}
+[16.229177] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/lib/libpeak_finder_components.so\n'}
+[16.230751] (-) TimerEvent: {}
+[16.232908] (peak_finder) StdoutLine: {'line': b'-- Set runtime path of "/home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/lib/libpeak_finder_components.so" to ""\n'}
+[16.242076] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder\n'}
+[16.244969] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder\n'}
+[16.248241] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh\n'}
+[16.248403] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv\n'}
+[16.248479] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/environment/path.sh\n'}
+[16.248546] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/environment/path.dsv\n'}
+[16.248609] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/local_setup.bash\n'}
+[16.248670] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/local_setup.sh\n'}
+[16.251984] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/local_setup.zsh\n'}
+[16.253943] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/local_setup.dsv\n'}
+[16.254372] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/package.dsv\n'}
+[16.256853] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/ament_index/resource_index/packages/peak_finder\n'}
+[16.257830] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder\n'}
+[16.257999] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake\n'}
+[16.261847] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake\n'}
+[16.261933] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/robojackets/training_ws/src/software-training/peak_finder/install/peak_finder/share/peak_finder/package.xml\n'}
+[16.262271] (peak_finder) CommandEnded: {'returncode': 0}
+[16.331365] (-) TimerEvent: {}
+[16.368785] (peak_finder) JobEnded: {'identifier': 'peak_finder', 'rc': 0}
+[16.373616] (-) EventReactorShutdown: {}

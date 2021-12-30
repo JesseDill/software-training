@@ -1,0 +1,29 @@
+[0.176s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/peak_finder -- -j6 -l6
+[0.297s] [ 40%] Built target peak_finder_node
+[0.319s] [35m[1mScanning dependencies of target peak_finder_components[0m
+[0.396s] [ 60%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o[0m
+[6.484s] [ 80%] [32m[1mLinking CXX shared library libpeak_finder_components.so[0m
+[6.851s] [100%] Built target peak_finder_components
+[6.867s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/peak_finder -- -j6 -l6
+[6.941s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/peak_finder
+[6.953s] -- Install configuration: ""
+[6.953s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/lib/peak_finder/peak_finder_node
+[6.954s] -- Installing: /home/robojackets/training_ws/src/software-training/install/peak_finder/lib/libpeak_finder_components.so
+[6.960s] -- Set runtime path of "/home/robojackets/training_ws/src/software-training/install/peak_finder/lib/libpeak_finder_components.so" to ""
+[6.971s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder
+[6.974s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder
+[6.974s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh
+[6.974s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv
+[6.974s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/path.sh
+[6.974s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/path.dsv
+[6.974s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.bash
+[6.974s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.sh
+[6.975s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.zsh
+[6.976s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.dsv
+[6.977s] -- Installing: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/package.dsv
+[6.977s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/packages/peak_finder
+[6.978s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder
+[6.979s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake
+[6.982s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake
+[6.982s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/package.xml
+[6.986s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/peak_finder

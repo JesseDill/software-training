@@ -1,0 +1,25 @@
+[0.390s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/mineral_deposit_tracking -- -j6 -l6
+[0.656s] [ 50%] Built target mineral_deposit_tracker
+[0.771s] [100%] Built target mineral_deposit_tracking
+[0.990s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/mineral_deposit_tracking -- -j6 -l6
+[1.612s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/mineral_deposit_tracking
+[1.692s] -- Install configuration: ""
+[1.738s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker
+[1.738s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so
+[1.738s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_tracking
+[1.738s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_tracking
+[1.738s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.sh
+[1.738s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.dsv
+[1.738s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.sh
+[1.744s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.dsv
+[1.747s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.bash
+[1.764s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.sh
+[1.764s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.zsh
+[1.764s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.dsv
+[1.764s] -- Installing: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv
+[1.764s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/packages/mineral_deposit_tracking
+[1.764s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/rclcpp_components/mineral_deposit_tracking
+[1.765s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig.cmake
+[1.765s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig-version.cmake
+[1.792s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.xml
+[2.393s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/mineral_deposit_tracking

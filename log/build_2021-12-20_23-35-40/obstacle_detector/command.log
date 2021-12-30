@@ -1,0 +1,1 @@
+Invoking command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/obstacle_detector -- -j6 -l6

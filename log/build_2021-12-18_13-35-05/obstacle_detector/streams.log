@@ -1,0 +1,50 @@
+[0.320s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/obstacle_detector -- -j6 -l6
+[0.662s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.125s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.228s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.289s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.719s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.533s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[6.818s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[7.378s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[7.438s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[7.625s] -- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)
+[8.121s] -- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[8.194s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.325s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.329s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.329s] -- Configured cppcheck include dirs: 
+[8.330s] -- Configured cppcheck exclude dirs and/or files: 
+[8.331s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.331s] -- Configured cpplint exclude dirs and/or files: 
+[8.332s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.334s] -- Added test 'lint_cmake' to check CMake code style
+[8.335s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.337s] -- Added test 'uncrustify' to check C / C++ code style
+[8.337s] -- Configured uncrustify additional arguments: 
+[8.338s] -- Added test 'xmllint' to check XML markup files
+[8.346s] -- Configuring done
+[8.519s] -- Generating done
+[8.527s] -- Build files have been written to: /home/robojackets/training_ws/src/software-training/build/obstacle_detector
+[8.648s] [35m[1mScanning dependencies of target obstacle_detector[0m
+[8.675s] [ 40%] Built target obstacle_detector_node
+[8.764s] [ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[8.770s] [ 80%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o[0m
+[23.279s] [01m[K/home/robojackets/training_ws/src/software-training/obstacle_detector/src/student_functions.cpp:[m[K In function ‘[01m[Kcv::Mat FindColors(cv::Mat, cv::Scalar, cv::Scalar)[m[K’:
+[23.286s] [01m[K/home/robojackets/training_ws/src/software-training/obstacle_detector/src/student_functions.cpp:6:40:[m[K [01;31m[Kerror: [m[K‘[01m[KColor_BGR2HSV[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KCOLOR_BGR2HSV[m[K’?
+[23.286s]     6 |     cv::cvtColor(input, input_hsv, cv::[01;31m[KColor_BGR2HSV[m[K);
+[23.286s]       |                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[23.286s]       |                                        [32m[KCOLOR_BGR2HSV[m[K
+[23.333s] [01m[K/home/robojackets/training_ws/src/software-training/obstacle_detector/src/student_functions.cpp:[m[K In function ‘[01m[Kcv::Mat ReprojectToGroundPlane(cv::Mat, cv::Mat, cv::Size)[m[K’:
+[23.340s] [01m[K/home/robojackets/training_ws/src/software-training/obstacle_detector/src/student_functions.cpp:36:43:[m[K [01;31m[Kerror: [m[K‘[01m[Khomagraphy[m[K’ was not declared in this scope; did you mean ‘[01m[Khomography[m[K’?
+[23.340s]    36 |             cv::Vec3d src_vec = cv::Mat1d([01;31m[Khomagraphy[m[K.inv() * dest_vec);
+[23.340s]       |                                           [01;31m[K^~~~~~~~~~[m[K
+[23.340s]       |                                           [32m[Khomography[m[K
+[30.484s] make[2]: *** [CMakeFiles/obstacle_detector.dir/build.make:76: CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o] Error 1
+[30.484s] make[2]: *** Waiting for unfinished jobs....
+[38.101s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/obstacle_detector.dir/all] Error 2
+[38.103s] make: *** [Makefile:141: all] Error 2
+[38.109s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/obstacle_detector -- -j6 -l6

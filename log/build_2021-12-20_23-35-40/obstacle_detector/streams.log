@@ -1,0 +1,7 @@
+[0.292s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/obstacle_detector -- -j6 -l6
+[0.758s] [ 40%] Built target obstacle_detector_node
+[0.813s] [35m[1mScanning dependencies of target obstacle_detector[0m
+[1.014s] [ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[1.016s] [ 80%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o[0m
+[12.609s] [100%] [32m[1mLinking CXX shared library libobstacle_detector.so[0m
+[14.641s] [100%] Built target obstacle_detector

@@ -1,0 +1,128 @@
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:[m[K In member function ‘[01m[Kdouble peak_finder::PeakFinderComponent::SampleElevation(const Vector2d&)[m[K’:
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:182:46:[m[K [01;31m[Kerror: [m[K‘[01m[K::srv[m[K’ has not been declared
+  182 |     auto sample_request = std::make_shared<::[01;31m[Ksrv[m[K::SampleElevation::Request>();
+      |                                              [01;31m[K^~~[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:182:46:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:21[m[K:
+[01m[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+   26 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/action_msgs/srv/cancel_goal.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/stsl_interfaces/action/detail/park_at_peak__struct.hpp:1000[m[K,
+                 from [01m[K/opt/ros/foxy/include/stsl_interfaces/action/park_at_peak.hpp:7[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:24[m[K:
+[01m[K/opt/ros/foxy/include/action_msgs/srv/detail/cancel_goal__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kaction_msgs::srv[m[K’
+   30 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/stsl_interfaces/srv/sample_elevation.hpp:7[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:26[m[K:
+[01m[K/opt/ros/foxy/include/stsl_interfaces/srv/detail/sample_elevation__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstsl_interfaces::srv[m[K’
+   26 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/tf2_msgs/srv/frame_graph.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:44[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:41[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:29[m[K:
+[01m[K/opt/ros/foxy/include/tf2_msgs/srv/detail/frame_graph__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf2_msgs::srv[m[K’
+   26 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:182:46:[m[K [01;31m[Kerror: [m[K‘[01m[K::srv[m[K’ has not been declared
+  182 |     auto sample_request = std::make_shared<::[01;31m[Ksrv[m[K::SampleElevation::Request>();
+      |                                              [01;31m[K^~~[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:182:46:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:21[m[K:
+[01m[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+   26 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/action_msgs/srv/cancel_goal.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/stsl_interfaces/action/detail/park_at_peak__struct.hpp:1000[m[K,
+                 from [01m[K/opt/ros/foxy/include/stsl_interfaces/action/park_at_peak.hpp:7[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:24[m[K:
+[01m[K/opt/ros/foxy/include/action_msgs/srv/detail/cancel_goal__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kaction_msgs::srv[m[K’
+   30 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/stsl_interfaces/srv/sample_elevation.hpp:7[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:26[m[K:
+[01m[K/opt/ros/foxy/include/stsl_interfaces/srv/detail/sample_elevation__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstsl_interfaces::srv[m[K’
+   26 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/tf2_msgs/srv/frame_graph.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:44[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:41[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:29[m[K:
+[01m[K/opt/ros/foxy/include/tf2_msgs/srv/detail/frame_graph__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf2_msgs::srv[m[K’
+   26 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:182:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  182 |     auto sample_request = std::[01;31m[Kmake_shared<::srv::SampleElevation::Request>[m[K();
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:182:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+  182 |     auto sample_request = std::make_shared<::srv::SampleElevation::Request>([01;31m[K)[m[K;
+      |                                                                             [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:21[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:182:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  182 |     auto sample_request = std::make_shared<::srv::SampleElevation::Request>([01;31m[K)[m[K;
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:[m[K In member function ‘[01m[KEigen::Vector2d peak_finder::PeakFinderComponent::PickNextGoalPosition(const Vector2d&, const double&)[m[K’:
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:211:24:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::Vector2d[m[K’ {aka ‘[01m[Kclass Eigen::Matrix<double, 2, 1>[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  211 |       sample_positions.[01;31m[Kpush_back[m[K(pose);
+      |                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:214:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+  214 |     for(const auto & position : [01;31m[Ksample_positions[m[K){
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kstd::begin[m[K
+In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:21[m[K:
+[01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+  105 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&);
+      |                                     [01;36m[K^~~~~[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:214:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+  214 |     for(const auto & position : [01;31m[Ksample_positions[m[K){
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kstd::end[m[K
+In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:21[m[K:
+[01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+  107 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&);
+      |                                     [01;36m[K^~~[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:215:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kelevation[m[K’ was not declared in this scope; did you mean ‘[01m[Kelevations[m[K’?
+  215 |       [01;31m[Kelevation[m[K.push_back(SampleElevation(position));
+      |       [01;31m[K^~~~~~~~~[m[K
+      |       [32m[Kelevations[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:220:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_elevations[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_elevation[m[K’?
+  220 |     if(*max_elevation_iter <= [01;31m[Kcurrent_elevations[m[K){
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                               [32m[Kcurrent_elevation[m[K
+[01m[K/home/robojackets/training_ws/src/software-training/peak_finder/src/peak_finder_component.cpp:223:82:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((Eigen::DenseCoeffsBase<Eigen::Matrix<double, 2, 1>, 1>*)((Eigen::DenseBase<Eigen::Matrix<double, 2, 1> >*)(& sample_positions)))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, 2, 1>, 1>::operator[](std::distance<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > > >(elevations.std::vector<double, std::allocator<double> >::begin(), max_elevation_iter))[m[K’ from ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 2, 1>, 1>::Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[KEigen::Vector2d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 2, 1>[m[K’}
+  223 | sitions[std::distance(elevations.begin(), max_elevation_iter)[01;31m[K][m[K;
+      |                                                              [01;31m[K^[m[K
+      |                                                              [01;31m[K|[m[K
+      |                                                              [01;31m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 2, 1>, 1>::Scalar {aka double}[m[K
+
+make[2]: *** [CMakeFiles/peak_finder_components.dir/build.make:63: CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/peak_finder_components.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

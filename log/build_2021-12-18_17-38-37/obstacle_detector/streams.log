@@ -1,0 +1,34 @@
+[0.176s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/obstacle_detector -- -j6 -l6
+[0.333s] [ 40%] Built target obstacle_detector_node
+[0.370s] [35m[1mScanning dependencies of target obstacle_detector[0m
+[0.469s] [ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[7.241s] [ 80%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o[0m
+[9.032s] [100%] [32m[1mLinking CXX shared library libobstacle_detector.so[0m
+[9.382s] [100%] Built target obstacle_detector
+[9.401s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/obstacle_detector -- -j6 -l6
+[9.459s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/obstacle_detector
+[9.471s] -- Install configuration: ""
+[9.474s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node
+[9.474s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/lib/libobstacle_detector.so
+[9.485s] -- Set runtime path of "/home/robojackets/training_ws/src/software-training/install/obstacle_detector/lib/libobstacle_detector.so" to ""
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/launch
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/config
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.sh
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.dsv
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.bash
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.sh
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.zsh
+[9.486s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.dsv
+[9.486s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/package.dsv
+[9.487s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector
+[9.487s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector
+[9.490s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake
+[9.490s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake
+[9.491s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/package.xml
+[9.495s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/obstacle_detector

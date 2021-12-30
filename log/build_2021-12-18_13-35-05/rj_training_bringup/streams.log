@@ -1,0 +1,55 @@
+[0.357s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/rj_training_bringup -- -j6 -l6
+[1.131s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/rj_training_bringup -- -j6 -l6
+[1.986s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/rj_training_bringup
+[2.140s] -- Install configuration: ""
+[2.141s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/behavior_trees
+[2.143s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate_w_replanning.xml
+[2.143s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate.xml
+[2.144s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/config
+[2.144s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/config/nav_params.yaml
+[2.144s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_8.yaml
+[2.144s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_7.yaml
+[2.144s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/config/aruco_tag_visualization_params.yaml
+[2.145s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_final_challenge.yaml
+[2.145s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch
+[2.145s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/fake_localizer.launch.py
+[2.145s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/mineral_deposit_tracker.launch.py
+[2.146s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/full_game_stack.launch.xml
+[2.148s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/navigation.launch.py
+[2.148s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects
+[2.148s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_1.launch.xml
+[2.148s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_4.launch.xml
+[2.149s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_6.launch.xml
+[2.149s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_3.launch.xml
+[2.149s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_2.launch.xml
+[2.149s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_5.launch.xml
+[2.149s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_7.launch.xml
+[2.222s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_8.launch.xml
+[2.223s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets
+[2.226s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets/default.yaml
+[2.226s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config
+[2.227s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_3.rviz
+[2.227s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_5.rviz
+[2.227s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_6.rviz
+[2.227s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_8.rviz
+[2.228s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_1.rviz
+[2.228s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/color_detection.rviz
+[2.228s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_7.rviz
+[2.265s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/final_challenge.rviz
+[2.302s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_4.rviz
+[2.302s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/ament_index/resource_index/package_run_dependencies/rj_training_bringup
+[2.302s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/ament_index/resource_index/parent_prefix_path/rj_training_bringup
+[2.309s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.sh
+[2.353s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.dsv
+[2.353s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/environment/path.sh
+[2.353s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/environment/path.dsv
+[2.353s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/local_setup.bash
+[2.354s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/local_setup.sh
+[2.354s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/local_setup.zsh
+[2.354s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/local_setup.dsv
+[2.354s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/package.dsv
+[2.354s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/ament_index/resource_index/packages/rj_training_bringup
+[2.354s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig.cmake
+[2.354s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig-version.cmake
+[2.354s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/rj_training_bringup/share/rj_training_bringup/package.xml
+[2.354s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/rj_training_bringup

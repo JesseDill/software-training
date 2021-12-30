@@ -1,0 +1,29 @@
+[0.202s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/localization -- -j6 -l6
+[3.308s] [ 28%] Built target localization_node
+[3.332s] [100%] Built target localization_component
+[3.475s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/localization -- -j6 -l6
+[4.301s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/localization
+[4.629s] -- Install configuration: ""
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/lib/localization/localization_node
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/lib/liblocalization_component.so
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/launch
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/launch/particle_filter_localizer.launch.py
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/config
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/config/localizer_params.yaml
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/environment/ament_prefix_path.sh
+[4.629s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/environment/ament_prefix_path.dsv
+[4.630s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/environment/path.sh
+[4.630s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/environment/path.dsv
+[4.630s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/local_setup.bash
+[4.630s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/local_setup.sh
+[4.632s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/local_setup.zsh
+[4.632s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/local_setup.dsv
+[4.645s] -- Installing: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/package.dsv
+[4.676s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/ament_index/resource_index/packages/localization
+[4.676s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/ament_index/resource_index/rclcpp_components/localization
+[4.676s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/cmake/localizationConfig.cmake
+[4.676s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[4.677s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/localization/share/localization/package.xml
+[6.020s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/localization

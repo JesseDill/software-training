@@ -1,0 +1,25 @@
+[0.127s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/coordinate_transform -- -j6 -l6
+[0.524s] [ 50%] Built target coordinate_transform_node
+[0.640s] [100%] Built target coordinate_transform_components
+[0.695s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/coordinate_transform -- -j6 -l6
+[1.048s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/coordinate_transform
+[1.081s] -- Install configuration: ""
+[1.081s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node
+[1.093s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/lib/libcoordinate_transform_components.so
+[1.108s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/ament_index/resource_index/package_run_dependencies/coordinate_transform
+[1.108s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/ament_index/resource_index/parent_prefix_path/coordinate_transform
+[1.109s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.sh
+[1.109s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.dsv
+[1.122s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/environment/path.sh
+[1.137s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/environment/path.dsv
+[1.140s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.bash
+[1.141s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.sh
+[1.142s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.zsh
+[1.144s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.dsv
+[1.144s] -- Installing: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/package.dsv
+[1.144s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/ament_index/resource_index/packages/coordinate_transform
+[1.144s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/ament_index/resource_index/rclcpp_components/coordinate_transform
+[1.145s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig.cmake
+[1.145s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig-version.cmake
+[1.145s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/coordinate_transform/share/coordinate_transform/package.xml
+[1.243s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/coordinate_transform

@@ -1,0 +1,96 @@
+[0.162s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/install/obstacle_detector
+[0.279s] -- The C compiler identification is GNU 9.3.0
+[0.401s] -- The CXX compiler identification is GNU 9.3.0
+[0.407s] -- Check for working C compiler: /usr/bin/cc
+[0.562s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.566s] -- Detecting C compiler ABI info
+[0.721s] -- Detecting C compiler ABI info - done
+[0.739s] -- Detecting C compile features
+[0.740s] -- Detecting C compile features - done
+[0.747s] -- Check for working CXX compiler: /usr/bin/c++
+[0.960s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.961s] -- Detecting CXX compiler ABI info
+[1.118s] -- Detecting CXX compiler ABI info - done
+[1.134s] -- Detecting CXX compile features
+[1.134s] -- Detecting CXX compile features - done
+[1.141s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.182s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.182s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.414s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.490s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.609s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.643s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.834s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.836s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.842s] -- Looking for pthread.h
+[1.974s] -- Looking for pthread.h - found
+[1.975s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.071s] -- Looking for pthread_create in pthreads
+[2.162s] -- Looking for pthread_create in pthreads - not found
+[2.163s] -- Looking for pthread_create in pthread
+[2.267s] -- Looking for pthread_create in pthread - found
+[2.267s] -- Found Threads: TRUE  
+[2.455s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.533s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.710s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.739s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.822s] -- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.144s] -- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[3.177s] -- Found OpenCV: /usr (found suitable version "4.2.0", minimum required is "4") 
+[3.220s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.321s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.326s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.326s] -- Configured cppcheck include dirs: 
+[3.326s] -- Configured cppcheck exclude dirs and/or files: 
+[3.327s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.327s] -- Configured cpplint exclude dirs and/or files: 
+[3.328s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.329s] -- Added test 'lint_cmake' to check CMake code style
+[3.329s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.330s] -- Added test 'uncrustify' to check C / C++ code style
+[3.330s] -- Configured uncrustify additional arguments: 
+[3.331s] -- Added test 'xmllint' to check XML markup files
+[3.335s] -- Configuring done
+[3.380s] -- Generating done
+[3.383s] -- Build files have been written to: /home/robojackets/training_ws/src/software-training/build/obstacle_detector
+[3.401s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/install/obstacle_detector
+[3.406s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/obstacle_detector -- -j6 -l6
+[3.462s] [35m[1mScanning dependencies of target obstacle_detector_node[0m
+[3.504s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle_detector_node.dir/rclcpp_components/node_main_obstacle_detector_node.cpp.o[0m
+[5.451s] [ 50%] [32m[1mLinking CXX executable obstacle_detector_node[0m
+[5.599s] [ 50%] Built target obstacle_detector_node
+[5.625s] [35m[1mScanning dependencies of target obstacle_detector[0m
+[5.980s] [ 75%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[10.528s] [100%] [32m[1mLinking CXX shared library libobstacle_detector.so[0m
+[10.966s] [100%] Built target obstacle_detector
+[10.981s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/obstacle_detector -- -j6 -l6
+[11.044s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/obstacle_detector
+[11.068s] -- Install configuration: ""
+[11.068s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node
+[11.068s] -- Set runtime path of "/home/robojackets/training_ws/src/software-training/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node" to ""
+[11.068s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/lib/libobstacle_detector.so
+[11.068s] -- Set runtime path of "/home/robojackets/training_ws/src/software-training/install/obstacle_detector/lib/libobstacle_detector.so" to ""
+[11.068s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/launch
+[11.068s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py
+[11.092s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/config
+[11.092s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml
+[11.093s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector
+[11.093s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector
+[11.094s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh
+[11.094s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv
+[11.094s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.sh
+[11.094s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.dsv
+[11.094s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.bash
+[11.095s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.sh
+[11.095s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.zsh
+[11.095s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.dsv
+[11.095s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/package.dsv
+[11.095s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector
+[11.095s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector
+[11.096s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake
+[11.096s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake
+[11.096s] -- Installing: /home/robojackets/training_ws/src/software-training/install/obstacle_detector/share/obstacle_detector/package.xml
+[11.100s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/obstacle_detector

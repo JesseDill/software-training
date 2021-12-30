@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target peak_finder_components[0m
+[ 40%] Built target peak_finder_node
+[ 60%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libpeak_finder_components.so[0m
+[100%] Built target peak_finder_components
+-- Install configuration: ""
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/lib/peak_finder/peak_finder_node
+-- Installing: /home/robojackets/training_ws/src/software-training/install/peak_finder/lib/libpeak_finder_components.so
+-- Set runtime path of "/home/robojackets/training_ws/src/software-training/install/peak_finder/lib/libpeak_finder_components.so" to ""
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/path.sh
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/environment/path.dsv
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.bash
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.sh
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.zsh
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/local_setup.dsv
+-- Installing: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/package.dsv
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/packages/peak_finder
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/peak_finder/share/peak_finder/package.xml

@@ -1,0 +1,156 @@
+[0.105s] Invoking command in '/home/robojackets/training_ws/src/software-training/localization/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/localization -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/localization/install/localization
+[2.118s] -- The C compiler identification is GNU 9.3.0
+[2.746s] -- The CXX compiler identification is GNU 9.3.0
+[2.883s] -- Check for working C compiler: /usr/bin/cc
+[3.272s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.294s] -- Detecting C compiler ABI info
+[3.506s] -- Detecting C compiler ABI info - done
+[3.521s] -- Detecting C compile features
+[3.523s] -- Detecting C compile features - done
+[3.531s] -- Check for working CXX compiler: /usr/bin/c++
+[3.927s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.928s] -- Detecting CXX compiler ABI info
+[4.371s] -- Detecting CXX compiler ABI info - done
+[4.392s] -- Detecting CXX compile features
+[4.394s] -- Detecting CXX compile features - done
+[4.458s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.535s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.535s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.190s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.804s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.257s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.327s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.115s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.144s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.153s] -- Looking for pthread.h
+[7.536s] -- Looking for pthread.h - found
+[7.537s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.720s] -- Looking for pthread_create in pthreads
+[7.965s] -- Looking for pthread_create in pthreads - not found
+[7.966s] -- Looking for pthread_create in pthread
+[8.192s] -- Looking for pthread_create in pthread - found
+[8.199s] -- Found Threads: TRUE  
+[8.825s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[9.054s] -- Found stsl_interfaces: 0.0.4 (/opt/ros/foxy/share/stsl_interfaces/cmake)
+[9.584s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[9.759s] -- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[9.960s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[10.108s] -- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)
+[10.557s] -- Found tf2_geometry_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[10.595s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[10.607s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[10.658s] -- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)
+[10.688s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.923s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.930s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.931s] -- Configured cppcheck include dirs: 
+[10.931s] -- Configured cppcheck exclude dirs and/or files: 
+[10.937s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.938s] -- Configured cpplint exclude dirs and/or files: 
+[10.968s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.968s] -- Added test 'lint_cmake' to check CMake code style
+[10.973s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.992s] -- Added test 'uncrustify' to check C / C++ code style
+[10.996s] -- Configured uncrustify additional arguments: 
+[11.000s] -- Added test 'xmllint' to check XML markup files
+[11.035s] -- Configuring done
+[11.059s] -- Generating done
+[11.063s] -- Build files have been written to: /home/robojackets/training_ws/src/software-training/localization/build/localization
+[11.085s] Invoked command in '/home/robojackets/training_ws/src/software-training/localization/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/localization -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/localization/install/localization
+[11.119s] Invoking command in '/home/robojackets/training_ws/src/software-training/localization/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/localization/build/localization -- -j6 -l6
+[11.211s] [35m[1mScanning dependencies of target localization_component[0m
+[11.230s] [35m[1mScanning dependencies of target localization_node[0m
+[13.194s] [ 12%] [32mBuilding CXX object CMakeFiles/localization_node.dir/rclcpp_components/node_main_localization_node.cpp.o[0m
+[13.869s] [ 25%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/motion_model.cpp.o[0m
+[14.013s] [ 37%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/aruco_sensor_model.cpp.o[0m
+[14.143s] [ 50%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o[0m
+[14.258s] [ 75%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/random_helpers.cpp.o[0m
+[14.467s] [ 75%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o[0m
+[35.621s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:7:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Klocalization::OdometrySensorModel::OdometrySensorModel(rclcpp::Node&)[m[K’
+[35.621s]     7 |     [01;31m[KOdometrySensorModel[m[K::OdometrySensorModel(rclcpp::Node & node){
+[35.621s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[35.621s] In file included from [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:1[m[K:
+[35.621s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:10:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Klocalization::OdometrySensorModel::OdometrySensorModel(localization::OdometrySensorModel&&)[m[K’
+[35.622s]    10 |     class [01;36m[KOdometrySensorModel[m[K: public SensorModel{
+[35.622s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[35.622s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:10:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Klocalization::OdometrySensorModel::OdometrySensorModel(const localization::OdometrySensorModel&)[m[K’
+[35.622s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:15:13:[m[K [01;36m[Knote: [m[K                ‘[01m[Klocalization::OdometrySensorModel::OdometrySensorModel(rclcpp::Node)[m[K’
+[35.622s]    15 |             [01;36m[KOdometrySensorModel[m[K(rclcpp::Node node);
+[35.622s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[35.622s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:10:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass localization::OdometrySensorModel[m[K’ defined here
+[35.622s]    10 |     class [01;36m[KOdometrySensorModel[m[K: public SensorModel{
+[35.622s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[35.625s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:[m[K In member function ‘[01m[Kvirtual bool localization::OdometrySensorModel::IsMeasurementAvailable(const rclcpp::Time&)[m[K’:
+[35.625s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:27:36:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<[m[K’ (operand types are ‘[01m[Kconst rclcpp::Duration[m[K’ and ‘[01m[Kdouble[m[K’)
+[35.625s]    27 |         return [32m[Ktime_since_last_msg[m[K [01;31m[K<[m[K [34m[Ktimeout_[m[K;
+[35.625s]       |                [32m[K~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~[m[K
+[35.625s]       |                [32m[K|[m[K                     [34m[K|[m[K
+[35.625s]       |                [32m[K|[m[K                     [34m[Kdouble[m[K
+[35.625s]       |                [32m[Kconst rclcpp::Duration[m[K
+[35.625s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[35.626s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[35.626s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[35.626s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[35.626s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[35.626s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[35.626s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[35.626s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[35.627s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[35.627s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[35.627s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[35.627s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[35.627s]                  from [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:4[m[K,
+[35.627s]                  from [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:1[m[K:
+[35.627s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:84:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rclcpp::Duration::operator<(const rclcpp::Duration&) const[m[K’
+[35.627s]    84 |   [01;36m[Koperator[m[K<(const rclcpp::Duration & rhs) const;
+[35.628s]       |   [01;36m[K^~~~~~~~[m[K
+[35.628s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:84:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+[35.628s]    84 |   operator<([01;36m[Kconst rclcpp::Duration & rhs[m[K) const;
+[35.628s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[35.628s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:[m[K In function ‘[01m[Kdouble localization::ComputeLogProb(const localization::Particle&)[m[K’:
+[35.628s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:32:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_msg_[m[K’ was not declared in this scope
+[35.628s]    32 |         log_prob += pow([01;31m[Klast_msg_[m[K.twist.twist.linear.x - particle.x_vel, 2) / covariance_[0];
+[35.628s]       |                         [01;31m[K^~~~~~~~~[m[K
+[35.643s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:32:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kcovariance_[m[K’ was not declared in this scope
+[35.643s]    32 |         log_prob += pow(last_msg_.twist.twist.linear.x - particle.x_vel, 2) / [01;31m[Kcovariance_[m[K[0];
+[35.643s]       |                                                                               [01;31m[K^~~~~~~~~~~[m[K
+[35.644s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:[m[K In function ‘[01m[Kdouble localization::ComputeLogNormalizer()[m[K’:
+[35.644s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:37:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kcovariance_[m[K’ was not declared in this scope
+[35.644s]    37 |         return log(sqrt(pow(2 * M_PI, 2))) + log(sqrt([01;31m[Kcovariance_[m[K[0])) + log(sqrt(covariance_[1]));
+[35.644s]       |                                                       [01;31m[K^~~~~~~~~~~[m[K
+[40.164s] make[2]: *** [CMakeFiles/localization_component.dir/build.make:115: CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o] Error 1
+[40.164s] make[2]: *** Waiting for unfinished jobs....
+[40.498s] [ 87%] [32m[1mLinking CXX executable localization_node[0m
+[41.065s] In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+[41.092s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:35[m[K,
+[41.092s]                  from [01m[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.hpp:24[m[K,
+[41.092s]                  from [01m[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.cpp:21[m[K:
+[41.093s] /usr/include/c++/9/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = localization::OdometrySensorModel; _Args = {localization::ParticleFilterLocalizer&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<localization::OdometrySensorModel, std::default_delete<localization::OdometrySensorModel> >][m[K’:
+[41.093s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.cpp:71:71:[m[K   required from here
+[41.093s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:857:30:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&)[m[K’
+[41.093s]   857 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[41.093s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.093s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:33[m[K,
+[41.099s]                  from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+[41.099s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+[41.099s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[41.099s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[41.100s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[41.100s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:39[m[K,
+[41.100s]                  from [01m[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.hpp:24[m[K,
+[41.100s]                  from [01m[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.cpp:21[m[K:
+[41.100s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1198:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[41.100s]  1198 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Node)
+[41.100s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[41.100s] In file included from [01m[K/home/robojackets/training_ws/src/software-training/localization/src/particle_filter_localizer.cpp:30[m[K:
+[41.100s] [01m[K/home/robojackets/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:15:46:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Klocalization::OdometrySensorModel::OdometrySensorModel(rclcpp::Node)[m[K’
+[41.101s]    15 |             OdometrySensorModel([01;36m[Krclcpp::Node node[m[K);
+[41.101s]       |                                 [01;36m[K~~~~~~~~~~~~~^~~~[m[K
+[41.138s] [ 87%] Built target localization_node
+[44.852s] make[2]: *** [CMakeFiles/localization_component.dir/build.make:102: CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o] Error 1
+[46.200s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/localization_component.dir/all] Error 2
+[46.200s] make: *** [Makefile:141: all] Error 2
+[46.206s] Invoked command in '/home/robojackets/training_ws/src/software-training/localization/build/localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/localization/build/localization -- -j6 -l6

@@ -1,0 +1,21 @@
+[ 50%] Built target mineral_deposit_tracker
+[100%] Built target mineral_deposit_tracking
+-- Install configuration: ""
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_tracking
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_tracking
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.sh
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.dsv
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.bash
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.sh
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.zsh
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.dsv
+-- Installing: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/packages/mineral_deposit_tracking
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/rclcpp_components/mineral_deposit_tracking
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig.cmake
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig-version.cmake
+-- Up-to-date: /home/robojackets/training_ws/src/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.xml

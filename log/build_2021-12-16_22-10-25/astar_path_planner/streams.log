@@ -1,0 +1,84 @@
+[0.101s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/astar_path_planner -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/install/astar_path_planner
+[0.850s] -- The C compiler identification is GNU 9.3.0
+[1.552s] -- The CXX compiler identification is GNU 9.3.0
+[1.588s] -- Check for working C compiler: /usr/bin/cc
+[1.799s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.805s] -- Detecting C compiler ABI info
+[1.912s] -- Detecting C compiler ABI info - done
+[1.928s] -- Detecting C compile features
+[1.929s] -- Detecting C compile features - done
+[1.933s] -- Check for working CXX compiler: /usr/bin/c++
+[2.136s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.137s] -- Detecting CXX compiler ABI info
+[2.293s] -- Detecting CXX compiler ABI info - done
+[2.314s] -- Detecting CXX compile features
+[2.315s] -- Detecting CXX compile features - done
+[2.318s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.357s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.359s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.937s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.144s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.370s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.408s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.556s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.695s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.702s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.710s] -- Looking for pthread.h
+[3.933s] -- Looking for pthread.h - found
+[3.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.065s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.065s] -- Looking for pthread_create in pthreads
+[4.175s] -- Looking for pthread_create in pthreads - not found
+[4.176s] -- Looking for pthread_create in pthread
+[4.284s] -- Looking for pthread_create in pthread - found
+[4.284s] -- Found Threads: TRUE  
+[4.576s] -- Found nav2_core: 0.4.7 (/opt/ros/foxy/share/nav2_core/cmake)
+[6.394s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[15.632s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[17.219s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.220s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.220s] -- Configured cppcheck include dirs: 
+[17.220s] -- Configured cppcheck exclude dirs and/or files: 
+[17.220s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[17.220s] -- Configured cpplint exclude dirs and/or files: 
+[17.235s] -- Added test 'lint_cmake' to check CMake code style
+[17.235s] -- Added test 'uncrustify' to check C / C++ code style
+[17.235s] -- Configured uncrustify additional arguments: 
+[17.235s] -- Added test 'xmllint' to check XML markup files
+[17.321s] -- Configuring done
+[17.829s] -- Generating done
+[17.858s] -- Build files have been written to: /home/robojackets/training_ws/src/software-training/build/astar_path_planner
+[17.919s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/robojackets/training_ws/src/software-training/astar_path_planner -DCMAKE_INSTALL_PREFIX=/home/robojackets/training_ws/src/software-training/install/astar_path_planner
+[17.920s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/astar_path_planner -- -j6 -l6
+[61.568s] [35m[1mScanning dependencies of target astar_path_planner[0m
+[61.568s] [ 25%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner.cpp.o[0m
+[61.568s] [ 50%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner_plugin.cpp.o[0m
+[61.569s] [ 75%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/utils.cpp.o[0m
+[65.450s] [100%] [32m[1mLinking CXX shared library libastar_path_planner.so[0m
+[66.043s] [100%] Built target astar_path_planner
+[66.063s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/astar_path_planner -- -j6 -l6
+[66.165s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/astar_path_planner
+[66.179s] -- Install configuration: ""
+[66.179s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/lib/libastar_path_planner.so
+[66.185s] -- Set runtime path of "/home/robojackets/training_ws/src/software-training/install/astar_path_planner/lib/libastar_path_planner.so" to ""
+[66.185s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/astar_path_planner_libraries.xml
+[66.188s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/ament_index/resource_index/package_run_dependencies/astar_path_planner
+[66.189s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/ament_index/resource_index/parent_prefix_path/astar_path_planner
+[66.189s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.sh
+[66.191s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.dsv
+[66.192s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.sh
+[66.197s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.dsv
+[66.197s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.bash
+[66.197s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.sh
+[66.197s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.zsh
+[66.198s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.dsv
+[66.198s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/package.dsv
+[66.198s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/ament_index/resource_index/packages/astar_path_planner
+[66.198s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/astar_path_planner
+[66.198s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.198s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.198s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig.cmake
+[66.198s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig-version.cmake
+[66.198s] -- Installing: /home/robojackets/training_ws/src/software-training/install/astar_path_planner/share/astar_path_planner/package.xml
+[66.203s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/astar_path_planner

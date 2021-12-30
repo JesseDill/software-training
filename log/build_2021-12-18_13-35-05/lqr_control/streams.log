@@ -1,0 +1,24 @@
+[0.287s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/lqr_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/lqr_control -- -j6 -l6
+[3.340s] [100%] Built target lqr_control
+[3.562s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/lqr_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robojackets/training_ws/src/software-training/build/lqr_control -- -j6 -l6
+[4.263s] Invoking command in '/home/robojackets/training_ws/src/software-training/build/lqr_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/lqr_control
+[4.579s] -- Install configuration: ""
+[4.590s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/lib/liblqr_control.so
+[4.590s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/plugin_descriptions.xml
+[4.590s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/ament_index/resource_index/package_run_dependencies/lqr_control
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/ament_index/resource_index/parent_prefix_path/lqr_control
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.sh
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.dsv
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/environment/path.sh
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/environment/path.dsv
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/local_setup.bash
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/local_setup.sh
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/local_setup.zsh
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/local_setup.dsv
+[4.591s] -- Installing: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/package.dsv
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/ament_index/resource_index/packages/lqr_control
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/ament_index/resource_index/nav2_core__pluginlib__plugin/lqr_control
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig.cmake
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig-version.cmake
+[4.591s] -- Up-to-date: /home/robojackets/training_ws/src/software-training/install/lqr_control/share/lqr_control/package.xml
+[5.824s] Invoked command in '/home/robojackets/training_ws/src/software-training/build/lqr_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robojackets/training_ws/src/software-training/build/lqr_control
