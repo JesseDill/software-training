@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target astar_path_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner_plugin.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/utils.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libastar_path_planner.so[0m
+[100%] Built target astar_path_planner
+-- Install configuration: ""
+-- Installing: /home/padowan/software-training/install/astar_path_planner/lib/libastar_path_planner.so
+-- Set runtime path of "/home/padowan/software-training/install/astar_path_planner/lib/libastar_path_planner.so" to ""
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/astar_path_planner_libraries.xml
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/package_run_dependencies/astar_path_planner
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/parent_prefix_path/astar_path_planner
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.sh
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.sh
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.dsv
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.bash
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.sh
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.zsh
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.dsv
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/package.dsv
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/packages/astar_path_planner
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/astar_path_planner
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig.cmake
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig-version.cmake
+-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/package.xml

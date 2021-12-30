@@ -1,0 +1,6 @@
+Invoking command in '/home/padowan/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/padowan/software-training/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/padowan/software-training/install/obstacle_detector
+Invoked command in '/home/padowan/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/padowan/software-training/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/padowan/software-training/install/obstacle_detector
+Invoking command in '/home/padowan/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/obstacle_detector -- -j12 -l12
+Invoked command in '/home/padowan/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/obstacle_detector -- -j12 -l12
+Invoking command in '/home/padowan/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/obstacle_detector
+Invoked command in '/home/padowan/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/obstacle_detector

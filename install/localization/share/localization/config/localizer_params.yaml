@@ -8,7 +8,7 @@ particle_filter_localizer:
         covariance: [0.1, 0.1]
         measurement_timeout: 0.05
     motion_sigmas: [0.025, 0.025, 0.05, 0.025, 0.025]
-    num_particles: 10
+    num_particles: 200
     initial_range:
       min_x: -0.6
       max_x:  0.6

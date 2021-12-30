@@ -1,0 +1,31 @@
+[0.089s] Invoking command in '/home/padowan/software-training/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/mapping -- -j12 -l12
+[0.202s] [35m[1mScanning dependencies of target mapping[0m
+[0.256s] [ 50%] Built target mapping_node
+[0.288s] [ 75%] [32mBuilding CXX object CMakeFiles/mapping.dir/src/mapping_node.cpp.o[0m
+[5.854s] [100%] [32m[1mLinking CXX shared library libmapping.so[0m
+[6.186s] [100%] Built target mapping
+[6.200s] Invoked command in '/home/padowan/software-training/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/mapping -- -j12 -l12
+[6.244s] Invoking command in '/home/padowan/software-training/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/mapping
+[6.260s] -- Install configuration: ""
+[6.260s] -- Up-to-date: /home/padowan/software-training/install/mapping/lib/mapping/mapping_node
+[6.260s] -- Installing: /home/padowan/software-training/install/mapping/lib/libmapping.so
+[6.273s] -- Set runtime path of "/home/padowan/software-training/install/mapping/lib/libmapping.so" to ""
+[6.273s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/launch
+[6.274s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/launch/mapping.launch.xml
+[6.274s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+[6.274s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+[6.274s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/environment/ament_prefix_path.sh
+[6.275s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+[6.275s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/environment/path.sh
+[6.275s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/environment/path.dsv
+[6.275s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/local_setup.bash
+[6.275s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/local_setup.sh
+[6.276s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/local_setup.zsh
+[6.277s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/local_setup.dsv
+[6.277s] -- Installing: /home/padowan/software-training/install/mapping/share/mapping/package.dsv
+[6.278s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/packages/mapping
+[6.280s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/rclcpp_components/mapping
+[6.280s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/cmake/mappingConfig.cmake
+[6.280s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+[6.281s] -- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/package.xml
+[6.281s] Invoked command in '/home/padowan/software-training/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/mapping

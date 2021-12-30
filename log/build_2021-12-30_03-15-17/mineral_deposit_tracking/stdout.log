@@ -1,0 +1,23 @@
+[ 50%] Built target mineral_deposit_tracker
+[100%] Built target mineral_deposit_tracking
+-- Install configuration: ""
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker
+-- Set runtime path of "/home/padowan/software-training/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker" to ""
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so
+-- Set runtime path of "/home/padowan/software-training/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so" to ""
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_tracking
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_tracking
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.sh
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.dsv
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.sh
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.dsv
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.bash
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.sh
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.zsh
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.dsv
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/packages/mineral_deposit_tracking
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/rclcpp_components/mineral_deposit_tracking
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig.cmake
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig-version.cmake
+-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.xml

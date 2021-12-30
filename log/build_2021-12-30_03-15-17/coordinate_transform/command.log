@@ -1,0 +1,4 @@
+Invoking command in '/home/padowan/software-training/build/coordinate_transform': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/coordinate_transform -- -j12 -l12
+Invoked command in '/home/padowan/software-training/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/coordinate_transform -- -j12 -l12
+Invoking command in '/home/padowan/software-training/build/coordinate_transform': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/coordinate_transform
+Invoked command in '/home/padowan/software-training/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/coordinate_transform

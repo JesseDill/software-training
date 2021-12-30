@@ -1,0 +1,70 @@
+[0.087s] Invoking command in '/home/padowan/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/padowan/software-training/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/padowan/software-training/install/obstacle_detector
+[0.187s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.187s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.590s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.755s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.422s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.429s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.034s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.247s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.865s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.904s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.030s] -- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.811s] -- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[3.869s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.264s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.268s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.269s] -- Configured cppcheck include dirs: 
+[5.269s] -- Configured cppcheck exclude dirs and/or files: 
+[5.271s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.271s] -- Configured cpplint exclude dirs and/or files: 
+[5.272s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.273s] -- Added test 'lint_cmake' to check CMake code style
+[5.275s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.276s] -- Added test 'uncrustify' to check C / C++ code style
+[5.277s] -- Configured uncrustify additional arguments: 
+[5.278s] -- Added test 'xmllint' to check XML markup files
+[5.285s] -- Configuring done
+[5.380s] -- Generating done
+[5.388s] -- Build files have been written to: /home/padowan/software-training/build/obstacle_detector
+[5.399s] Invoked command in '/home/padowan/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/padowan/software-training/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/padowan/software-training/install/obstacle_detector
+[5.400s] Invoking command in '/home/padowan/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/obstacle_detector -- -j12 -l12
+[7.344s] [35m[1mScanning dependencies of target obstacle_detector_node[0m
+[7.344s] [35m[1mScanning dependencies of target obstacle_detector[0m
+[8.047s] [ 20%] [32mBuilding CXX object CMakeFiles/obstacle_detector_node.dir/rclcpp_components/node_main_obstacle_detector_node.cpp.o[0m
+[9.384s] [ 40%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o[0m
+[9.408s] [ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[36.795s] [ 80%] [32m[1mLinking CXX executable obstacle_detector_node[0m
+[37.546s] [ 80%] Built target obstacle_detector_node
+[46.925s] [100%] [32m[1mLinking CXX shared library libobstacle_detector.so[0m
+[51.275s] [100%] Built target obstacle_detector
+[51.341s] Invoked command in '/home/padowan/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/obstacle_detector -- -j12 -l12
+[51.412s] Invoking command in '/home/padowan/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/obstacle_detector
+[51.422s] -- Install configuration: ""
+[51.423s] -- Installing: /home/padowan/software-training/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node
+[51.425s] -- Set runtime path of "/home/padowan/software-training/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node" to ""
+[51.426s] -- Installing: /home/padowan/software-training/install/obstacle_detector/lib/libobstacle_detector.so
+[51.441s] -- Set runtime path of "/home/padowan/software-training/install/obstacle_detector/lib/libobstacle_detector.so" to ""
+[51.441s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/launch
+[51.441s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py
+[51.441s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/config
+[51.441s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml
+[51.442s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector
+[51.442s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector
+[51.442s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh
+[51.443s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv
+[51.443s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.sh
+[51.443s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.dsv
+[51.444s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.bash
+[51.444s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.sh
+[51.444s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.zsh
+[51.444s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.dsv
+[51.445s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/package.dsv
+[51.445s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector
+[51.445s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector
+[51.446s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake
+[51.446s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake
+[51.446s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/package.xml
+[51.449s] Invoked command in '/home/padowan/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/obstacle_detector

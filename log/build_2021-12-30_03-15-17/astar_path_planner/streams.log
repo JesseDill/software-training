@@ -1,0 +1,32 @@
+[0.079s] Invoking command in '/home/padowan/software-training/build/astar_path_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/astar_path_planner -- -j12 -l12
+[0.180s] [35m[1mScanning dependencies of target astar_path_planner[0m
+[0.456s] [ 50%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner.cpp.o[0m
+[0.456s] [ 50%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner_plugin.cpp.o[0m
+[0.490s] [ 75%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/utils.cpp.o[0m
+[44.388s] [100%] [32m[1mLinking CXX shared library libastar_path_planner.so[0m
+[50.950s] [100%] Built target astar_path_planner
+[51.081s] Invoked command in '/home/padowan/software-training/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/astar_path_planner -- -j12 -l12
+[51.322s] Invoking command in '/home/padowan/software-training/build/astar_path_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/astar_path_planner
+[51.383s] -- Install configuration: ""
+[51.385s] -- Installing: /home/padowan/software-training/install/astar_path_planner/lib/libastar_path_planner.so
+[51.447s] -- Set runtime path of "/home/padowan/software-training/install/astar_path_planner/lib/libastar_path_planner.so" to ""
+[51.447s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/astar_path_planner_libraries.xml
+[51.448s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/package_run_dependencies/astar_path_planner
+[51.448s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/parent_prefix_path/astar_path_planner
+[51.449s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.sh
+[51.449s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.dsv
+[51.450s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.sh
+[51.450s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.dsv
+[51.450s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.bash
+[51.451s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.sh
+[51.451s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.zsh
+[51.506s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.dsv
+[51.507s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/package.dsv
+[51.507s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/packages/astar_path_planner
+[51.508s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/astar_path_planner
+[51.509s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.509s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.510s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig.cmake
+[51.510s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig-version.cmake
+[51.511s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/package.xml
+[51.580s] Invoked command in '/home/padowan/software-training/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/astar_path_planner

@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target peak_finder_node[0m
+[35m[1mScanning dependencies of target peak_finder_components[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/peak_finder_node.dir/rclcpp_components/node_main_peak_finder_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/navigator.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable peak_finder_node[0m
+[ 80%] Built target peak_finder_node
+[100%] [32m[1mLinking CXX shared library libpeak_finder_components.so[0m
+[100%] Built target peak_finder_components
+-- Install configuration: ""
+-- Installing: /home/padowan/software-training/install/peak_finder/lib/peak_finder/peak_finder_node
+-- Set runtime path of "/home/padowan/software-training/install/peak_finder/lib/peak_finder/peak_finder_node" to ""
+-- Installing: /home/padowan/software-training/install/peak_finder/lib/libpeak_finder_components.so
+-- Set runtime path of "/home/padowan/software-training/install/peak_finder/lib/libpeak_finder_components.so" to ""
+-- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder
+-- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/path.sh
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/path.dsv
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.bash
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.sh
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.zsh
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.dsv
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/package.dsv
+-- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/packages/peak_finder
+-- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake
+-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/package.xml

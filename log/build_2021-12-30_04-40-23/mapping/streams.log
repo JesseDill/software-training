@@ -1,0 +1,15 @@
+[0.092s] Invoking command in '/home/padowan/software-training/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/mapping -- -j12 -l12
+[0.215s] [35m[1mScanning dependencies of target mapping[0m
+[0.266s] [ 50%] Built target mapping_node
+[0.299s] [ 75%] [32mBuilding CXX object CMakeFiles/mapping.dir/src/mapping_node.cpp.o[0m
+[2.051s] [01m[K/home/padowan/software-training/mapping/src/mapping_node.cpp:[m[K In member function ‘[01m[Kvoid mapping::MappingNode::UpdateProbability(const Point&, const Point&, const bool&)[m[K’:
+[2.051s] [01m[K/home/padowan/software-training/mapping/src/mapping_node.cpp:184:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kconst[m[K’
+[2.051s]   184 |     [01;31m[Kconst[m[K auto data_index = MapDataIndexFromLocation(cell_x, cell_y);
+[2.051s]       |     [01;31m[K^~~~~[m[K
+[2.054s] [01m[K/home/padowan/software-training/mapping/src/mapping_node.cpp:191:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_index[m[K’ was not declared in this scope
+[2.054s]   191 |     map_data_[[01;31m[Kdata_index[m[K] += probability;
+[2.054s]       |               [01;31m[K^~~~~~~~~~[m[K
+[3.497s] make[2]: *** [CMakeFiles/mapping.dir/build.make:63: CMakeFiles/mapping.dir/src/mapping_node.cpp.o] Error 1
+[3.497s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/mapping.dir/all] Error 2
+[3.497s] make: *** [Makefile:141: all] Error 2
+[3.499s] Invoked command in '/home/padowan/software-training/build/mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/mapping -- -j12 -l12

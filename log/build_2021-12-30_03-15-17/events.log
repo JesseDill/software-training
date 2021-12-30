@@ -1,0 +1,942 @@
+[0.000000] (-) TimerEvent: {}
+[0.001344] (astar_path_planner) JobQueued: {'identifier': 'astar_path_planner', 'dependencies': OrderedDict()}
+[0.001451] (coordinate_transform) JobQueued: {'identifier': 'coordinate_transform', 'dependencies': OrderedDict()}
+[0.002235] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.002423] (lqr_control) JobQueued: {'identifier': 'lqr_control', 'dependencies': OrderedDict()}
+[0.002649] (mapping) JobQueued: {'identifier': 'mapping', 'dependencies': OrderedDict()}
+[0.002827] (mineral_deposit_tracking) JobQueued: {'identifier': 'mineral_deposit_tracking', 'dependencies': OrderedDict()}
+[0.002861] (obstacle_detector) JobQueued: {'identifier': 'obstacle_detector', 'dependencies': OrderedDict()}
+[0.002887] (peak_finder) JobQueued: {'identifier': 'peak_finder', 'dependencies': OrderedDict()}
+[0.002911] (rj_training_bringup) JobQueued: {'identifier': 'rj_training_bringup', 'dependencies': OrderedDict()}
+[0.002936] (astar_path_planner) JobStarted: {'identifier': 'astar_path_planner'}
+[0.014701] (coordinate_transform) JobStarted: {'identifier': 'coordinate_transform'}
+[0.022372] (localization) JobStarted: {'identifier': 'localization'}
+[0.029592] (lqr_control) JobStarted: {'identifier': 'lqr_control'}
+[0.038725] (mapping) JobStarted: {'identifier': 'mapping'}
+[0.045577] (mineral_deposit_tracking) JobStarted: {'identifier': 'mineral_deposit_tracking'}
+[0.050823] (obstacle_detector) JobStarted: {'identifier': 'obstacle_detector'}
+[0.058509] (peak_finder) JobStarted: {'identifier': 'peak_finder'}
+[0.066312] (rj_training_bringup) JobStarted: {'identifier': 'rj_training_bringup'}
+[0.077753] (astar_path_planner) JobProgress: {'identifier': 'astar_path_planner', 'progress': 'cmake'}
+[0.078856] (astar_path_planner) JobProgress: {'identifier': 'astar_path_planner', 'progress': 'build'}
+[0.080173] (astar_path_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/build/astar_path_planner', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/build/astar_path_planner', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/astar_path_planner'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.086158] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'cmake'}
+[0.087274] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'build'}
+[0.090359] (coordinate_transform) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/build/coordinate_transform', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/build/coordinate_transform', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/coordinate_transform'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098301] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.098462] (localization) Command: {'cmd': ['/usr/bin/cmake', '/home/padowan/software-training/localization', '-DCMAKE_INSTALL_PREFIX=/home/padowan/software-training/install/localization'], 'cwd': '/home/padowan/software-training/build/localization', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/localization'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.104046] (-) TimerEvent: {}
+[0.104582] (lqr_control) JobProgress: {'identifier': 'lqr_control', 'progress': 'cmake'}
+[0.105325] (lqr_control) JobProgress: {'identifier': 'lqr_control', 'progress': 'build'}
+[0.109101] (lqr_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/build/lqr_control', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/build/lqr_control', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/lqr_control'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.114080] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'cmake'}
+[0.115266] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'build'}
+[0.116915] (mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/build/mapping', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/build/mapping', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/mapping'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.122570] (mineral_deposit_tracking) JobProgress: {'identifier': 'mineral_deposit_tracking', 'progress': 'cmake'}
+[0.124041] (mineral_deposit_tracking) JobProgress: {'identifier': 'mineral_deposit_tracking', 'progress': 'build'}
+[0.125353] (mineral_deposit_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/build/mineral_deposit_tracking', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/build/mineral_deposit_tracking', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/mineral_deposit_tracking'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.131671] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'cmake'}
+[0.135297] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/padowan/software-training/obstacle_detector', '-DCMAKE_INSTALL_PREFIX=/home/padowan/software-training/install/obstacle_detector'], 'cwd': '/home/padowan/software-training/build/obstacle_detector', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/obstacle_detector'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.139389] (peak_finder) JobProgress: {'identifier': 'peak_finder', 'progress': 'cmake'}
+[0.144148] (peak_finder) JobProgress: {'identifier': 'peak_finder', 'progress': 'build'}
+[0.144564] (peak_finder) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/build/peak_finder', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/build/peak_finder', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/peak_finder'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.150041] (rj_training_bringup) JobProgress: {'identifier': 'rj_training_bringup', 'progress': 'cmake'}
+[0.151203] (rj_training_bringup) JobProgress: {'identifier': 'rj_training_bringup', 'progress': 'build'}
+[0.153745] (rj_training_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/build/rj_training_bringup', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/build/rj_training_bringup', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/rj_training_bringup'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.182718] (astar_path_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target astar_path_planner\x1b[0m\n'}
+[0.192755] (coordinate_transform) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target coordinate_transform_node\x1b[0m\n'}
+[0.195022] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.195372] (localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.196529] (coordinate_transform) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target coordinate_transform_components\x1b[0m\n'}
+[0.204178] (-) TimerEvent: {}
+[0.222809] (lqr_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lqr_control\x1b[0m\n'}
+[0.237911] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.238279] (obstacle_detector) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.261878] (peak_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target peak_finder_node\x1b[0m\n'}
+[0.262348] (peak_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target peak_finder_components\x1b[0m\n'}
+[0.286875] (mapping) StdoutLine: {'line': b'[ 50%] Built target mapping\n'}
+[0.294720] (coordinate_transform) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/coordinate_transform_node.dir/rclcpp_components/node_main_coordinate_transform_node.cpp.o\x1b[0m\n'}
+[0.296329] (mineral_deposit_tracking) StdoutLine: {'line': b'[ 50%] Built target mineral_deposit_tracker\n'}
+[0.304283] (-) TimerEvent: {}
+[0.306854] (mapping) StdoutLine: {'line': b'[100%] Built target mapping_node\n'}
+[0.332802] (mapping) CommandEnded: {'returncode': 0}
+[0.348482] (mineral_deposit_tracking) StdoutLine: {'line': b'[100%] Built target mineral_deposit_tracking\n'}
+[0.351251] (rj_training_bringup) CommandEnded: {'returncode': 0}
+[0.354351] (peak_finder) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/peak_finder_node.dir/rclcpp_components/node_main_peak_finder_node.cpp.o\x1b[0m\n'}
+[0.376518] (mineral_deposit_tracking) CommandEnded: {'returncode': 0}
+[0.379096] (coordinate_transform) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o\x1b[0m\n'}
+[0.404910] (-) TimerEvent: {}
+[0.416407] (rj_training_bringup) JobProgress: {'identifier': 'rj_training_bringup', 'progress': 'install'}
+[0.444264] (rj_training_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/build/rj_training_bringup'], 'cwd': '/home/padowan/software-training/build/rj_training_bringup', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/rj_training_bringup'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.458287] (astar_path_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner.cpp.o\x1b[0m\n'}
+[0.458626] (astar_path_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner_plugin.cpp.o\x1b[0m\n'}
+[0.474361] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'install'}
+[0.475021] (mapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/build/mapping'], 'cwd': '/home/padowan/software-training/build/mapping', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/mapping'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.478292] (rj_training_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.479498] (rj_training_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/behavior_trees\n'}
+[0.480631] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate.xml\n'}
+[0.480901] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate_w_replanning.xml\n'}
+[0.481162] (rj_training_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/config\n'}
+[0.481344] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_8.yaml\n'}
+[0.481688] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_final_challenge.yaml\n'}
+[0.482682] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/config/aruco_tag_visualization_params.yaml\n'}
+[0.483779] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/config/nav_params.yaml\n'}
+[0.485418] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_7.yaml\n'}
+[0.490413] (rj_training_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch\n'}
+[0.491257] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/navigation.launch.py\n'}
+[0.491594] (rj_training_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects\n'}
+[0.491889] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_5.launch.xml\n'}
+[0.492221] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_8.launch.xml\n'}
+[0.492486] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_3.launch.xml\n'}
+[0.492744] (astar_path_planner) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/utils.cpp.o\x1b[0m\n'}
+[0.493433] (peak_finder) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o\x1b[0m\n'}
+[0.493770] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_6.launch.xml\n'}
+[0.494068] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_1.launch.xml\n'}
+[0.494478] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_7.launch.xml\n'}
+[0.494751] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_4.launch.xml\n'}
+[0.494889] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_2.launch.xml\n'}
+[0.495020] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/mineral_deposit_tracker.launch.py\n'}
+[0.495195] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/fake_localizer.launch.py\n'}
+[0.495499] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/launch/full_game_stack.launch.xml\n'}
+[0.495804] (rj_training_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets\n'}
+[0.496261] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets/default.yaml\n'}
+[0.496520] (lqr_control) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lqr_control.dir/src/test_path_generator.cpp.o\x1b[0m\n'}
+[0.496809] (rj_training_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config\n'}
+[0.497006] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/color_detection.rviz\n'}
+[0.497149] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_7.rviz\n'}
+[0.497384] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/final_challenge.rviz\n'}
+[0.497555] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_3.rviz\n'}
+[0.497752] (lqr_control) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lqr_control.dir/src/lqr_controller.cpp.o\x1b[0m\n'}
+[0.497942] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_8.rviz\n'}
+[0.498117] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_1.rviz\n'}
+[0.498297] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_6.rviz\n'}
+[0.498438] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_4.rviz\n'}
+[0.498577] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_5.rviz\n'}
+[0.499910] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/ament_index/resource_index/package_run_dependencies/rj_training_bringup\n'}
+[0.505628] (-) TimerEvent: {}
+[0.505993] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/ament_index/resource_index/parent_prefix_path/rj_training_bringup\n'}
+[0.507572] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.sh\n'}
+[0.507769] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.dsv\n'}
+[0.507958] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/environment/path.sh\n'}
+[0.508183] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/environment/path.dsv\n'}
+[0.508611] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/local_setup.bash\n'}
+[0.508994] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/local_setup.sh\n'}
+[0.509284] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/local_setup.zsh\n'}
+[0.509672] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/local_setup.dsv\n'}
+[0.509926] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/package.dsv\n'}
+[0.510249] (mineral_deposit_tracking) JobProgress: {'identifier': 'mineral_deposit_tracking', 'progress': 'install'}
+[0.510305] (peak_finder) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/navigator.cpp.o\x1b[0m\n'}
+[0.510707] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/ament_index/resource_index/packages/rj_training_bringup\n'}
+[0.511007] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig.cmake\n'}
+[0.511343] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig-version.cmake\n'}
+[0.511725] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/rj_training_bringup/share/rj_training_bringup/package.xml\n'}
+[0.512067] (mineral_deposit_tracking) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/build/mineral_deposit_tracking'], 'cwd': '/home/padowan/software-training/build/mineral_deposit_tracking', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/mineral_deposit_tracking'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.513220] (mapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.513447] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/lib/mapping/mapping_node\n'}
+[0.513620] (mapping) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/mapping/lib/mapping/mapping_node" to ""\n'}
+[0.513856] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/lib/libmapping.so\n'}
+[0.514612] (rj_training_bringup) CommandEnded: {'returncode': 0}
+[0.517200] (mapping) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/mapping/lib/libmapping.so" to ""\n'}
+[0.517515] (mapping) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/launch\n'}
+[0.517748] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/launch/mapping.launch.xml\n'}
+[0.517985] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping\n'}
+[0.518221] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping\n'}
+[0.520200] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/environment/ament_prefix_path.sh\n'}
+[0.520455] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/environment/ament_prefix_path.dsv\n'}
+[0.520642] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/environment/path.sh\n'}
+[0.520818] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/environment/path.dsv\n'}
+[0.520991] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/local_setup.bash\n'}
+[0.521161] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/local_setup.sh\n'}
+[0.521362] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/local_setup.zsh\n'}
+[0.521507] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/local_setup.dsv\n'}
+[0.542103] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/package.dsv\n'}
+[0.542349] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/packages/mapping\n'}
+[0.542481] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/rclcpp_components/mapping\n'}
+[0.542596] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/cmake/mappingConfig.cmake\n'}
+[0.542708] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/cmake/mappingConfig-version.cmake\n'}
+[0.542871] (mapping) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mapping/share/mapping/package.xml\n'}
+[0.542994] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.543147] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker\n'}
+[0.543290] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker" to ""\n'}
+[0.543411] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so\n'}
+[0.543574] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so" to ""\n'}
+[0.543737] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_tracking\n'}
+[0.544065] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_tracking\n'}
+[0.544786] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.sh\n'}
+[0.544973] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.dsv\n'}
+[0.545153] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.sh\n'}
+[0.545465] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.dsv\n'}
+[0.545650] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.bash\n'}
+[0.545928] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.sh\n'}
+[0.546169] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.zsh\n'}
+[0.546380] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.dsv\n'}
+[0.547074] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv\n'}
+[0.547345] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/packages/mineral_deposit_tracking\n'}
+[0.547598] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/rclcpp_components/mineral_deposit_tracking\n'}
+[0.547856] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig.cmake\n'}
+[0.548102] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig-version.cmake\n'}
+[0.548418] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.xml\n'}
+[0.605858] (-) TimerEvent: {}
+[0.606814] (localization) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.617385] (mineral_deposit_tracking) CommandEnded: {'returncode': 0}
+[0.640660] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.695319] (mapping) CommandEnded: {'returncode': 0}
+[0.699181] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.706167] (-) TimerEvent: {}
+[0.709790] (localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.779397] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.806065] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.806565] (-) TimerEvent: {}
+[0.908673] (rj_training_bringup) JobEnded: {'identifier': 'rj_training_bringup', 'rc': 0}
+[0.917379] (-) TimerEvent: {}
+[0.943891] (mineral_deposit_tracking) JobEnded: {'identifier': 'mineral_deposit_tracking', 'rc': 0}
+[0.976326] (mapping) JobEnded: {'identifier': 'mapping', 'rc': 0}
+[1.017511] (-) TimerEvent: {}
+[1.118085] (-) TimerEvent: {}
+[1.174376] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.218286] (-) TimerEvent: {}
+[1.270675] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.318783] (-) TimerEvent: {}
+[1.377561] (localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.384033] (localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.419162] (-) TimerEvent: {}
+[1.473169] (obstacle_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.479365] (obstacle_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.519481] (-) TimerEvent: {}
+[1.620197] (-) TimerEvent: {}
+[1.721105] (-) TimerEvent: {}
+[1.822783] (-) TimerEvent: {}
+[1.937987] (-) TimerEvent: {}
+[2.038587] (-) TimerEvent: {}
+[2.084739] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[2.119815] (localization) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[2.143354] (-) TimerEvent: {}
+[2.243852] (-) TimerEvent: {}
+[2.297942] (obstacle_detector) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[2.343983] (-) TimerEvent: {}
+[2.385276] (localization) StdoutLine: {'line': b'-- Found stsl_interfaces: 0.0.4 (/opt/ros/foxy/share/stsl_interfaces/cmake)\n'}
+[2.444400] (-) TimerEvent: {}
+[2.546413] (-) TimerEvent: {}
+[2.646967] (-) TimerEvent: {}
+[2.747619] (-) TimerEvent: {}
+[2.848757] (-) TimerEvent: {}
+[2.916127] (obstacle_detector) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[2.948895] (-) TimerEvent: {}
+[2.955263] (obstacle_detector) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[3.048995] (-) TimerEvent: {}
+[3.081209] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[3.152171] (-) TimerEvent: {}
+[3.252701] (-) TimerEvent: {}
+[3.353289] (-) TimerEvent: {}
+[3.389107] (localization) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.466121] (-) TimerEvent: {}
+[3.507292] (localization) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[3.566221] (-) TimerEvent: {}
+[3.648672] (localization) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[3.666319] (-) TimerEvent: {}
+[3.766643] (-) TimerEvent: {}
+[3.782123] (localization) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[3.862262] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[3.866722] (-) TimerEvent: {}
+[3.920030] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.968597] (-) TimerEvent: {}
+[4.071636] (-) TimerEvent: {}
+[4.178846] (-) TimerEvent: {}
+[4.284193] (-) TimerEvent: {}
+[4.387555] (-) TimerEvent: {}
+[4.402929] (localization) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[4.412619] (localization) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[4.463762] (localization) StdoutLine: {'line': b'-- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)\n'}
+[4.470203] (localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.488725] (-) TimerEvent: {}
+[4.601080] (-) TimerEvent: {}
+[4.707110] (-) TimerEvent: {}
+[4.807939] (-) TimerEvent: {}
+[4.912050] (-) TimerEvent: {}
+[5.013404] (-) TimerEvent: {}
+[5.114037] (-) TimerEvent: {}
+[5.214403] (-) TimerEvent: {}
+[5.314793] (-) TimerEvent: {}
+[5.315224] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.318427] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.319490] (obstacle_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.319738] (obstacle_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.321909] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.322101] (obstacle_detector) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.322558] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.324044] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.325510] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.327198] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.327530] (obstacle_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.328573] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.336161] (obstacle_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.384690] (localization) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.393398] (localization) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.394487] (localization) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.395073] (localization) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.404630] (localization) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.405148] (localization) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.407571] (localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.411046] (localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.413655] (localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.414882] (-) TimerEvent: {}
+[5.424100] (localization) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.424448] (localization) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.425984] (localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.430668] (obstacle_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[5.433598] (localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.439444] (obstacle_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/padowan/software-training/build/obstacle_detector\n'}
+[5.449693] (obstacle_detector) CommandEnded: {'returncode': 0}
+[5.451060] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'build'}
+[5.451118] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/build/obstacle_detector', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/build/obstacle_detector', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/obstacle_detector'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.515029] (-) TimerEvent: {}
+[5.618874] (-) TimerEvent: {}
+[5.722678] (-) TimerEvent: {}
+[5.758067] (localization) StdoutLine: {'line': b'-- Generating done\n'}
+[5.823800] (-) TimerEvent: {}
+[5.830890] (localization) StdoutLine: {'line': b'-- Build files have been written to: /home/padowan/software-training/build/localization\n'}
+[5.841016] (localization) CommandEnded: {'returncode': 0}
+[5.945985] (-) TimerEvent: {}
+[5.946839] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[5.946924] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/build/localization', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/build/localization', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/localization'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.047672] (-) TimerEvent: {}
+[6.156977] (-) TimerEvent: {}
+[6.260308] (-) TimerEvent: {}
+[6.364676] (-) TimerEvent: {}
+[6.466452] (-) TimerEvent: {}
+[6.568333] (-) TimerEvent: {}
+[6.676191] (-) TimerEvent: {}
+[6.778025] (-) TimerEvent: {}
+[6.880049] (-) TimerEvent: {}
+[6.908833] (localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target localization_node\x1b[0m\n'}
+[6.984236] (-) TimerEvent: {}
+[7.085574] (-) TimerEvent: {}
+[7.121607] (localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target localization_component\x1b[0m\n'}
+[7.186606] (-) TimerEvent: {}
+[7.287010] (-) TimerEvent: {}
+[7.387498] (-) TimerEvent: {}
+[7.394872] (obstacle_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle_detector_node\x1b[0m\n'}
+[7.395112] (obstacle_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle_detector\x1b[0m\n'}
+[7.489047] (-) TimerEvent: {}
+[7.565095] (localization) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/rclcpp_components/node_main_localization_node.cpp.o\x1b[0m\n'}
+[7.589378] (-) TimerEvent: {}
+[7.690062] (-) TimerEvent: {}
+[7.791224] (-) TimerEvent: {}
+[7.799580] (localization) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/motion_model.cpp.o\x1b[0m\n'}
+[7.891822] (-) TimerEvent: {}
+[7.956739] (localization) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/aruco_sensor_model.cpp.o\x1b[0m\n'}
+[7.992104] (-) TimerEvent: {}
+[8.009789] (localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o\x1b[0m\n'}
+[8.040763] (localization) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/random_helpers.cpp.o\x1b[0m\n'}
+[8.067373] (localization) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o\x1b[0m\n'}
+[8.097655] (obstacle_detector) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_detector_node.dir/rclcpp_components/node_main_obstacle_detector_node.cpp.o\x1b[0m\n'}
+[8.097906] (-) TimerEvent: {}
+[8.199559] (-) TimerEvent: {}
+[8.300800] (-) TimerEvent: {}
+[8.401765] (-) TimerEvent: {}
+[8.503072] (-) TimerEvent: {}
+[8.605550] (-) TimerEvent: {}
+[8.707097] (-) TimerEvent: {}
+[8.810073] (-) TimerEvent: {}
+[8.911590] (-) TimerEvent: {}
+[9.013459] (-) TimerEvent: {}
+[9.117482] (-) TimerEvent: {}
+[9.219486] (-) TimerEvent: {}
+[9.320556] (-) TimerEvent: {}
+[9.421082] (-) TimerEvent: {}
+[9.435259] (obstacle_detector) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o\x1b[0m\n'}
+[9.458970] (obstacle_detector) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o\x1b[0m\n'}
+[9.521385] (-) TimerEvent: {}
+[9.621842] (-) TimerEvent: {}
+[9.722839] (-) TimerEvent: {}
+[9.825921] (-) TimerEvent: {}
+[9.926624] (-) TimerEvent: {}
+[10.027496] (-) TimerEvent: {}
+[10.128356] (-) TimerEvent: {}
+[10.231355] (-) TimerEvent: {}
+[10.333157] (-) TimerEvent: {}
+[10.443496] (-) TimerEvent: {}
+[10.544790] (-) TimerEvent: {}
+[10.646387] (-) TimerEvent: {}
+[10.747584] (-) TimerEvent: {}
+[10.848809] (-) TimerEvent: {}
+[10.952807] (-) TimerEvent: {}
+[11.054120] (-) TimerEvent: {}
+[11.155769] (-) TimerEvent: {}
+[11.256981] (-) TimerEvent: {}
+[11.358786] (-) TimerEvent: {}
+[11.460677] (-) TimerEvent: {}
+[11.567310] (-) TimerEvent: {}
+[11.669099] (-) TimerEvent: {}
+[11.770373] (-) TimerEvent: {}
+[11.871909] (-) TimerEvent: {}
+[11.974355] (-) TimerEvent: {}
+[12.076538] (-) TimerEvent: {}
+[12.179198] (-) TimerEvent: {}
+[12.281509] (-) TimerEvent: {}
+[12.383981] (-) TimerEvent: {}
+[12.486965] (-) TimerEvent: {}
+[12.588218] (-) TimerEvent: {}
+[12.693214] (-) TimerEvent: {}
+[12.794099] (-) TimerEvent: {}
+[12.896225] (-) TimerEvent: {}
+[12.997447] (-) TimerEvent: {}
+[13.099246] (-) TimerEvent: {}
+[13.200439] (-) TimerEvent: {}
+[13.302441] (-) TimerEvent: {}
+[13.403530] (-) TimerEvent: {}
+[13.504047] (-) TimerEvent: {}
+[13.606996] (-) TimerEvent: {}
+[13.709396] (-) TimerEvent: {}
+[13.810753] (-) TimerEvent: {}
+[13.914101] (-) TimerEvent: {}
+[14.014754] (-) TimerEvent: {}
+[14.117445] (-) TimerEvent: {}
+[14.219451] (-) TimerEvent: {}
+[14.320899] (-) TimerEvent: {}
+[14.427792] (-) TimerEvent: {}
+[14.528406] (-) TimerEvent: {}
+[14.634302] (-) TimerEvent: {}
+[14.738887] (-) TimerEvent: {}
+[14.840011] (-) TimerEvent: {}
+[14.943386] (-) TimerEvent: {}
+[15.044564] (-) TimerEvent: {}
+[15.145505] (-) TimerEvent: {}
+[15.246431] (-) TimerEvent: {}
+[15.347745] (-) TimerEvent: {}
+[15.465945] (-) TimerEvent: {}
+[15.567529] (-) TimerEvent: {}
+[15.671252] (-) TimerEvent: {}
+[15.774016] (-) TimerEvent: {}
+[15.874755] (-) TimerEvent: {}
+[15.977111] (-) TimerEvent: {}
+[16.078178] (-) TimerEvent: {}
+[16.179194] (-) TimerEvent: {}
+[16.280251] (-) TimerEvent: {}
+[16.380838] (-) TimerEvent: {}
+[16.481766] (-) TimerEvent: {}
+[16.583103] (-) TimerEvent: {}
+[16.684518] (-) TimerEvent: {}
+[16.785497] (-) TimerEvent: {}
+[16.887094] (-) TimerEvent: {}
+[16.987737] (-) TimerEvent: {}
+[17.088942] (-) TimerEvent: {}
+[17.190397] (-) TimerEvent: {}
+[17.291961] (-) TimerEvent: {}
+[17.393175] (-) TimerEvent: {}
+[17.493661] (-) TimerEvent: {}
+[17.594893] (-) TimerEvent: {}
+[17.695954] (-) TimerEvent: {}
+[17.796979] (-) TimerEvent: {}
+[17.897531] (-) TimerEvent: {}
+[17.998570] (-) TimerEvent: {}
+[18.099508] (-) TimerEvent: {}
+[18.200155] (-) TimerEvent: {}
+[18.302057] (-) TimerEvent: {}
+[18.403365] (-) TimerEvent: {}
+[18.504151] (-) TimerEvent: {}
+[18.604921] (-) TimerEvent: {}
+[18.705812] (-) TimerEvent: {}
+[18.806382] (-) TimerEvent: {}
+[18.909255] (-) TimerEvent: {}
+[19.009739] (-) TimerEvent: {}
+[19.110990] (-) TimerEvent: {}
+[19.211619] (-) TimerEvent: {}
+[19.312472] (-) TimerEvent: {}
+[19.414682] (-) TimerEvent: {}
+[19.515662] (-) TimerEvent: {}
+[19.618938] (-) TimerEvent: {}
+[19.719545] (-) TimerEvent: {}
+[19.821675] (-) TimerEvent: {}
+[19.922675] (-) TimerEvent: {}
+[20.023257] (-) TimerEvent: {}
+[20.124204] (-) TimerEvent: {}
+[20.224891] (-) TimerEvent: {}
+[20.326626] (-) TimerEvent: {}
+[20.428252] (-) TimerEvent: {}
+[20.529276] (-) TimerEvent: {}
+[20.629991] (-) TimerEvent: {}
+[20.730733] (-) TimerEvent: {}
+[20.832144] (-) TimerEvent: {}
+[20.932679] (-) TimerEvent: {}
+[21.033528] (-) TimerEvent: {}
+[21.135581] (-) TimerEvent: {}
+[21.236258] (-) TimerEvent: {}
+[21.337314] (-) TimerEvent: {}
+[21.438309] (-) TimerEvent: {}
+[21.539085] (-) TimerEvent: {}
+[21.643323] (-) TimerEvent: {}
+[21.743908] (-) TimerEvent: {}
+[21.845179] (-) TimerEvent: {}
+[21.946083] (-) TimerEvent: {}
+[22.047779] (-) TimerEvent: {}
+[22.148477] (-) TimerEvent: {}
+[22.249900] (-) TimerEvent: {}
+[22.351702] (-) TimerEvent: {}
+[22.452324] (-) TimerEvent: {}
+[22.553766] (-) TimerEvent: {}
+[22.654966] (-) TimerEvent: {}
+[22.755503] (-) TimerEvent: {}
+[22.857198] (-) TimerEvent: {}
+[22.959050] (-) TimerEvent: {}
+[23.060312] (-) TimerEvent: {}
+[23.161378] (-) TimerEvent: {}
+[23.263213] (-) TimerEvent: {}
+[23.363902] (-) TimerEvent: {}
+[23.468458] (-) TimerEvent: {}
+[23.569523] (-) TimerEvent: {}
+[23.701092] (-) TimerEvent: {}
+[23.803823] (-) TimerEvent: {}
+[23.904479] (-) TimerEvent: {}
+[24.006090] (-) TimerEvent: {}
+[24.106925] (-) TimerEvent: {}
+[24.208616] (-) TimerEvent: {}
+[24.309516] (-) TimerEvent: {}
+[24.411131] (-) TimerEvent: {}
+[24.512814] (-) TimerEvent: {}
+[24.613529] (-) TimerEvent: {}
+[24.736061] (-) TimerEvent: {}
+[24.840550] (-) TimerEvent: {}
+[24.941812] (-) TimerEvent: {}
+[25.042633] (-) TimerEvent: {}
+[25.144838] (-) TimerEvent: {}
+[25.245591] (-) TimerEvent: {}
+[25.346269] (-) TimerEvent: {}
+[25.448107] (-) TimerEvent: {}
+[25.548959] (-) TimerEvent: {}
+[25.649835] (-) TimerEvent: {}
+[25.750753] (-) TimerEvent: {}
+[25.853867] (-) TimerEvent: {}
+[25.954881] (-) TimerEvent: {}
+[26.055586] (-) TimerEvent: {}
+[26.156170] (-) TimerEvent: {}
+[26.256958] (-) TimerEvent: {}
+[26.357661] (-) TimerEvent: {}
+[26.458332] (-) TimerEvent: {}
+[26.559040] (-) TimerEvent: {}
+[26.659733] (-) TimerEvent: {}
+[26.761240] (-) TimerEvent: {}
+[26.862773] (-) TimerEvent: {}
+[26.963682] (-) TimerEvent: {}
+[27.064454] (-) TimerEvent: {}
+[27.165445] (-) TimerEvent: {}
+[27.266228] (-) TimerEvent: {}
+[27.366905] (-) TimerEvent: {}
+[27.468263] (-) TimerEvent: {}
+[27.569030] (-) TimerEvent: {}
+[27.669881] (-) TimerEvent: {}
+[27.770489] (-) TimerEvent: {}
+[27.871940] (-) TimerEvent: {}
+[27.972945] (-) TimerEvent: {}
+[28.075626] (-) TimerEvent: {}
+[28.176235] (-) TimerEvent: {}
+[28.276773] (-) TimerEvent: {}
+[28.378753] (-) TimerEvent: {}
+[28.480312] (-) TimerEvent: {}
+[28.580968] (-) TimerEvent: {}
+[28.681973] (-) TimerEvent: {}
+[28.782608] (-) TimerEvent: {}
+[28.883187] (coordinate_transform) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable coordinate_transform_node\x1b[0m\n'}
+[28.883946] (-) TimerEvent: {}
+[28.984733] (-) TimerEvent: {}
+[29.085361] (-) TimerEvent: {}
+[29.186131] (-) TimerEvent: {}
+[29.286866] (-) TimerEvent: {}
+[29.288129] (peak_finder) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable peak_finder_node\x1b[0m\n'}
+[29.387035] (-) TimerEvent: {}
+[29.490455] (-) TimerEvent: {}
+[29.590550] (coordinate_transform) StdoutLine: {'line': b'[ 75%] Built target coordinate_transform_node\n'}
+[29.590891] (-) TimerEvent: {}
+[29.691490] (-) TimerEvent: {}
+[29.792314] (-) TimerEvent: {}
+[29.809144] (peak_finder) StdoutLine: {'line': b'[ 80%] Built target peak_finder_node\n'}
+[29.892448] (-) TimerEvent: {}
+[29.993198] (-) TimerEvent: {}
+[30.093885] (-) TimerEvent: {}
+[30.195446] (-) TimerEvent: {}
+[30.295974] (-) TimerEvent: {}
+[30.396641] (-) TimerEvent: {}
+[30.497544] (-) TimerEvent: {}
+[30.598222] (-) TimerEvent: {}
+[30.698902] (-) TimerEvent: {}
+[30.799891] (-) TimerEvent: {}
+[30.901095] (-) TimerEvent: {}
+[31.001773] (-) TimerEvent: {}
+[31.103569] (-) TimerEvent: {}
+[31.205107] (-) TimerEvent: {}
+[31.306151] (-) TimerEvent: {}
+[31.411290] (-) TimerEvent: {}
+[31.512908] (-) TimerEvent: {}
+[31.615174] (-) TimerEvent: {}
+[31.716745] (-) TimerEvent: {}
+[31.817833] (-) TimerEvent: {}
+[31.918470] (-) TimerEvent: {}
+[32.019118] (-) TimerEvent: {}
+[32.119856] (-) TimerEvent: {}
+[32.220761] (-) TimerEvent: {}
+[32.321736] (-) TimerEvent: {}
+[32.422671] (-) TimerEvent: {}
+[32.523597] (-) TimerEvent: {}
+[32.644198] (-) TimerEvent: {}
+[32.745032] (-) TimerEvent: {}
+[32.845596] (-) TimerEvent: {}
+[32.954582] (-) TimerEvent: {}
+[33.083612] (-) TimerEvent: {}
+[33.248727] (-) TimerEvent: {}
+[33.353943] (-) TimerEvent: {}
+[33.459583] (-) TimerEvent: {}
+[33.561450] (-) TimerEvent: {}
+[33.662113] (-) TimerEvent: {}
+[33.763208] (-) TimerEvent: {}
+[33.864298] (-) TimerEvent: {}
+[34.108587] (-) TimerEvent: {}
+[34.227361] (-) TimerEvent: {}
+[34.370012] (-) TimerEvent: {}
+[34.474289] (-) TimerEvent: {}
+[34.575135] (-) TimerEvent: {}
+[34.675886] (-) TimerEvent: {}
+[34.802599] (-) TimerEvent: {}
+[34.903735] (-) TimerEvent: {}
+[35.004790] (-) TimerEvent: {}
+[35.112568] (-) TimerEvent: {}
+[35.228924] (-) TimerEvent: {}
+[35.329954] (-) TimerEvent: {}
+[35.430634] (-) TimerEvent: {}
+[35.531121] (-) TimerEvent: {}
+[35.632251] (-) TimerEvent: {}
+[35.733847] (-) TimerEvent: {}
+[35.834391] (-) TimerEvent: {}
+[35.934943] (-) TimerEvent: {}
+[36.035549] (-) TimerEvent: {}
+[36.136288] (-) TimerEvent: {}
+[36.237043] (-) TimerEvent: {}
+[36.337586] (-) TimerEvent: {}
+[36.438144] (-) TimerEvent: {}
+[36.538658] (-) TimerEvent: {}
+[36.639215] (-) TimerEvent: {}
+[36.739779] (-) TimerEvent: {}
+[36.842730] (-) TimerEvent: {}
+[36.845800] (obstacle_detector) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable obstacle_detector_node\x1b[0m\n'}
+[36.941837] (-) TimerEvent: {}
+[37.042326] (-) TimerEvent: {}
+[37.142876] (-) TimerEvent: {}
+[37.243387] (-) TimerEvent: {}
+[37.344141] (-) TimerEvent: {}
+[37.377344] (localization) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable localization_node\x1b[0m\n'}
+[37.444282] (-) TimerEvent: {}
+[37.544980] (-) TimerEvent: {}
+[37.596932] (obstacle_detector) StdoutLine: {'line': b'[ 80%] Built target obstacle_detector_node\n'}
+[37.645158] (-) TimerEvent: {}
+[37.748752] (-) TimerEvent: {}
+[37.815150] (localization) StdoutLine: {'line': b'[ 87%] Built target localization_node\n'}
+[37.848035] (-) TimerEvent: {}
+[37.948940] (-) TimerEvent: {}
+[38.049656] (-) TimerEvent: {}
+[38.150163] (-) TimerEvent: {}
+[38.250980] (-) TimerEvent: {}
+[38.352309] (-) TimerEvent: {}
+[38.452946] (-) TimerEvent: {}
+[38.553591] (-) TimerEvent: {}
+[38.654254] (-) TimerEvent: {}
+[38.754777] (-) TimerEvent: {}
+[38.855365] (-) TimerEvent: {}
+[38.955992] (-) TimerEvent: {}
+[39.056604] (-) TimerEvent: {}
+[39.157190] (-) TimerEvent: {}
+[39.257741] (-) TimerEvent: {}
+[39.358297] (-) TimerEvent: {}
+[39.458878] (-) TimerEvent: {}
+[39.559458] (-) TimerEvent: {}
+[39.660012] (-) TimerEvent: {}
+[39.760616] (-) TimerEvent: {}
+[39.861191] (-) TimerEvent: {}
+[39.961768] (-) TimerEvent: {}
+[40.062423] (-) TimerEvent: {}
+[40.162894] (-) TimerEvent: {}
+[40.263424] (-) TimerEvent: {}
+[40.363990] (-) TimerEvent: {}
+[40.464629] (-) TimerEvent: {}
+[40.565306] (-) TimerEvent: {}
+[40.666013] (-) TimerEvent: {}
+[40.766604] (-) TimerEvent: {}
+[40.867204] (-) TimerEvent: {}
+[40.967717] (-) TimerEvent: {}
+[41.068298] (-) TimerEvent: {}
+[41.168922] (-) TimerEvent: {}
+[41.269527] (-) TimerEvent: {}
+[41.370076] (-) TimerEvent: {}
+[41.470652] (-) TimerEvent: {}
+[41.571100] (-) TimerEvent: {}
+[41.671698] (-) TimerEvent: {}
+[41.772272] (-) TimerEvent: {}
+[41.872842] (-) TimerEvent: {}
+[41.973335] (-) TimerEvent: {}
+[42.073900] (-) TimerEvent: {}
+[42.174512] (-) TimerEvent: {}
+[42.275000] (-) TimerEvent: {}
+[42.375553] (-) TimerEvent: {}
+[42.476172] (-) TimerEvent: {}
+[42.576714] (-) TimerEvent: {}
+[42.677210] (-) TimerEvent: {}
+[42.777630] (-) TimerEvent: {}
+[42.878066] (-) TimerEvent: {}
+[42.978613] (-) TimerEvent: {}
+[43.079181] (-) TimerEvent: {}
+[43.179777] (-) TimerEvent: {}
+[43.280313] (-) TimerEvent: {}
+[43.380750] (-) TimerEvent: {}
+[43.392555] (peak_finder) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpeak_finder_components.so\x1b[0m\n'}
+[43.480930] (-) TimerEvent: {}
+[43.581469] (-) TimerEvent: {}
+[43.681947] (-) TimerEvent: {}
+[43.782491] (-) TimerEvent: {}
+[43.883013] (-) TimerEvent: {}
+[43.903075] (peak_finder) StdoutLine: {'line': b'[100%] Built target peak_finder_components\n'}
+[43.984572] (peak_finder) CommandEnded: {'returncode': 0}
+[43.990763] (-) TimerEvent: {}
+[44.096901] (-) TimerEvent: {}
+[44.200815] (-) TimerEvent: {}
+[44.301329] (-) TimerEvent: {}
+[44.389554] (astar_path_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libastar_path_planner.so\x1b[0m\n'}
+[44.401472] (-) TimerEvent: {}
+[44.501913] (-) TimerEvent: {}
+[44.602521] (-) TimerEvent: {}
+[44.629362] (peak_finder) JobProgress: {'identifier': 'peak_finder', 'progress': 'install'}
+[44.629497] (peak_finder) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/build/peak_finder'], 'cwd': '/home/padowan/software-training/build/peak_finder', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/peak_finder'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[44.748514] (-) TimerEvent: {}
+[44.849263] (-) TimerEvent: {}
+[44.871620] (peak_finder) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.872466] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/lib/peak_finder/peak_finder_node\n'}
+[44.876330] (peak_finder) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/peak_finder/lib/peak_finder/peak_finder_node" to ""\n'}
+[44.876889] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/lib/libpeak_finder_components.so\n'}
+[44.898823] (peak_finder) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/peak_finder/lib/libpeak_finder_components.so" to ""\n'}
+[44.899251] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder\n'}
+[44.899788] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder\n'}
+[44.901263] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh\n'}
+[44.902254] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv\n'}
+[44.902865] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/path.sh\n'}
+[44.903605] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/path.dsv\n'}
+[44.904302] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.bash\n'}
+[44.904949] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.sh\n'}
+[44.905493] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.zsh\n'}
+[44.906034] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.dsv\n'}
+[44.906565] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/package.dsv\n'}
+[44.949445] (-) TimerEvent: {}
+[44.992028] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/packages/peak_finder\n'}
+[44.992596] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder\n'}
+[44.992995] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake\n'}
+[44.993341] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake\n'}
+[44.993654] (peak_finder) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/package.xml\n'}
+[45.049626] (-) TimerEvent: {}
+[45.150027] (-) TimerEvent: {}
+[45.189110] (peak_finder) CommandEnded: {'returncode': 0}
+[45.250494] (-) TimerEvent: {}
+[45.351557] (-) TimerEvent: {}
+[45.542036] (-) TimerEvent: {}
+[45.642449] (-) TimerEvent: {}
+[45.742789] (-) TimerEvent: {}
+[45.843220] (-) TimerEvent: {}
+[45.943713] (-) TimerEvent: {}
+[46.044165] (-) TimerEvent: {}
+[46.144582] (-) TimerEvent: {}
+[46.195290] (coordinate_transform) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcoordinate_transform_components.so\x1b[0m\n'}
+[46.244780] (-) TimerEvent: {}
+[46.329779] (peak_finder) JobEnded: {'identifier': 'peak_finder', 'rc': 0}
+[46.428781] (-) TimerEvent: {}
+[46.529354] (-) TimerEvent: {}
+[46.629757] (-) TimerEvent: {}
+[46.730919] (-) TimerEvent: {}
+[46.845078] (-) TimerEvent: {}
+[46.945574] (-) TimerEvent: {}
+[46.976032] (obstacle_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle_detector.so\x1b[0m\n'}
+[46.976492] (coordinate_transform) StdoutLine: {'line': b'[100%] Built target coordinate_transform_components\n'}
+[47.046116] (-) TimerEvent: {}
+[47.229435] (-) TimerEvent: {}
+[47.330748] (-) TimerEvent: {}
+[47.362054] (coordinate_transform) CommandEnded: {'returncode': 0}
+[47.430984] (-) TimerEvent: {}
+[47.531520] (-) TimerEvent: {}
+[47.631956] (-) TimerEvent: {}
+[47.732404] (-) TimerEvent: {}
+[47.745889] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'install'}
+[47.748404] (coordinate_transform) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/build/coordinate_transform'], 'cwd': '/home/padowan/software-training/build/coordinate_transform', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/coordinate_transform'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[47.832554] (-) TimerEvent: {}
+[47.933369] (-) TimerEvent: {}
+[47.963508] (coordinate_transform) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[47.964153] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node\n'}
+[48.033661] (-) TimerEvent: {}
+[48.134176] (-) TimerEvent: {}
+[48.234633] (-) TimerEvent: {}
+[48.335004] (-) TimerEvent: {}
+[48.435393] (-) TimerEvent: {}
+[48.535774] (-) TimerEvent: {}
+[48.636281] (-) TimerEvent: {}
+[48.736679] (-) TimerEvent: {}
+[48.775729] (coordinate_transform) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node" to ""\n'}
+[48.776244] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/lib/libcoordinate_transform_components.so\n'}
+[48.836864] (-) TimerEvent: {}
+[48.937292] (-) TimerEvent: {}
+[48.938034] (lqr_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblqr_control.so\x1b[0m\n'}
+[49.178366] (-) TimerEvent: {}
+[49.193160] (coordinate_transform) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/coordinate_transform/lib/libcoordinate_transform_components.so" to ""\n'}
+[49.193343] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/ament_index/resource_index/package_run_dependencies/coordinate_transform\n'}
+[49.193735] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/ament_index/resource_index/parent_prefix_path/coordinate_transform\n'}
+[49.194138] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.sh\n'}
+[49.194461] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.dsv\n'}
+[49.194808] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/environment/path.sh\n'}
+[49.195125] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/environment/path.dsv\n'}
+[49.195385] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.bash\n'}
+[49.195691] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.sh\n'}
+[49.195932] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.zsh\n'}
+[49.196325] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.dsv\n'}
+[49.196619] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/package.dsv\n'}
+[49.196937] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/ament_index/resource_index/packages/coordinate_transform\n'}
+[49.197168] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/ament_index/resource_index/rclcpp_components/coordinate_transform\n'}
+[49.333719] (-) TimerEvent: {}
+[49.334355] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig.cmake\n'}
+[49.334846] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig-version.cmake\n'}
+[49.334966] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/package.xml\n'}
+[49.335129] (coordinate_transform) CommandEnded: {'returncode': 0}
+[49.433866] (-) TimerEvent: {}
+[49.534250] (-) TimerEvent: {}
+[49.671141] (-) TimerEvent: {}
+[49.764148] (coordinate_transform) JobEnded: {'identifier': 'coordinate_transform', 'rc': 0}
+[49.771558] (-) TimerEvent: {}
+[49.872228] (-) TimerEvent: {}
+[49.972641] (-) TimerEvent: {}
+[50.065861] (localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblocalization_component.so\x1b[0m\n'}
+[50.072771] (-) TimerEvent: {}
+[50.173173] (-) TimerEvent: {}
+[50.273609] (-) TimerEvent: {}
+[50.374069] (-) TimerEvent: {}
+[50.474515] (-) TimerEvent: {}
+[50.575318] (-) TimerEvent: {}
+[50.676037] (-) TimerEvent: {}
+[50.776516] (-) TimerEvent: {}
+[50.877122] (-) TimerEvent: {}
+[50.953041] (astar_path_planner) StdoutLine: {'line': b'[100%] Built target astar_path_planner\n'}
+[50.983663] (lqr_control) StdoutLine: {'line': b'[100%] Built target lqr_control\n'}
+[50.983940] (-) TimerEvent: {}
+[51.083120] (astar_path_planner) CommandEnded: {'returncode': 0}
+[51.084120] (-) TimerEvent: {}
+[51.093070] (lqr_control) CommandEnded: {'returncode': 0}
+[51.179441] (lqr_control) JobProgress: {'identifier': 'lqr_control', 'progress': 'install'}
+[51.182877] (lqr_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/build/lqr_control'], 'cwd': '/home/padowan/software-training/build/lqr_control', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/lqr_control'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[51.184452] (-) TimerEvent: {}
+[51.198296] (localization) StdoutLine: {'line': b'[100%] Built target localization_component\n'}
+[51.242305] (lqr_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.242810] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/lib/liblqr_control.so\n'}
+[51.255675] (lqr_control) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/lqr_control/lib/liblqr_control.so" to ""\n'}
+[51.255883] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/plugin_descriptions.xml\n'}
+[51.256353] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/package_run_dependencies/lqr_control\n'}
+[51.256623] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/parent_prefix_path/lqr_control\n'}
+[51.257074] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.sh\n'}
+[51.257498] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.dsv\n'}
+[51.257841] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/path.sh\n'}
+[51.258118] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/path.dsv\n'}
+[51.258432] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.bash\n'}
+[51.258715] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.sh\n'}
+[51.259014] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.zsh\n'}
+[51.259288] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.dsv\n'}
+[51.259590] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/package.dsv\n'}
+[51.259995] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/packages/lqr_control\n'}
+[51.260354] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/nav2_core__pluginlib__plugin/lqr_control\n'}
+[51.260659] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig.cmake\n'}
+[51.261177] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig-version.cmake\n'}
+[51.261559] (lqr_control) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/package.xml\n'}
+[51.263725] (lqr_control) CommandEnded: {'returncode': 0}
+[51.284794] (-) TimerEvent: {}
+[51.321735] (astar_path_planner) JobProgress: {'identifier': 'astar_path_planner', 'progress': 'install'}
+[51.324124] (astar_path_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/build/astar_path_planner'], 'cwd': '/home/padowan/software-training/build/astar_path_planner', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/astar_path_planner'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[51.325893] (obstacle_detector) StdoutLine: {'line': b'[100%] Built target obstacle_detector\n'}
+[51.328176] (localization) CommandEnded: {'returncode': 0}
+[51.385380] (astar_path_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.386617] (-) TimerEvent: {}
+[51.387931] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/lib/libastar_path_planner.so\n'}
+[51.391797] (obstacle_detector) CommandEnded: {'returncode': 0}
+[51.407906] (lqr_control) JobEnded: {'identifier': 'lqr_control', 'rc': 0}
+[51.449856] (astar_path_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/astar_path_planner/lib/libastar_path_planner.so" to ""\n'}
+[51.450084] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/astar_path_planner_libraries.xml\n'}
+[51.450524] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/package_run_dependencies/astar_path_planner\n'}
+[51.450953] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/parent_prefix_path/astar_path_planner\n'}
+[51.451262] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.sh\n'}
+[51.451921] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.dsv\n'}
+[51.452291] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.sh\n'}
+[51.452784] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.dsv\n'}
+[51.453010] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.bash\n'}
+[51.453526] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.sh\n'}
+[51.453759] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.zsh\n'}
+[51.458334] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'install'}
+[51.460683] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/build/obstacle_detector'], 'cwd': '/home/padowan/software-training/build/obstacle_detector', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/obstacle_detector'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[51.473411] (obstacle_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.474034] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node\n'}
+[51.476426] (obstacle_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node" to ""\n'}
+[51.476988] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/lib/libobstacle_detector.so\n'}
+[51.486737] (-) TimerEvent: {}
+[51.491637] (obstacle_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/obstacle_detector/lib/libobstacle_detector.so" to ""\n'}
+[51.491950] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/launch\n'}
+[51.492099] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py\n'}
+[51.492296] (obstacle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/config\n'}
+[51.492446] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml\n'}
+[51.492661] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector\n'}
+[51.492945] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector\n'}
+[51.493264] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh\n'}
+[51.493638] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv\n'}
+[51.494000] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.sh\n'}
+[51.494305] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.dsv\n'}
+[51.494581] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.bash\n'}
+[51.494983] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.sh\n'}
+[51.495277] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.zsh\n'}
+[51.495523] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.dsv\n'}
+[51.495790] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/package.dsv\n'}
+[51.496009] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector\n'}
+[51.496270] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector\n'}
+[51.496516] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake\n'}
+[51.496786] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake\n'}
+[51.497071] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/package.xml\n'}
+[51.500334] (obstacle_detector) CommandEnded: {'returncode': 0}
+[51.508562] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.dsv\n'}
+[51.509022] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/package.dsv\n'}
+[51.509577] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/packages/astar_path_planner\n'}
+[51.509996] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/astar_path_planner\n'}
+[51.511247] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[51.512122] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[51.512700] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig.cmake\n'}
+[51.512963] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig-version.cmake\n'}
+[51.513413] (astar_path_planner) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/package.xml\n'}
+[51.582716] (astar_path_planner) CommandEnded: {'returncode': 0}
+[51.586924] (-) TimerEvent: {}
+[51.654245] (localization) JobProgress: {'identifier': 'localization', 'progress': 'install'}
+[51.656164] (localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/build/localization'], 'cwd': '/home/padowan/software-training/build/localization', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '2ae3925b2f52'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training/log'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:57b43451-e397-4e1f-8306-dd3cd030e732'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/build/localization'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[51.670310] (obstacle_detector) JobEnded: {'identifier': 'obstacle_detector', 'rc': 0}
+[51.672567] (localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.672769] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/lib/localization/localization_node\n'}
+[51.672876] (localization) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/localization/lib/localization/localization_node" to ""\n'}
+[51.673042] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/lib/liblocalization_component.so\n'}
+[51.687051] (-) TimerEvent: {}
+[51.761232] (astar_path_planner) JobEnded: {'identifier': 'astar_path_planner', 'rc': 0}
+[51.783604] (localization) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/install/localization/lib/liblocalization_component.so" to ""\n'}
+[51.783888] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/localization/share/localization/launch\n'}
+[51.784154] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/launch/particle_filter_localizer.launch.py\n'}
+[51.784306] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/padowan/software-training/install/localization/share/localization/config\n'}
+[51.784460] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/config/localizer_params.yaml\n'}
+[51.784775] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/ament_index/resource_index/package_run_dependencies/localization\n'}
+[51.784926] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/ament_index/resource_index/parent_prefix_path/localization\n'}
+[51.785141] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/environment/ament_prefix_path.sh\n'}
+[51.785306] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/environment/ament_prefix_path.dsv\n'}
+[51.785619] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/environment/path.sh\n'}
+[51.785956] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/environment/path.dsv\n'}
+[51.786266] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/local_setup.bash\n'}
+[51.786597] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/local_setup.sh\n'}
+[51.786900] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/local_setup.zsh\n'}
+[51.787129] (-) TimerEvent: {}
+[51.787357] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/local_setup.dsv\n'}
+[51.787607] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/package.dsv\n'}
+[51.787847] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/ament_index/resource_index/packages/localization\n'}
+[51.788089] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/ament_index/resource_index/rclcpp_components/localization\n'}
+[51.788344] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/cmake/localizationConfig.cmake\n'}
+[51.788614] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/cmake/localizationConfig-version.cmake\n'}
+[51.789279] (localization) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/install/localization/share/localization/package.xml\n'}
+[51.793153] (localization) CommandEnded: {'returncode': 0}
+[51.867690] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[51.870010] (-) EventReactorShutdown: {}

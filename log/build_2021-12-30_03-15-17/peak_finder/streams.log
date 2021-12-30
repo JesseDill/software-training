@@ -1,0 +1,34 @@
+[0.089s] Invoking command in '/home/padowan/software-training/build/peak_finder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/peak_finder -- -j12 -l12
+[0.202s] [35m[1mScanning dependencies of target peak_finder_node[0m
+[0.202s] [35m[1mScanning dependencies of target peak_finder_components[0m
+[0.294s] [ 20%] [32mBuilding CXX object CMakeFiles/peak_finder_node.dir/rclcpp_components/node_main_peak_finder_node.cpp.o[0m
+[0.433s] [ 40%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o[0m
+[0.450s] [ 60%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/navigator.cpp.o[0m
+[29.228s] [ 80%] [32m[1mLinking CXX executable peak_finder_node[0m
+[29.749s] [ 80%] Built target peak_finder_node
+[43.333s] [100%] [32m[1mLinking CXX shared library libpeak_finder_components.so[0m
+[43.843s] [100%] Built target peak_finder_components
+[43.925s] Invoked command in '/home/padowan/software-training/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/peak_finder -- -j12 -l12
+[44.687s] Invoking command in '/home/padowan/software-training/build/peak_finder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/peak_finder
+[44.812s] -- Install configuration: ""
+[44.812s] -- Installing: /home/padowan/software-training/install/peak_finder/lib/peak_finder/peak_finder_node
+[44.816s] -- Set runtime path of "/home/padowan/software-training/install/peak_finder/lib/peak_finder/peak_finder_node" to ""
+[44.817s] -- Installing: /home/padowan/software-training/install/peak_finder/lib/libpeak_finder_components.so
+[44.839s] -- Set runtime path of "/home/padowan/software-training/install/peak_finder/lib/libpeak_finder_components.so" to ""
+[44.839s] -- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder
+[44.840s] -- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder
+[44.841s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh
+[44.842s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv
+[44.843s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/path.sh
+[44.843s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/environment/path.dsv
+[44.844s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.bash
+[44.845s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.sh
+[44.845s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.zsh
+[44.846s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/local_setup.dsv
+[44.846s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/package.dsv
+[44.932s] -- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/packages/peak_finder
+[44.932s] -- Installing: /home/padowan/software-training/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder
+[44.933s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake
+[44.933s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake
+[44.934s] -- Installing: /home/padowan/software-training/install/peak_finder/share/peak_finder/package.xml
+[45.129s] Invoked command in '/home/padowan/software-training/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/peak_finder

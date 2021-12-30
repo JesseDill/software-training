@@ -1,0 +1,33 @@
+[0.080s] Invoking command in '/home/padowan/software-training/build/coordinate_transform': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/coordinate_transform -- -j12 -l12
+[0.179s] [35m[1mScanning dependencies of target coordinate_transform_node[0m
+[0.182s] [35m[1mScanning dependencies of target coordinate_transform_components[0m
+[0.280s] [ 25%] [32mBuilding CXX object CMakeFiles/coordinate_transform_node.dir/rclcpp_components/node_main_coordinate_transform_node.cpp.o[0m
+[0.364s] [ 50%] [32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o[0m
+[28.869s] [ 75%] [32m[1mLinking CXX executable coordinate_transform_node[0m
+[29.576s] [ 75%] Built target coordinate_transform_node
+[46.180s] [100%] [32m[1mLinking CXX shared library libcoordinate_transform_components.so[0m
+[46.962s] [100%] Built target coordinate_transform_components
+[47.348s] Invoked command in '/home/padowan/software-training/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/coordinate_transform -- -j12 -l12
+[47.735s] Invoking command in '/home/padowan/software-training/build/coordinate_transform': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/coordinate_transform
+[47.949s] -- Install configuration: ""
+[47.949s] -- Installing: /home/padowan/software-training/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node
+[48.761s] -- Set runtime path of "/home/padowan/software-training/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node" to ""
+[48.761s] -- Installing: /home/padowan/software-training/install/coordinate_transform/lib/libcoordinate_transform_components.so
+[49.178s] -- Set runtime path of "/home/padowan/software-training/install/coordinate_transform/lib/libcoordinate_transform_components.so" to ""
+[49.178s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/ament_index/resource_index/package_run_dependencies/coordinate_transform
+[49.179s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/ament_index/resource_index/parent_prefix_path/coordinate_transform
+[49.179s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.sh
+[49.179s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.dsv
+[49.180s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/environment/path.sh
+[49.180s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/environment/path.dsv
+[49.180s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.bash
+[49.181s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.sh
+[49.181s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.zsh
+[49.181s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/local_setup.dsv
+[49.182s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/package.dsv
+[49.182s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/ament_index/resource_index/packages/coordinate_transform
+[49.182s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/ament_index/resource_index/rclcpp_components/coordinate_transform
+[49.320s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig.cmake
+[49.320s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig-version.cmake
+[49.320s] -- Installing: /home/padowan/software-training/install/coordinate_transform/share/coordinate_transform/package.xml
+[49.320s] Invoked command in '/home/padowan/software-training/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/coordinate_transform

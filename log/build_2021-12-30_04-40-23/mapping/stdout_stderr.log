@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target mapping[0m
+[ 50%] Built target mapping_node
+[ 75%] [32mBuilding CXX object CMakeFiles/mapping.dir/src/mapping_node.cpp.o[0m
+[01m[K/home/padowan/software-training/mapping/src/mapping_node.cpp:[m[K In member function ‘[01m[Kvoid mapping::MappingNode::UpdateProbability(const Point&, const Point&, const bool&)[m[K’:
+[01m[K/home/padowan/software-training/mapping/src/mapping_node.cpp:184:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kconst[m[K’
+  184 |     [01;31m[Kconst[m[K auto data_index = MapDataIndexFromLocation(cell_x, cell_y);
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/padowan/software-training/mapping/src/mapping_node.cpp:191:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_index[m[K’ was not declared in this scope
+  191 |     map_data_[[01;31m[Kdata_index[m[K] += probability;
+      |               [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mapping.dir/build.make:63: CMakeFiles/mapping.dir/src/mapping_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/mapping.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

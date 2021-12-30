@@ -1,0 +1,29 @@
+[0.082s] Invoking command in '/home/padowan/software-training/build/lqr_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/lqr_control -- -j12 -l12
+[0.191s] [35m[1mScanning dependencies of target lqr_control[0m
+[0.465s] [ 33%] [32mBuilding CXX object CMakeFiles/lqr_control.dir/src/test_path_generator.cpp.o[0m
+[0.466s] [ 66%] [32mBuilding CXX object CMakeFiles/lqr_control.dir/src/lqr_controller.cpp.o[0m
+[48.907s] [100%] [32m[1mLinking CXX shared library liblqr_control.so[0m
+[50.952s] [100%] Built target lqr_control
+[51.062s] Invoked command in '/home/padowan/software-training/build/lqr_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/lqr_control -- -j12 -l12
+[51.152s] Invoking command in '/home/padowan/software-training/build/lqr_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/lqr_control
+[51.211s] -- Install configuration: ""
+[51.211s] -- Installing: /home/padowan/software-training/install/lqr_control/lib/liblqr_control.so
+[51.224s] -- Set runtime path of "/home/padowan/software-training/install/lqr_control/lib/liblqr_control.so" to ""
+[51.224s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/plugin_descriptions.xml
+[51.225s] -- Installing: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/package_run_dependencies/lqr_control
+[51.225s] -- Installing: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/parent_prefix_path/lqr_control
+[51.225s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.sh
+[51.226s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.dsv
+[51.226s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/path.sh
+[51.226s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/path.dsv
+[51.227s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.bash
+[51.227s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.sh
+[51.227s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.zsh
+[51.228s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.dsv
+[51.228s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/package.dsv
+[51.228s] -- Installing: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/packages/lqr_control
+[51.229s] -- Installing: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/nav2_core__pluginlib__plugin/lqr_control
+[51.229s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig.cmake
+[51.230s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig-version.cmake
+[51.230s] -- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/package.xml
+[51.232s] Invoked command in '/home/padowan/software-training/build/lqr_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/lqr_control

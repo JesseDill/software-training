@@ -1,0 +1,25 @@
+[ 50%] Built target mapping
+[100%] Built target mapping_node
+-- Install configuration: ""
+-- Installing: /home/padowan/software-training/install/mapping/lib/mapping/mapping_node
+-- Set runtime path of "/home/padowan/software-training/install/mapping/lib/mapping/mapping_node" to ""
+-- Installing: /home/padowan/software-training/install/mapping/lib/libmapping.so
+-- Set runtime path of "/home/padowan/software-training/install/mapping/lib/libmapping.so" to ""
+-- Up-to-date: /home/padowan/software-training/install/mapping/share/mapping/launch
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/launch/mapping.launch.xml
+-- Installing: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+-- Installing: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/environment/ament_prefix_path.sh
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/environment/path.sh
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/environment/path.dsv
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/local_setup.bash
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/local_setup.sh
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/local_setup.zsh
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/local_setup.dsv
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/package.dsv
+-- Installing: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/packages/mapping
+-- Installing: /home/padowan/software-training/install/mapping/share/ament_index/resource_index/rclcpp_components/mapping
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/cmake/mappingConfig.cmake
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+-- Installing: /home/padowan/software-training/install/mapping/share/mapping/package.xml
