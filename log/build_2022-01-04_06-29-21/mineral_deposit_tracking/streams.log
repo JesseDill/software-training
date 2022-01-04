@@ -1,0 +1,25 @@
+[0.119s] Invoking command in '/home/padowan/software-training/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/mineral_deposit_tracking -- -j12 -l12
+[0.339s] [ 50%] Built target mineral_deposit_tracker
+[0.365s] [100%] Built target mineral_deposit_tracking
+[0.395s] Invoked command in '/home/padowan/software-training/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/mineral_deposit_tracking -- -j12 -l12
+[0.616s] Invoking command in '/home/padowan/software-training/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/mineral_deposit_tracking
+[0.682s] -- Install configuration: ""
+[0.683s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker
+[0.683s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so
+[0.683s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_tracking
+[0.688s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_tracking
+[0.689s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.sh
+[0.690s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.dsv
+[0.691s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.sh
+[0.692s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.dsv
+[0.692s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.bash
+[0.693s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.sh
+[0.693s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.zsh
+[0.693s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.dsv
+[0.694s] -- Installing: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv
+[0.698s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/packages/mineral_deposit_tracking
+[0.699s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/ament_index/resource_index/rclcpp_components/mineral_deposit_tracking
+[0.700s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig.cmake
+[0.702s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig-version.cmake
+[0.704s] -- Up-to-date: /home/padowan/software-training/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.xml
+[0.764s] Invoked command in '/home/padowan/software-training/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/mineral_deposit_tracking

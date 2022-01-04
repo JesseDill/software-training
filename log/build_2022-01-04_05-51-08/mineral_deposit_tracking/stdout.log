@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target mineral_deposit_tracking[0m
+[ 50%] Built target mineral_deposit_tracker
+[ 75%] [32mBuilding CXX object CMakeFiles/mineral_deposit_tracking.dir/src/mineral_deposit_tracker.cpp.o[0m

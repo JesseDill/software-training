@@ -1,0 +1,29 @@
+[0.287s] Invoking command in '/home/padowan/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/obstacle_detector -- -j12 -l12
+[0.794s] [ 40%] Built target obstacle_detector_node
+[0.881s] [100%] Built target obstacle_detector
+[0.981s] Invoked command in '/home/padowan/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/obstacle_detector -- -j12 -l12
+[1.350s] Invoking command in '/home/padowan/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/obstacle_detector
+[1.511s] -- Install configuration: ""
+[1.511s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node
+[1.512s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/lib/libobstacle_detector.so
+[1.512s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/launch
+[1.512s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py
+[1.512s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/config
+[1.513s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml
+[1.513s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector
+[1.513s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector
+[1.513s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh
+[1.514s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv
+[1.514s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.sh
+[1.514s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/environment/path.dsv
+[1.514s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.bash
+[1.515s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.sh
+[1.515s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.zsh
+[1.515s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/local_setup.dsv
+[1.516s] -- Installing: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/package.dsv
+[1.516s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector
+[1.516s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector
+[1.517s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake
+[1.525s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake
+[1.526s] -- Up-to-date: /home/padowan/software-training/install/obstacle_detector/share/obstacle_detector/package.xml
+[1.680s] Invoked command in '/home/padowan/software-training/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/obstacle_detector

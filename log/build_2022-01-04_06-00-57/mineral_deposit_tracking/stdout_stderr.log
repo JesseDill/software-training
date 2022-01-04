@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target mineral_deposit_tracking[0m
+[ 50%] Built target mineral_deposit_tracker
+[ 75%] [32mBuilding CXX object CMakeFiles/mineral_deposit_tracking.dir/src/mineral_deposit_tracker.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:366[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_eigen/tf2_eigen.h:34[m[K,
+                 from [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:22[m[K:
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 2, 1>; Src = Eigen::Matrix<double, 2, 2>; Func = Eigen::internal::assign_op<double, double>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:732:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 2>; Derived = Eigen::Matrix<double, 2, 1>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:537:7:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 2>; Derived = Eigen::Matrix<double, 2, 1>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:377:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 2>; _Scalar = double; int _Rows = 2; int _Cols = 1; int _Options = 0; int _MaxRows = 2; int _MaxCols = 1][m[K’
+[01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:119:39:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:833:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+  833 |   [01;31m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 2, 2>; Src = Eigen::Matrix<double, 2, 1>; Func = Eigen::internal::assign_op<double, double>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:804:27:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename Eigen::internal::enable_if<(! Eigen::internal::evaluator_assume_aliasing<Src>::value), void*>::type) [with Dst = Eigen::Matrix<double, 2, 2>; Src = Eigen::Matrix<double, 2, 1>; Func = Eigen::internal::assign_op<double, double>; typename Eigen::internal::enable_if<(! Eigen::internal::evaluator_assume_aliasing<Src>::value), void*>::type = void*][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:782:18:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&) [with Dst = Eigen::Matrix<double, 2, 2>; Src = Eigen::Matrix<double, 2, 1>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:714:32:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 1>; Derived = Eigen::Matrix<double, 2, 2>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:225:24:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 1>; _Scalar = double; int _Rows = 2; int _Cols = 2; int _Options = 0; int _MaxRows = 2; int _MaxCols = 2][m[K’
+[01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:31:24:[m[K   required from ‘[01m[Kvoid mineral_deposit_tracking::KalmanFilter<StateSize>::Reset(const VectorType&, const VectorType&) [with int StateSize = 2; mineral_deposit_tracking::KalmanFilter<StateSize>::VectorType = Eigen::Matrix<double, 2, 1>][m[K’
+[01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:119:39:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:833:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+make[2]: *** [CMakeFiles/mineral_deposit_tracking.dir/build.make:63: CMakeFiles/mineral_deposit_tracking.dir/src/mineral_deposit_tracker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/mineral_deposit_tracking.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

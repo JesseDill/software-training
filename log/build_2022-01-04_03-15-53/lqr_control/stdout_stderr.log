@@ -1,0 +1,20 @@
+[100%] Built target lqr_control
+-- Install configuration: ""
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/lib/liblqr_control.so
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/plugin_descriptions.xml
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/package_run_dependencies/lqr_control
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/parent_prefix_path/lqr_control
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/path.sh
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/environment/path.dsv
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.bash
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.sh
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.zsh
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/local_setup.dsv
+-- Installing: /home/padowan/software-training/install/lqr_control/share/lqr_control/package.dsv
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/packages/lqr_control
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/ament_index/resource_index/nav2_core__pluginlib__plugin/lqr_control
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig.cmake
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/cmake/lqr_controlConfig-version.cmake
+-- Up-to-date: /home/padowan/software-training/install/lqr_control/share/lqr_control/package.xml

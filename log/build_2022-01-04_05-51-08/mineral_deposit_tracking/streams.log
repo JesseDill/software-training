@@ -1,0 +1,55 @@
+[0.130s] Invoking command in '/home/padowan/software-training/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/mineral_deposit_tracking -- -j12 -l12
+[0.332s] [35m[1mScanning dependencies of target mineral_deposit_tracking[0m
+[0.447s] [ 50%] Built target mineral_deposit_tracker
+[0.560s] [ 75%] [32mBuilding CXX object CMakeFiles/mineral_deposit_tracking.dir/src/mineral_deposit_tracker.cpp.o[0m
+[5.582s] In file included from [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:29[m[K:
+[5.582s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:19:41:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+[5.582s]    19 |   const MatrixType & observation_matrix,[01;31m[K)[m[K
+[5.583s]       |                                         [01;31m[K^[m[K
+[5.584s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:40:63:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ does not name a type
+[5.584s]    40 | void MeasurementUpdate(const VectorType & measurement, const [01;31m[KMatrix[m[K & measurement_covariance)
+[5.584s]       |                                                              [01;31m[K^~~~~~[m[K
+[5.585s] 
+[5.726s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:[m[K In constructor ‘[01m[Kmineral_deposit_tracking::MineralDepositTracker::MineralDepositTracker(const rclcpp::NodeOptions&)[m[K’:
+[5.726s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:44:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmineral_deposit_tracking::KalmanFilter<2>::KalmanFilter(const IdentityReturnType, Eigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 2, 2> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 2, 2> > > >::type, const IdentityReturnType)[m[K’
+[5.727s]    44 |       Eigen::Matrix2d::Identity() * 1e-4, Eigen::Matrix2d::Identity()[01;31m[K)[m[K
+[5.727s]       |                                                                      [01;31m[K^[m[K
+[5.727s] In file included from [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:29[m[K:
+[5.728s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:16:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmineral_deposit_tracking::KalmanFilter<StateSize>::KalmanFilter(const MatrixType&, const MatrixType&, const MatrixType&, int) [with int StateSize = 2; mineral_deposit_tracking::KalmanFilter<StateSize>::MatrixType = Eigen::Matrix<double, 2, 2>][m[K’
+[5.728s]    16 |  [01;36m[KKalmanFilter[m[K(
+[5.728s]       |  [01;36m[K^~~~~~~~~~~~[m[K
+[5.728s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:16:2:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[5.729s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:10:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmineral_deposit_tracking::KalmanFilter<2>::KalmanFilter(const mineral_deposit_tracking::KalmanFilter<2>&)[m[K’
+[5.729s]    10 | class [01;36m[KKalmanFilter[m[K
+[5.729s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[5.730s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:10:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[5.730s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:10:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmineral_deposit_tracking::KalmanFilter<2>::KalmanFilter(mineral_deposit_tracking::KalmanFilter<2>&&)[m[K’
+[5.730s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:10:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[5.779s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:[m[K In member function ‘[01m[Kvoid mineral_deposit_tracking::MineralDepositTracker::DepositMeasurementCallback(stsl_interfaces::msg::MineralDepositArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.779s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:103:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition[m[K’ was not declared in this scope
+[5.779s]   103 |     filter_.MeasurementUpdate([01;31m[Kposition[m[K, covariance);
+[5.780s]       |                               [01;31m[K^~~~~~~~[m[K
+[7.255s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:366[m[K,
+[7.256s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[7.256s]                  from [01m[K/opt/ros/foxy/include/tf2_eigen/tf2_eigen.h:34[m[K,
+[7.256s]                  from [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:22[m[K:
+[7.256s] /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 2, 1>; Src = Eigen::Matrix<double, 2, 2>; Func = Eigen::internal::assign_op<double, double>][m[K’:
+[7.256s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:732:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 2>; Derived = Eigen::Matrix<double, 2, 1>][m[K’
+[7.257s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:537:7:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 2>; Derived = Eigen::Matrix<double, 2, 1>][m[K’
+[7.257s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:377:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 2>; _Scalar = double; int _Rows = 2; int _Cols = 1; int _Options = 0; int _MaxRows = 2; int _MaxCols = 1][m[K’
+[7.257s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:119:39:[m[K   required from here
+[7.257s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:833:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[7.257s]   833 |   [01;31m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+[7.258s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.683s] /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 2, 2>; Src = Eigen::Matrix<double, 2, 1>; Func = Eigen::internal::assign_op<double, double>][m[K’:
+[7.683s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:804:27:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename Eigen::internal::enable_if<(! Eigen::internal::evaluator_assume_aliasing<Src>::value), void*>::type) [with Dst = Eigen::Matrix<double, 2, 2>; Src = Eigen::Matrix<double, 2, 1>; Func = Eigen::internal::assign_op<double, double>; typename Eigen::internal::enable_if<(! Eigen::internal::evaluator_assume_aliasing<Src>::value), void*>::type = void*][m[K’
+[7.683s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:782:18:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&) [with Dst = Eigen::Matrix<double, 2, 2>; Src = Eigen::Matrix<double, 2, 1>][m[K’
+[7.684s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:714:32:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 1>; Derived = Eigen::Matrix<double, 2, 2>][m[K’
+[7.684s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:225:24:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 2, 1>; _Scalar = double; int _Rows = 2; int _Cols = 2; int _Options = 0; int _MaxRows = 2; int _MaxCols = 2][m[K’
+[7.684s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/kalman_filter.hpp:31:24:[m[K   required from ‘[01m[Kvoid mineral_deposit_tracking::KalmanFilter<StateSize>::Reset(const VectorType&, const VectorType&) [with int StateSize = 2; mineral_deposit_tracking::KalmanFilter<StateSize>::VectorType = Eigen::Matrix<double, 2, 1>][m[K’
+[7.684s] [01m[K/home/padowan/software-training/mineral_deposit_tracking/src/mineral_deposit_tracker.cpp:119:39:[m[K   required from here
+[7.685s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:833:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[11.735s] make[2]: *** [CMakeFiles/mineral_deposit_tracking.dir/build.make:63: CMakeFiles/mineral_deposit_tracking.dir/src/mineral_deposit_tracker.cpp.o] Error 1
+[11.736s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/mineral_deposit_tracking.dir/all] Error 2
+[11.736s] make: *** [Makefile:141: all] Error 2
+[11.741s] Invoked command in '/home/padowan/software-training/build/mineral_deposit_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/mineral_deposit_tracking -- -j12 -l12

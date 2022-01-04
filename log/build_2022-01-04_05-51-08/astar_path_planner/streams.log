@@ -1,0 +1,26 @@
+[0.137s] Invoking command in '/home/padowan/software-training/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/astar_path_planner -- -j12 -l12
+[0.549s] [100%] Built target astar_path_planner
+[0.622s] Invoked command in '/home/padowan/software-training/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/padowan/software-training/build/astar_path_planner -- -j12 -l12
+[0.981s] Invoking command in '/home/padowan/software-training/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/astar_path_planner
+[1.062s] -- Install configuration: ""
+[1.063s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/lib/libastar_path_planner.so
+[1.066s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/astar_path_planner_libraries.xml
+[1.067s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/package_run_dependencies/astar_path_planner
+[1.068s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/parent_prefix_path/astar_path_planner
+[1.069s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.sh
+[1.070s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.dsv
+[1.070s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.sh
+[1.071s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/environment/path.dsv
+[1.071s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.bash
+[1.071s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.sh
+[1.072s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.zsh
+[1.072s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/local_setup.dsv
+[1.072s] -- Installing: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/package.dsv
+[1.073s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/packages/astar_path_planner
+[1.073s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/astar_path_planner
+[1.074s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.074s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.074s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig.cmake
+[1.075s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig-version.cmake
+[1.075s] -- Up-to-date: /home/padowan/software-training/install/astar_path_planner/share/astar_path_planner/package.xml
+[1.245s] Invoked command in '/home/padowan/software-training/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/padowan/software-training/build/astar_path_planner

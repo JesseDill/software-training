@@ -1,0 +1,297 @@
+[0.000000] (-) TimerEvent: {}
+[0.000368] (mineral_deposit_tracking) JobQueued: {'identifier': 'mineral_deposit_tracking', 'dependencies': OrderedDict()}
+[0.000430] (mineral_deposit_tracking) JobStarted: {'identifier': 'mineral_deposit_tracking'}
+[0.015240] (mineral_deposit_tracking) JobProgress: {'identifier': 'mineral_deposit_tracking', 'progress': 'cmake'}
+[0.015792] (mineral_deposit_tracking) Command: {'cmd': ['/usr/bin/cmake', '/home/padowan/software-training/mineral_deposit_tracking', '-DCMAKE_INSTALL_PREFIX=/home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking'], 'cwd': '/home/padowan/software-training/mineral_deposit_tracking/build/mineral_deposit_tracking', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '71d69a75cceb'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/padowan/software-training/install/peak_finder/lib:/home/padowan/software-training/install/obstacle_detector/lib:/home/padowan/software-training/install/mineral_deposit_tracking/lib:/home/padowan/software-training/install/mapping/lib:/home/padowan/software-training/install/lqr_control/lib:/home/padowan/software-training/install/localization/lib:/home/padowan/software-training/install/coordinate_transform/lib:/home/padowan/software-training/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/padowan/software-training/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/padowan/software-training/install/rj_training_bringup:/home/padowan/software-training/install/peak_finder:/home/padowan/software-training/install/obstacle_detector:/home/padowan/software-training/install/mineral_deposit_tracking:/home/padowan/software-training/install/mapping:/home/padowan/software-training/install/lqr_control:/home/padowan/software-training/install/localization:/home/padowan/software-training/install/coordinate_transform:/home/padowan/software-training/install/astar_path_planner:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c29005d3-67f3-4723-a229-67b366303e7e'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/mineral_deposit_tracking/build/mineral_deposit_tracking'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/padowan/software-training/install/rj_training_bringup:/home/padowan/software-training/install/peak_finder:/home/padowan/software-training/install/obstacle_detector:/home/padowan/software-training/install/mineral_deposit_tracking:/home/padowan/software-training/install/mapping:/home/padowan/software-training/install/lqr_control:/home/padowan/software-training/install/localization:/home/padowan/software-training/install/coordinate_transform:/home/padowan/software-training/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[0.098014] (-) TimerEvent: {}
+[0.198426] (-) TimerEvent: {}
+[0.241739] (mineral_deposit_tracking) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.298546] (-) TimerEvent: {}
+[0.327499] (mineral_deposit_tracking) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.344282] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.398707] (-) TimerEvent: {}
+[0.459310] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.463071] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.498824] (-) TimerEvent: {}
+[0.567854] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.584533] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.585365] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.590988] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.598986] (-) TimerEvent: {}
+[0.697379] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.698669] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.699084] (-) TimerEvent: {}
+[0.799473] (-) TimerEvent: {}
+[0.806342] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.822849] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.823403] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.845366] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.899606] (-) TimerEvent: {}
+[0.900396] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.900602] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.999816] (-) TimerEvent: {}
+[1.100176] (-) TimerEvent: {}
+[1.200849] (-) TimerEvent: {}
+[1.301376] (-) TimerEvent: {}
+[1.351397] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.401499] (-) TimerEvent: {}
+[1.502009] (-) TimerEvent: {}
+[1.575263] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.602201] (-) TimerEvent: {}
+[1.620245] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.702319] (-) TimerEvent: {}
+[1.802804] (-) TimerEvent: {}
+[1.903240] (-) TimerEvent: {}
+[1.937249] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.002109] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.003312] (-) TimerEvent: {}
+[2.103676] (-) TimerEvent: {}
+[2.204102] (-) TimerEvent: {}
+[2.204491] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.304347] (-) TimerEvent: {}
+[2.356467] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.361516] (mineral_deposit_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.365370] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.404530] (-) TimerEvent: {}
+[2.494286] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.494750] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.504639] (-) TimerEvent: {}
+[2.605115] (-) TimerEvent: {}
+[2.618450] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.618858] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.705282] (-) TimerEvent: {}
+[2.727532] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.728034] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.805471] (-) TimerEvent: {}
+[2.848558] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.850019] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.905659] (-) TimerEvent: {}
+[3.006081] (-) TimerEvent: {}
+[3.106433] (-) TimerEvent: {}
+[3.206889] (-) TimerEvent: {}
+[3.214591] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[3.307080] (-) TimerEvent: {}
+[3.407648] (-) TimerEvent: {}
+[3.415211] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found stsl_interfaces: 0.0.4 (/opt/ros/foxy/share/stsl_interfaces/cmake)\n'}
+[3.507778] (-) TimerEvent: {}
+[3.608258] (-) TimerEvent: {}
+[3.708820] (-) TimerEvent: {}
+[3.809354] (-) TimerEvent: {}
+[3.910211] (-) TimerEvent: {}
+[4.010672] (-) TimerEvent: {}
+[4.070334] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[4.084358] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[4.099827] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[4.110863] (-) TimerEvent: {}
+[4.211312] (-) TimerEvent: {}
+[4.311780] (-) TimerEvent: {}
+[4.412409] (-) TimerEvent: {}
+[4.512883] (-) TimerEvent: {}
+[4.613284] (-) TimerEvent: {}
+[4.637064] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[4.660637] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.713448] (-) TimerEvent: {}
+[4.813872] (-) TimerEvent: {}
+[4.850231] (mineral_deposit_tracking) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.859567] (mineral_deposit_tracking) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.859984] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.860209] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.868853] (mineral_deposit_tracking) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.869119] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.873850] (mineral_deposit_tracking) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.884422] (mineral_deposit_tracking) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.884712] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.887067] (mineral_deposit_tracking) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.897745] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.914038] (-) TimerEvent: {}
+[4.942585] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Generating done\n'}
+[4.947315] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Build files have been written to: /home/padowan/software-training/mineral_deposit_tracking/build/mineral_deposit_tracking\n'}
+[4.957808] (mineral_deposit_tracking) CommandEnded: {'returncode': 0}
+[4.958966] (mineral_deposit_tracking) JobProgress: {'identifier': 'mineral_deposit_tracking', 'progress': 'build'}
+[4.962055] (mineral_deposit_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/padowan/software-training/mineral_deposit_tracking/build/mineral_deposit_tracking', '--', '-j12', '-l12'], 'cwd': '/home/padowan/software-training/mineral_deposit_tracking/build/mineral_deposit_tracking', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '71d69a75cceb'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/padowan/software-training/install/peak_finder/lib:/home/padowan/software-training/install/obstacle_detector/lib:/home/padowan/software-training/install/mineral_deposit_tracking/lib:/home/padowan/software-training/install/mapping/lib:/home/padowan/software-training/install/lqr_control/lib:/home/padowan/software-training/install/localization/lib:/home/padowan/software-training/install/coordinate_transform/lib:/home/padowan/software-training/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/padowan/software-training/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/padowan/software-training/install/rj_training_bringup:/home/padowan/software-training/install/peak_finder:/home/padowan/software-training/install/obstacle_detector:/home/padowan/software-training/install/mineral_deposit_tracking:/home/padowan/software-training/install/mapping:/home/padowan/software-training/install/lqr_control:/home/padowan/software-training/install/localization:/home/padowan/software-training/install/coordinate_transform:/home/padowan/software-training/install/astar_path_planner:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c29005d3-67f3-4723-a229-67b366303e7e'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/mineral_deposit_tracking/build/mineral_deposit_tracking'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/padowan/software-training/install/rj_training_bringup:/home/padowan/software-training/install/peak_finder:/home/padowan/software-training/install/obstacle_detector:/home/padowan/software-training/install/mineral_deposit_tracking:/home/padowan/software-training/install/mapping:/home/padowan/software-training/install/lqr_control:/home/padowan/software-training/install/localization:/home/padowan/software-training/install/coordinate_transform:/home/padowan/software-training/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[5.014223] (-) TimerEvent: {}
+[5.043141] (mineral_deposit_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mineral_deposit_tracker\x1b[0m\n'}
+[5.043420] (mineral_deposit_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mineral_deposit_tracking\x1b[0m\n'}
+[5.114382] (-) TimerEvent: {}
+[5.116891] (mineral_deposit_tracking) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mineral_deposit_tracker.dir/rclcpp_components/node_main_mineral_deposit_tracker.cpp.o\x1b[0m\n'}
+[5.214646] (-) TimerEvent: {}
+[5.219355] (mineral_deposit_tracking) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mineral_deposit_tracking.dir/src/mineral_deposit_tracker.cpp.o\x1b[0m\n'}
+[5.314784] (-) TimerEvent: {}
+[5.415313] (-) TimerEvent: {}
+[5.515795] (-) TimerEvent: {}
+[5.616874] (-) TimerEvent: {}
+[5.717474] (-) TimerEvent: {}
+[5.817996] (-) TimerEvent: {}
+[5.918557] (-) TimerEvent: {}
+[6.019132] (-) TimerEvent: {}
+[6.119661] (-) TimerEvent: {}
+[6.220115] (-) TimerEvent: {}
+[6.320564] (-) TimerEvent: {}
+[6.421072] (-) TimerEvent: {}
+[6.521550] (-) TimerEvent: {}
+[6.622052] (-) TimerEvent: {}
+[6.722490] (-) TimerEvent: {}
+[6.822952] (-) TimerEvent: {}
+[6.923421] (-) TimerEvent: {}
+[7.023906] (-) TimerEvent: {}
+[7.124335] (-) TimerEvent: {}
+[7.224796] (-) TimerEvent: {}
+[7.325466] (-) TimerEvent: {}
+[7.426016] (-) TimerEvent: {}
+[7.527198] (-) TimerEvent: {}
+[7.627723] (-) TimerEvent: {}
+[7.728288] (-) TimerEvent: {}
+[7.828848] (-) TimerEvent: {}
+[7.945432] (-) TimerEvent: {}
+[8.045930] (-) TimerEvent: {}
+[8.146421] (-) TimerEvent: {}
+[8.246924] (-) TimerEvent: {}
+[8.347416] (-) TimerEvent: {}
+[8.447845] (-) TimerEvent: {}
+[8.548205] (-) TimerEvent: {}
+[8.648651] (-) TimerEvent: {}
+[8.691104] (mineral_deposit_tracking) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable mineral_deposit_tracker\x1b[0m\n'}
+[8.748815] (-) TimerEvent: {}
+[8.849245] (-) TimerEvent: {}
+[8.900142] (mineral_deposit_tracking) StdoutLine: {'line': b'[ 75%] Built target mineral_deposit_tracker\n'}
+[8.949402] (-) TimerEvent: {}
+[9.049931] (-) TimerEvent: {}
+[9.150391] (-) TimerEvent: {}
+[9.250808] (-) TimerEvent: {}
+[9.351572] (-) TimerEvent: {}
+[9.452116] (-) TimerEvent: {}
+[9.552651] (-) TimerEvent: {}
+[9.653128] (-) TimerEvent: {}
+[9.753641] (-) TimerEvent: {}
+[9.854122] (-) TimerEvent: {}
+[9.954696] (-) TimerEvent: {}
+[10.055126] (-) TimerEvent: {}
+[10.155585] (-) TimerEvent: {}
+[10.256051] (-) TimerEvent: {}
+[10.356428] (-) TimerEvent: {}
+[10.456834] (-) TimerEvent: {}
+[10.557313] (-) TimerEvent: {}
+[10.657822] (-) TimerEvent: {}
+[10.758236] (-) TimerEvent: {}
+[10.858708] (-) TimerEvent: {}
+[10.959176] (-) TimerEvent: {}
+[11.059550] (-) TimerEvent: {}
+[11.159961] (-) TimerEvent: {}
+[11.260466] (-) TimerEvent: {}
+[11.361045] (-) TimerEvent: {}
+[11.461663] (-) TimerEvent: {}
+[11.562098] (-) TimerEvent: {}
+[11.662576] (-) TimerEvent: {}
+[11.762999] (-) TimerEvent: {}
+[11.863502] (-) TimerEvent: {}
+[11.964095] (-) TimerEvent: {}
+[12.064593] (-) TimerEvent: {}
+[12.165042] (-) TimerEvent: {}
+[12.265486] (-) TimerEvent: {}
+[12.365908] (-) TimerEvent: {}
+[12.466343] (-) TimerEvent: {}
+[12.566750] (-) TimerEvent: {}
+[12.667200] (-) TimerEvent: {}
+[12.767679] (-) TimerEvent: {}
+[12.868076] (-) TimerEvent: {}
+[12.968477] (-) TimerEvent: {}
+[13.068886] (-) TimerEvent: {}
+[13.169273] (-) TimerEvent: {}
+[13.270076] (-) TimerEvent: {}
+[13.370800] (-) TimerEvent: {}
+[13.471330] (-) TimerEvent: {}
+[13.571844] (-) TimerEvent: {}
+[13.672367] (-) TimerEvent: {}
+[13.772768] (-) TimerEvent: {}
+[13.873210] (-) TimerEvent: {}
+[13.973686] (-) TimerEvent: {}
+[14.074100] (-) TimerEvent: {}
+[14.174611] (-) TimerEvent: {}
+[14.275059] (-) TimerEvent: {}
+[14.375462] (-) TimerEvent: {}
+[14.475952] (-) TimerEvent: {}
+[14.576364] (-) TimerEvent: {}
+[14.676752] (-) TimerEvent: {}
+[14.777193] (-) TimerEvent: {}
+[14.877607] (-) TimerEvent: {}
+[14.978028] (-) TimerEvent: {}
+[15.078468] (-) TimerEvent: {}
+[15.178839] (-) TimerEvent: {}
+[15.279264] (-) TimerEvent: {}
+[15.379834] (-) TimerEvent: {}
+[15.480268] (-) TimerEvent: {}
+[15.580719] (-) TimerEvent: {}
+[15.681262] (-) TimerEvent: {}
+[15.781786] (-) TimerEvent: {}
+[15.882242] (-) TimerEvent: {}
+[15.982794] (-) TimerEvent: {}
+[16.083225] (-) TimerEvent: {}
+[16.183673] (-) TimerEvent: {}
+[16.284123] (-) TimerEvent: {}
+[16.384549] (-) TimerEvent: {}
+[16.484925] (-) TimerEvent: {}
+[16.585388] (-) TimerEvent: {}
+[16.685827] (-) TimerEvent: {}
+[16.786250] (-) TimerEvent: {}
+[16.886671] (-) TimerEvent: {}
+[16.987105] (-) TimerEvent: {}
+[17.087534] (-) TimerEvent: {}
+[17.187943] (-) TimerEvent: {}
+[17.288300] (-) TimerEvent: {}
+[17.388742] (-) TimerEvent: {}
+[17.489329] (-) TimerEvent: {}
+[17.589861] (-) TimerEvent: {}
+[17.690368] (-) TimerEvent: {}
+[17.790820] (-) TimerEvent: {}
+[17.891302] (-) TimerEvent: {}
+[17.991756] (-) TimerEvent: {}
+[18.092183] (-) TimerEvent: {}
+[18.192591] (-) TimerEvent: {}
+[18.293023] (-) TimerEvent: {}
+[18.393488] (-) TimerEvent: {}
+[18.493920] (-) TimerEvent: {}
+[18.594328] (-) TimerEvent: {}
+[18.694799] (-) TimerEvent: {}
+[18.795202] (-) TimerEvent: {}
+[18.895560] (-) TimerEvent: {}
+[18.995933] (-) TimerEvent: {}
+[19.089223] (mineral_deposit_tracking) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmineral_deposit_tracking.so\x1b[0m\n'}
+[19.096126] (-) TimerEvent: {}
+[19.196561] (-) TimerEvent: {}
+[19.297054] (-) TimerEvent: {}
+[19.397553] (-) TimerEvent: {}
+[19.498122] (-) TimerEvent: {}
+[19.598623] (-) TimerEvent: {}
+[19.699157] (-) TimerEvent: {}
+[19.799693] (-) TimerEvent: {}
+[19.813005] (mineral_deposit_tracking) StdoutLine: {'line': b'[100%] Built target mineral_deposit_tracking\n'}
+[19.833432] (mineral_deposit_tracking) CommandEnded: {'returncode': 0}
+[19.900001] (-) TimerEvent: {}
+[19.905108] (mineral_deposit_tracking) JobProgress: {'identifier': 'mineral_deposit_tracking', 'progress': 'install'}
+[19.925121] (mineral_deposit_tracking) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/padowan/software-training/mineral_deposit_tracking/build/mineral_deposit_tracking'], 'cwd': '/home/padowan/software-training/mineral_deposit_tracking/build/mineral_deposit_tracking', 'env': OrderedDict([('USER', 'padowan'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '71d69a75cceb'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/padowan/software-training/install/peak_finder/lib:/home/padowan/software-training/install/obstacle_detector/lib:/home/padowan/software-training/install/mineral_deposit_tracking/lib:/home/padowan/software-training/install/mapping/lib:/home/padowan/software-training/install/lqr_control/lib:/home/padowan/software-training/install/localization/lib:/home/padowan/software-training/install/coordinate_transform/lib:/home/padowan/software-training/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/padowan'), ('OLDPWD', '/home/padowan/software-training'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/padowan/software-training/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/padowan/software-training/install/rj_training_bringup:/home/padowan/software-training/install/peak_finder:/home/padowan/software-training/install/obstacle_detector:/home/padowan/software-training/install/mineral_deposit_tracking:/home/padowan/software-training/install/mapping:/home/padowan/software-training/install/lqr_control:/home/padowan/software-training/install/localization:/home/padowan/software-training/install/coordinate_transform:/home/padowan/software-training/install/astar_path_planner:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c29005d3-67f3-4723-a229-67b366303e7e'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'pcmanfm'), ('PWD', '/home/padowan/software-training/mineral_deposit_tracking/build/mineral_deposit_tracking'), ('LC_ALL', 'C.UTF-8'), ('PASSWORD', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/padowan/software-training/install/rj_training_bringup:/home/padowan/software-training/install/peak_finder:/home/padowan/software-training/install/obstacle_detector:/home/padowan/software-training/install/mineral_deposit_tracking:/home/padowan/software-training/install/mapping:/home/padowan/software-training/install/lqr_control:/home/padowan/software-training/install/localization:/home/padowan/software-training/install/coordinate_transform:/home/padowan/software-training/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[19.947728] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.948626] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker\n'}
+[19.950015] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker" to ""\n'}
+[19.950688] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so\n'}
+[19.965344] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Set runtime path of "/home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so" to ""\n'}
+[19.965996] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_tracking\n'}
+[19.966731] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_tracking\n'}
+[19.969467] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.sh\n'}
+[19.970196] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.dsv\n'}
+[19.970769] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.sh\n'}
+[19.971796] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.dsv\n'}
+[19.972364] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.bash\n'}
+[19.972840] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.sh\n'}
+[19.973393] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.zsh\n'}
+[19.974161] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.dsv\n'}
+[19.975072] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv\n'}
+[19.982967] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/ament_index/resource_index/packages/mineral_deposit_tracking\n'}
+[19.983621] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/ament_index/resource_index/rclcpp_components/mineral_deposit_tracking\n'}
+[19.986009] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig.cmake\n'}
+[19.987464] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig-version.cmake\n'}
+[19.989124] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Installing: /home/padowan/software-training/mineral_deposit_tracking/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.xml\n'}
+[19.991784] (mineral_deposit_tracking) CommandEnded: {'returncode': 0}
+[20.000324] (-) TimerEvent: {}
+[20.101335] (-) TimerEvent: {}
+[20.105172] (mineral_deposit_tracking) JobEnded: {'identifier': 'mineral_deposit_tracking', 'rc': 0}
+[20.107319] (-) EventReactorShutdown: {}
